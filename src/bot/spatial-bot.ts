@@ -2,9 +2,9 @@ import 'reflect-metadata';
 import { Container } from 'typedi';
 
 
-import { SparqlETL } from "./etl/SparqlETL"
-import { SourceEnum } from './etl/extract/sparql/SparqlClient';
-import { FilePublisher } from './etl/load/json/FilePublisher';
+import { SparqlETL } from "../etl/SparqlETL"
+import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
+import { FilePublisher } from '../etl/load/json/FilePublisher';
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)

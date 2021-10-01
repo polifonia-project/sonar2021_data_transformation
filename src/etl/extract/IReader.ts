@@ -8,5 +8,5 @@
  * R: Response: data returned by the read operation. A Buffer, a Promise, an Observable, a Stream, an array etc...
  */
 export interface IReader<I,R> {
-    read(input: I) : Promise<R>
+    read(input: I) : Promise<R> | void | R
 }
