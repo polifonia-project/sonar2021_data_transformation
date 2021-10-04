@@ -1,0 +1,27 @@
+PREFIX core:    <https://w3id.org/polifonia/ON/core/> 
+PREFIX mp:      <https://w3id.org/polifonia/ON/musical-performance/> 
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX xml:     <http://www.w3.org/XML/1998/namespace> 
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#> 
+
+
+SELECT 
+    ?uri
+    ?titleURI
+    ?titleLabel
+    ?youtubeID
+#    ?artistURI
+
+WHERE   {
+
+    ?uri    a mp:Recording ;
+            core:hasTitle ?titleURI ;
+            mp:hasYoutubeID ?youtubeID .
+#            mp:hasRecordingPerformer ?artistURI .
+
+
+    ?titleURI   a core:Title;
+                rdfs:label ?titleLabel .
+
+}
