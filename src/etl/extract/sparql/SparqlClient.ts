@@ -1,6 +1,7 @@
 import { Service } from "typedi";
 
 import { IReader } from "../IReader";
+import { newEngine as newFileEngine } from "@comunica/actor-init-sparql-file";
 import { newEngine } from "@comunica/actor-init-sparql";
 import { Bindings } from '@comunica/bus-query-operation';
 import { DataFactory } from 'rdf-data-factory';
@@ -40,13 +41,23 @@ export class SparqlClient implements IReader<SparqlRequestInput, SparqlResponse>
 
     sparqlQueryingEngine: ActorInitSparql;
     factory: any;
+    sparqlFileQueryingEngine: ActorInitSparql;
     
     constructor() {
         this.sparqlQueryingEngine = newEngine();
+        this.sparqlFileQueryingEngine = newFileEngine()
         this.factory = new DataFactory();
     }
 
     async read(input: SparqlRequestInput): Promise<SparqlResponse> {
+
+        // choose file engine or sparql engine based on source to be queried 
+        // this won0t work if array as different sources
+        // you should divide in two or more array by sources let appropriate actor
+        // to query its source and then merge results
+
+        const engine : ActorInitSparql = input.sources[0].type == SourceEnum.File ?  this.sparqlFileQueryingEngine : this.sparqlQueryingEngine
+
         const query = input.query
         let bindings;
         try {
@@ -57,7 +68,7 @@ export class SparqlClient implements IReader<SparqlRequestInput, SparqlResponse>
                     '?graph' : this.factory.namedNode(input.graph)
                 })})
             }
-            const result : any = await this.sparqlQueryingEngine.query(query, comunicaParams);
+            const result : any = await engine.query(query, comunicaParams);
             bindings = await result.bindings();
         } catch (e) {
             console.log("[!] SparqlClient.sendRequest", e);

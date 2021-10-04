@@ -6,23 +6,23 @@ import { SparqlETL } from "../etl/SparqlETL"
 import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 import { FilePublisher } from '../etl/load/json/FilePublisher';
 import { FileReader } from '../etl/extract/file/FileReader';
+import { config } from "./config"
+import { Mapper } from '../etl/transform/base/Mapper';
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
 const fileReader = Container.get(FileReader)
-
+const mapper = Container.get(Mapper)
 
 
 const sources = [{
     type: SourceEnum.File,
-    value: "https://raw.githubusercontent.com/polifonia-project/sonar2021_demo/develop/src/assets/data/data_v2.jsonld"
+    value: config.songsSource
 }]
 
 const songQuery = fileReader.read({
     path: "./queries/songs.sparql"
 })
-
-console.log(songQuery)
 
 if (!songQuery) {
     throw new Error("[!] Cannot find query")
@@ -30,46 +30,33 @@ if (!songQuery) {
 
  
 const toSonarSongAnnotation = (sparqlRow: any) => {
-
-    const parsedYTURL = sparqlRow.youtubeID.split("/")
-
     return {
-        ...sparqlRow,
-        youtubeID : parsedYTURL[parsedYTURL.length - 1]
+        ...sparqlRow
     }
 }
 
-// remove duplicates with same id
-const withoutDuplicates = (data: any[]) => {
-    return data.filter((v : any,i : any,a : any) => a.findIndex((t : any)=>(t.id === v.id))===i)
-}
-
-
-function main() {
+async function main() {
     
     // launch get songs job
-    const getSongs = sparqlETL.run({
+    sparqlETL.run({
         query: songQuery,
         sources: sources
-    })
-    
-  
-
-    // run query in parallel
-    Promise.all([getSongs]).then(([songsResults]) => {
-    
-        // remove duplicates and map to App Entities
-        const songAnnotations = withoutDuplicates(songsResults.map(toSonarSongAnnotation))
+    }).then(songs => {
+        const sonarSongs = mapper.transform({
+            collection: songs,
+            projection: toSonarSongAnnotation
+        })
 
         // write new json static file
+
         filePublisher.write({
-            songs: songAnnotations,
+            songs: sonarSongs,
         }, {
-            destination: "./data_v3.json",
-            msg: "[*] File written to: " + "./data_v3.json"
+            destination: config.outputDir + "data_v3.json",
+            msg: "[*] File written to: " + config.outputDir + "data_v3.json"
         })
-        
+
     })
 }
 
-// main()
+main()

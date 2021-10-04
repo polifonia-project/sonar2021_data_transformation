@@ -9,15 +9,19 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 SELECT 
     ?uri
     ?titleURI
-#    ?titleLabel
-    ?artistURI
+    ?titleLabel
+    ?youtubeID
+#    ?artistURI
+
 WHERE   {
 
     ?uri    a mp:Recording ;
             core:hasTitle ?titleURI ;
-            mp:hasRecordingPerformer ?artistURI .
+            mp:hasYoutubeID ?youtubeID .
+#            mp:hasRecordingPerformer ?artistURI .
 
-#    ?titleURI   a core:Title;
-#                rdfs:label ?titleLabel .
+
+    ?titleURI   a core:Title;
+                rdfs:label ?titleLabel .
 
 }
