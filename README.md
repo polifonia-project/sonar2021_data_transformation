@@ -1,3 +1,6 @@
+ETL and services to extract data from Polifonia KG and prepare them for Sonar2021 app.
+Sonar Demo application is being developed in [this separate repo](https://github.com/polifonia-project/sonar2021_demo/).
+
 ## Installation
 
 To install dependencies run
