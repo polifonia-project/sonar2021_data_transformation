@@ -97,11 +97,12 @@ const toSonarAppAnnotation =  (sparqlRow : any) => {
 
 const toSonarSongAnnotation = (sparqlRow: any) => {
 
-    const parsedYTURL = sparqlRow.youtubeID.split("/")
-
     return {
-        ...sparqlRow,
-        youtubeID : parsedYTURL[parsedYTURL.length - 1]
+        name      : sparqlRow.recordingTitleLabel,
+        artist    : sparqlRow.performerLabel,
+        artistId  : sparqlRow.performerID,
+        id        : sparqlRow.recordingID,
+        youtubeID : sparqlRow.youtubeID,
     }
 }
 
@@ -151,12 +152,12 @@ function main() {
         const songAnnotations = withoutDuplicates(songsResults.map(toSonarSongAnnotation))
 
         // write new json static file
-        const targetFileName = "polifonia-kg-places-0.0.1.json"
+        const targetFileName = "polifonia-kg-places-0.0.1-4demo.json"
         filePublisher.write({
             songs: songAnnotations,
         }, {
-            destination: `./data/${targetFileName}`,
-            msg: "[*] File written to: " + `./data/${targetFileName}`
+            destination: `./data-out/${targetFileName}`,
+            msg: "[*] File written to: " + `./data-out/${targetFileName}`
         })
         
     })
