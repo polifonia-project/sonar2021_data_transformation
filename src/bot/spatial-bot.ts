@@ -12,25 +12,37 @@ const filePublisher = Container.get(FilePublisher)
 
 const sources = [{
     type: SourceEnum.File,
-    value: "https://raw.githubusercontent.com/polifonia-project/sonar2021_demo/develop/src/assets/data/data_v2.jsonld"
+    value: "https://raw.githubusercontent.com/polifonia-project/sonar2021_demo/datasets/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.1.ttl"
 }]
 
 const getSongsQuery = `
-      
-        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        PREFIX polifonia-mp: <https://w3id.org/polifonia/ON/musical-performance/>
-      
-        SELECT ?id ?name ?artist ?youtubeID ?artistId  WHERE {
-        
-          ?id rdf:type polifonia-mp:Recording ;
-            polifonia-mp:hasTitle ?name ;
-            polifonia-mp:hasArtistLabel ?artist;
-            polifonia-mp:hasArtist ?artistId;
-            polifonia-mp:hasYoutubeID ?youtubeID .
-        
-        }         
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?recordingID ?performerID ?performerLabel ?recordingTitleLabel ?sessionType ?placeLabel ?youtubeID
+WHERE {
+  ?recordingID rdf:type mp:Recording ;
+      core:hasTitle ?title ;
+      core:hasYoutubeID ?youtubeID ;
+      mp:hasRecordingPerformer ?performerID ;
+      mp:isRecordingProducedBy ?recordingProcess
+  .
+  ?title rdfs:label ?recordingTitleLabel.
+  ?performerID rdfs:label ?performerLabel.
+  ?recordingProcess mp:hasSession ?session.
+  ?session core:hasPlace ?place ;
+           core:hasType ?sessionType.
+  ?place rdfs:label ?placeLabel.
+  
+}
 `
 
+// TODO: adjust to latest KG model
 const getAnnotationsQuery = `
         
         PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -85,11 +97,12 @@ const toSonarAppAnnotation =  (sparqlRow : any) => {
 
 const toSonarSongAnnotation = (sparqlRow: any) => {
 
-    const parsedYTURL = sparqlRow.youtubeID.split("/")
-
     return {
-        ...sparqlRow,
-        youtubeID : parsedYTURL[parsedYTURL.length - 1]
+        name      : sparqlRow.recordingTitleLabel,
+        artist    : sparqlRow.performerLabel,
+        artistId  : sparqlRow.performerID,
+        id        : sparqlRow.recordingID,
+        youtubeID : sparqlRow.youtubeID,
     }
 }
 
@@ -115,19 +128,36 @@ function main() {
     
 
     // run query in parallel
-    Promise.all([getSongs, getAnnotations]).then(([songsResults, annotationResults]) => {
+    // Promise.all([getSongs, getAnnotations]).then(([songsResults, annotationResults]) => {
+    
+    //     // remove duplicates and map to App Entities
+    //     const sonarAnnotations = withoutDuplicates(annotationResults.map(toSonarAppAnnotation))
+    //     const songAnnotations = withoutDuplicates(songsResults.map(toSonarSongAnnotation))
+
+    //     // write new json static file
+    //     filePublisher.write({
+    //         songs: songAnnotations,
+    //         annotations: sonarAnnotations
+    //     }, {
+    //         destination: "./data_v3.json",
+    //         msg: "[*] File written to: " + "./data_v3.json"
+    //     })
+        
+    // })
+
+    // run query in parallel
+    Promise.all([getSongs]).then(([songsResults]) => {
     
         // remove duplicates and map to App Entities
-        const sonarAnnotations = withoutDuplicates(annotationResults.map(toSonarAppAnnotation))
         const songAnnotations = withoutDuplicates(songsResults.map(toSonarSongAnnotation))
 
         // write new json static file
+        const targetFileName = "polifonia-kg-places-0.0.1-4demo.json"
         filePublisher.write({
             songs: songAnnotations,
-            annotations: sonarAnnotations
         }, {
-            destination: "./data_v3.json",
-            msg: "[*] File written to: " + "./data_v3.json"
+            destination: `./data-out/${targetFileName}`,
+            msg: "[*] File written to: " + `./data-out/${targetFileName}`
         })
         
     })
