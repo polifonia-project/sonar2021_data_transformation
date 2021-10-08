@@ -6,19 +6,22 @@ PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT ?recordingID ?performerID ?performerLabel ?recordingTitleLabel ?sessionType ?placeLabel ?youtubeID
+SELECT ?recordingID ?recordingTitleLabel ?sessionType ?placeLabel ?placeFullAddress ?placeLat ?placeLong
 WHERE {
   ?recordingID rdf:type mp:Recording ;
       core:hasTitle ?title ;
-      core:hasYoutubeID ?youtubeID ;
-      mp:hasRecordingPerformer ?performerID ;
       mp:isRecordingProducedBy ?recordingProcess
   .
   ?title rdfs:label ?recordingTitleLabel.
-  ?performerID rdfs:label ?performerLabel.
   ?recordingProcess mp:hasSession ?session.
   ?session core:hasPlace ?place ;
            core:hasType ?sessionType.
-  ?place rdfs:label ?placeLabel.
-  
+  ?place rdfs:label ?placeLabel ;
+         core:hasAddress ?placeAddress ;
+         core:hasGeometry ?placeGeometry
+  .
+  ?placeAddress core:fullAddress ?placeFullAddress.
+  ?placeGeometry core:lat ?placeLat ;
+                 core:long ?placeLong
+  .
 }

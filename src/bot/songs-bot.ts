@@ -17,7 +17,7 @@ const mapper = Container.get(Mapper)
 
 const sources = [{
     type: SourceEnum.File,
-    value: config.songsSource
+    value: config.kgSource
 }]
 
 const songQuery = fileReader.read({
