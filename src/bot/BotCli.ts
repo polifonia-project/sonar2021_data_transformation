@@ -1,6 +1,8 @@
 import { Service } from "typedi";
 
-import yargs, { string } from "yargs"
+import path from "path"
+
+import yargs from "yargs"
 import { SourceEnum } from "../etl/extract/sparql/SparqlClient";
 
 export type BotCliRunInput = {
@@ -39,17 +41,17 @@ export class BotCli {
             alias: "v",
             description: "verbose log in the console",
             type: "boolean",
-            default: false
+            default: true
         })
         .help()
         .alias('help', 'h')
         .demandCommand(1, 'You need at least one command before moving on')
         .demandOption(["source", "out", "type"], "Please provide a source to query and an output file")
         .argv;
+
     }
 
     run(main: (input : BotCliRunInput) => any) {
-
         if (this.argv) {
             main({
                 source: this.argv.source,

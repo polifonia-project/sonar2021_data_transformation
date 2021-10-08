@@ -17,6 +17,7 @@
     "@comunica/actor-init-sparql": "^1.22.1",
     "@comunica/actor-init-sparql-file": "^1.22.2",
     "nanoid": "^3.1.29",
+    "node-color-log": "^6.0.0",
     "reflect-metadata": "^0.1.13",
     "typedi": "^0.10.0",
     "yargs": "^17.2.1"

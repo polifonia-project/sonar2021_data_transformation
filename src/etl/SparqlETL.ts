@@ -20,7 +20,7 @@ export type SparqlETLOptions = {
 export class SparqlETL implements IETL {
 
 
-    constructor(private client : SparqlClient, private dataMapper : SparqlDataMapper, private publisher : Logger) {
+    constructor(private client : SparqlClient, private dataMapper : SparqlDataMapper, private logger : Logger) {
     }
 
     async run(options: SparqlETLOptions) : Promise<ETLResults> {
@@ -34,7 +34,7 @@ export class SparqlETL implements IETL {
                 const resources = await this.dataMapper.transform(sparqlResponse)
                 if (resources) {
                     if (options.verbose) {
-                        this.publisher.write(resources)
+                        //this.logger.write(resources)
                     }
                 return resources
                 }
