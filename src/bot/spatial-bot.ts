@@ -1,77 +1,39 @@
 import 'reflect-metadata';
-import { Container } from 'typedi';
 
+import path from "path"
+
+import { Container } from 'typedi';
 
 import { SparqlETL } from "../etl/SparqlETL"
 import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 import { FilePublisher } from '../etl/load/json/FilePublisher';
+import { FileReader } from '../etl/extract/file/FileReader';
+import { config } from './config';
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
+const fileReader = Container.get(FileReader)
+
 
 
 const sources = [{
     type: SourceEnum.File,
-    value: "https://raw.githubusercontent.com/polifonia-project/sonar2021_demo/datasets/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.1.ttl"
+    value: config.kgSource
+
 }]
 
-const getSongsQuery = `
-PREFIX core:  <https://w3id.org/polifonia/ON/core/>
-PREFIX pr:    <https://w3id.org/polifonia/resource/>
-PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
-PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
-PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+const getSongsQuery = fileReader.read({
+    path: path.join(__dirname, "./queries/songs.sparql")
+})
 
-SELECT ?recordingID ?performerID ?performerLabel ?recordingTitleLabel ?sessionType ?placeLabel ?youtubeID
-WHERE {
-  ?recordingID rdf:type mp:Recording ;
-      core:hasTitle ?title ;
-      core:hasYoutubeID ?youtubeID ;
-      mp:hasRecordingPerformer ?performerID ;
-      mp:isRecordingProducedBy ?recordingProcess
-  .
-  ?title rdfs:label ?recordingTitleLabel.
-  ?performerID rdfs:label ?performerLabel.
-  ?recordingProcess mp:hasSession ?session.
-  ?session core:hasPlace ?place ;
-           core:hasType ?sessionType.
-  ?place rdfs:label ?placeLabel.
-  
+const getAnnotationsQuery = fileReader.read({
+    path:  path.join(__dirname, "./queries/spatial-annotations.sparql")
+})
+
+if (!getSongsQuery || !getAnnotationsQuery) {
+    throw new Error("[!] Cannot find query")
 }
-`
 
-// TODO: adjust to latest KG model
-const getAnnotationsQuery = `
-PREFIX core:  <https://w3id.org/polifonia/ON/core/>
-PREFIX pr:    <https://w3id.org/polifonia/resource/>
-PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
-PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
-PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?recordingID ?recordingTitleLabel ?sessionType ?placeLabel ?placeFullAddress ?placeLat ?placeLong
-WHERE {
-  ?recordingID rdf:type mp:Recording ;
-      core:hasTitle ?title ;
-      mp:isRecordingProducedBy ?recordingProcess
-  .
-  ?title rdfs:label ?recordingTitleLabel.
-  ?recordingProcess mp:hasSession ?session.
-  ?session core:hasPlace ?place ;
-           core:hasType ?sessionType.
-  ?place rdfs:label ?placeLabel ;
-         core:hasAddress ?placeAddress ;
-         core:hasGeometry ?placeGeometry
-  .
-  ?placeAddress core:fullAddress ?placeFullAddress.
-  ?placeGeometry core:lat ?placeLat ;
-                 core:long ?placeLong
-  .
-}
-`
 
 const toSonarSongAnnotation = (sparqlRow: any) => {
     return {
@@ -162,7 +124,7 @@ function main() {
         const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
 
         // write new json static file
-        const targetFileName = "polifonia-kg-places-0.0.1-4demo.json";
+        const targetFileName = "polifonia-kg-places-0.0.1-demo.json";
         filePublisher.write({
             songs: sonarSongs,
             annotations: sonarAnnotations,
