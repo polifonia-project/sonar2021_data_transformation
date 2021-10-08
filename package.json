@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build": "npm test && rm -rf ./build/* && tsc",
+    "build:win": "npm test && rd /s /q .\\build\\ && mkdir .\\build && tsc",
     "postbuild": "copyfiles -u 1 src/**/*.{sparql,ttl} build",
+    "postbuild:win" : "copyfiles -u 1 src/**/*.{sparql,ttl} build",
     "tsc": "tsc"
   },
   "author": "",
