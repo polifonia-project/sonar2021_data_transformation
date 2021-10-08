@@ -8,7 +8,7 @@
     "build": "npm test && rm -rf ./build/* && tsc",
     "build:win": "npm test && rd /s /q .\\build\\ && mkdir .\\build && tsc",
     "postbuild": "copyfiles -u 1 src/**/*.{sparql,ttl} build",
-    "postbuild:win" : "copyfiles -u 1 src/**/*.{sparql,ttl} build",
+    "postbuild:win": "copyfiles -u 1 src/**/*.{sparql,ttl} build",
     "tsc": "tsc"
   },
   "author": "",
@@ -16,6 +16,7 @@
   "dependencies": {
     "@comunica/actor-init-sparql": "^1.22.1",
     "@comunica/actor-init-sparql-file": "^1.22.2",
+    "nanoid": "^3.1.29",
     "reflect-metadata": "^0.1.13",
     "typedi": "^0.10.0"
   },

@@ -3,6 +3,7 @@ import 'reflect-metadata';
 import path from "path"
 
 import { Container } from 'typedi';
+import {nanoid} from "nanoid"
 
 import { SparqlETL } from "../etl/SparqlETL"
 import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
@@ -76,8 +77,7 @@ const getRandomInt = (min: number, max: number) => {
 const hydrateAnnotationIDs = (data: any[]) => {
     let i = 0;
     return data.map(a => {
-        i++
-        a.id = i
+        a.id = nanoid()
         return a
     });
 };
