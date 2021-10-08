@@ -3,6 +3,10 @@
 ETL and services to extract data from Polifonia KG and prepare them for Sonar2021 app.
 Sonar Demo application is being developed in [this separate repo](https://github.com/polifonia-project/sonar2021_demo/).
 
+Latest version of extracted data are at `data-out/polifonia-kg-places-latest-demo.json`
+
+Progressive versions in: `data-out/versions/polifonia-kg-places-X.Y.Z-demo.json`
+
 ## Run Bots
 
 Every bot can be controlled via cli.
