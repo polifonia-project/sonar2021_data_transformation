@@ -9,19 +9,13 @@ import { SparqlETL } from "../etl/SparqlETL"
 import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 import { FilePublisher } from '../etl/load/json/FilePublisher';
 import { FileReader } from '../etl/extract/file/FileReader';
-import { config } from './config';
+import { BotCli, BotCliRunInput } from './BotCli';
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
 const fileReader = Container.get(FileReader)
 
 
-
-const sources = [{
-    type: SourceEnum.File,
-    value: config.kgSource
-
-}]
 
 const getSongsQuery = fileReader.read({
     path: path.join(__dirname, "./queries/songs.sparql")
@@ -75,7 +69,6 @@ const getRandomInt = (min: number, max: number) => {
 
 // add IDs to annotations
 const hydrateAnnotationIDs = (data: any[]) => {
-    let i = 0;
     return data.map(a => {
         a.id = nanoid()
         return a
@@ -103,7 +96,14 @@ const hydrateAnnotationRel = (a: any, data: any[], maxRelationships: number) => 
 };
 
 
-function main() {
+function main(input : BotCliRunInput) {
+
+    const sources = [{
+        type: input.sourceType,
+        value: input.source
+    }]
+    
+
     // launch get songs job
     const getSongs = sparqlETL.run({
         query: getSongsQuery,
@@ -124,15 +124,17 @@ function main() {
         const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
 
         // write new json static file
-        const targetFileName = "polifonia-kg-places-0.0.1-demo.json";
         filePublisher.write({
             songs: sonarSongs,
             annotations: sonarAnnotations,
         }, {
-            destination: `./data-out/${targetFileName}`,
-            msg: "[*] File written to: " + `./data-out/${targetFileName}`
+            destination: input.out,
+            msg: "File written to: " + input.out
         });
     });
 }
 
-main()
+
+// run main
+const botCli = new BotCli()
+botCli.run(main)
