@@ -63,6 +63,7 @@ const toSonarAppAnnotation = (sparqlRow: any) => {
         type: "spatial",
         songID: sparqlRow.recordingID,
         timestamp: getRandomInt(0, 60),
+        description: `${sparqlRow.sessionTypeLabel} ${sparqlRow.placeLabel} - ${sparqlRow.placeFullAddress}`,
         metadata: {
             long: sparqlRow.placeLong,
             lat: sparqlRow.placeLat,
@@ -169,7 +170,7 @@ function main(input : BotCliRunInput) {
 
         // log when transformation is complete
         logger.write({
-            msg : "Output file written to " + input.out || "stdin",
+            msg : "Output file written to " + (input.out || "stdin"),
             agent : AGENT,
             logLevel : LogLevelEnum.Info
         })    
