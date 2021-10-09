@@ -10,6 +10,10 @@ export enum LogLevelEnum {
     Error = "error"
 }
 
+/**
+ * Valid agent colors:
+ *      black, red, green, yellow, blue, magenta, cyan, white
+ */
 export type LoggerInput = {
     data? : any[]
     msg : string
