@@ -71,8 +71,7 @@ export class SparqlClient implements IReader<SparqlRequestInput, SparqlResponse>
             const result : any = await engine.query(query, comunicaParams);
             bindings = await result.bindings();
         } catch (e) {
-            console.log("[!] SparqlClient.sendRequest", e);
-            bindings = undefined;
+            throw new Error("SparqlClient.sendRequest" + e)
         }
         return {
             bindings: bindings

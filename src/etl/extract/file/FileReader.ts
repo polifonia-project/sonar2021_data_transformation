@@ -1,6 +1,7 @@
 import { Service } from "typedi";
 import { IReader } from "../IReader";
 import fs from "fs"
+import path from "path"
 
 /**
  * default encoding: utf-8

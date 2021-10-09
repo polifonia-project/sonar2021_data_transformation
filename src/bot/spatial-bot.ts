@@ -1,136 +1,195 @@
 import 'reflect-metadata';
-import { Container } from 'typedi';
 
+import path from "path"
+
+import { Container } from 'typedi';
+import { nanoid } from "nanoid"
 
 import { SparqlETL } from "../etl/SparqlETL"
-import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 import { FilePublisher } from '../etl/load/json/FilePublisher';
+import { FileReader } from '../etl/extract/file/FileReader';
+import { BotCli, BotCliRunInput } from './BotCli';
+import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
+const logger = Container.get(Logger)
+const fileReader = Container.get(FileReader)
 
 
-const sources = [{
-    type: SourceEnum.File,
-    value: "https://raw.githubusercontent.com/polifonia-project/sonar2021_demo/develop/src/assets/data/data_v2.jsonld"
-}]
-
-const getSongsQuery = `
-      
-        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        PREFIX polifonia-mp: <https://w3id.org/polifonia/ON/musical-performance/>
-      
-        SELECT ?id ?name ?artist ?youtubeID ?artistId  WHERE {
-        
-          ?id rdf:type polifonia-mp:Recording ;
-            polifonia-mp:hasTitle ?name ;
-            polifonia-mp:hasArtistLabel ?artist;
-            polifonia-mp:hasArtist ?artistId;
-            polifonia-mp:hasYoutubeID ?youtubeID .
-        
-        }         
-`
-
-const getAnnotationsQuery = `
-        
-        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        PREFIX poli-mp: <https://w3id.org/polifonia/ON/musical-performance/>
-        PREFIX poli-core:  <https://w3id.org/polifonia/ON/core/>
-
-        SELECT ?id 
-               ?type 
-               ?songID
-               ?timestamp
-
-               ?relatedSongID
-               ?placeName
-               ?description
-
-               ?lat
-               ?long
-
-               WHERE {
-            
-          ?id rdf:type poli-core:SpatialAnnotation ;
-              poli-mp:hasDescription ?description ;
-              poli-mp:hasTimeStamp ?timestamp ;
-              poli-mp:hasType ?type ;
-              poli-mp:aboutRecording ?songID ;
-              poli-mp:hasSpatialSimilarityToRecording ?relatedSongID ;
-              poli-mp:hasLat ?lat;
-              poli-mp:hasLng ?long ;
-              poli-mp:aboutPlaceName ?placeName .
-            }
-`
-
-const toSonarAppAnnotation =  (sparqlRow : any) => {
-    return {
-        id: sparqlRow.id,
-        type: sparqlRow.type,
-        description: sparqlRow.description,
-        songID: sparqlRow.songID,
-        metadata: {
-            long: sparqlRow.long,
-            lat: sparqlRow.lat,
-            placeName: sparqlRow.placeName
-        },
-        relationships: [{
-            songID: sparqlRow.relatedSongID,
-            type: sparqlRow.type,
-            score: Math.random()
-        }]
-
-    }
+// Bot configuration:
+//  Logging agent
+const AGENT = {
+    name : "spatial-bot",
+    color: "green"
 }
+
+
+// read query from file
+// in this way you don't need to rebuild the bot for changing query
+
+const spatialQueryPath = "./queries/spatial-annotations.sparql"
+
+const getAnnotationsQuery = fileReader.read({
+    path:  path.join(__dirname, spatialQueryPath)
+})
+
+if (!getAnnotationsQuery) {
+    logger.write({
+        msg : "Cannot find query at " + spatialQueryPath,
+        agent : AGENT,
+        logLevel : LogLevelEnum.Error
+    })
+    throw new Error()
+}
+
+
+
 
 const toSonarSongAnnotation = (sparqlRow: any) => {
-
-    const parsedYTURL = sparqlRow.youtubeID.split("/")
-
     return {
-        ...sparqlRow,
-        youtubeID : parsedYTURL[parsedYTURL.length - 1]
+        name: sparqlRow.recordingTitleLabel,
+        artist: sparqlRow.performerLabel,
+        artistId: sparqlRow.performerID,
+        id: sparqlRow.recordingID,
+        youtubeID: sparqlRow.youtubeID,
+    };
+};
+
+
+const toSonarAppAnnotation = (sparqlRow: any) => {
+    return {
+        id: sparqlRow.id,
+        type: "spatial",
+        songID: sparqlRow.recordingID,
+        timestamp: getRandomInt(0, 60),
+        description: `${sparqlRow.sessionTypeLabel} ${sparqlRow.placeLabel} - ${sparqlRow.placeFullAddress}`,
+        metadata: {
+            long: sparqlRow.placeLong,
+            lat: sparqlRow.placeLat,
+            placeName: sparqlRow.placeLabel
+        },
+        relationships: sparqlRow.relationships
     }
+};
+
+
+// get random integer between min and max
+const getRandomInt = (min: number, max: number) => {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
-// remove duplicates with same id
-const withoutDuplicates = (data: any[]) => {
-    return data.filter((v : any,i : any,a : any) => a.findIndex((t : any)=>(t.id === v.id))===i)
-}
+// add IDs to annotations
+const hydrateAnnotationIDs = (data: any[]) => {
+    return data.map(a => {
+        a.id = nanoid()
+        return a
+    });
+};
+
+// add relationships to annotations
+const hydrateAnnotationRels = (data: any[], maxRelationships: number) => {
+    return data.map(a => hydrateAnnotationRel(a, data, maxRelationships));
+};
+
+// add relationships to single annotation
+const hydrateAnnotationRel = (a: any, data: any[], maxRelationships: number) => {
+    let relationshipsSpatial = data
+        .filter(anotherA => anotherA.placeID == a.placeID && anotherA.id !== a.id)
+        .map(anotherA => {
+            return {
+                annotationID: anotherA.id,
+                type: "spatial",
+                score: 1,
+            }
+        })
+    a.relationships = relationshipsSpatial.slice(0, maxRelationships)
+    return a;
+};
 
 
-function main() {
-    
-    // launch get songs job
-    const getSongs = sparqlETL.run({
-        query: getSongsQuery,
-        sources: sources
+function main(input : BotCliRunInput) {
+
+
+    logger.write({
+        msg : "Start ETL: " + input.source,
+        agent : AGENT,
+        logLevel : LogLevelEnum.Info
     })
+
+    const sources = [{
+        type: input.sourceType,
+        value: input.source
+    }]
     
-    // launch get annotation jobs
-    const getAnnotations = sparqlETL.run({
+
+    logger.write({
+        msg : "Extracting songs and annotations",
+        agent : AGENT,
+        logLevel : LogLevelEnum.Info
+    })
+
+
+
+    // launch get annotation job
+    sparqlETL.run({
+        
         query: getAnnotationsQuery,
         sources: sources
-    })
-    
 
-    // run query in parallel
-    Promise.all([getSongs, getAnnotations]).then(([songsResults, annotationResults]) => {
-    
+    }).then((annotationResults) => {
+
+        // log when extraction of annotation is complete
+        logger.write({
+            msg : "Extracting annotations complete",
+            agent : AGENT,
+            logLevel : LogLevelEnum.Info
+        })
+
+
+        const MAX_RELATIONSHIPS = 3;
+
         // remove duplicates and map to App Entities
-        const sonarAnnotations = withoutDuplicates(annotationResults.map(toSonarAppAnnotation))
-        const songAnnotations = withoutDuplicates(songsResults.map(toSonarSongAnnotation))
+        const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
+        const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
+        const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID, MAX_RELATIONSHIPS);
+        const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
+
 
         // write new json static file
         filePublisher.write({
-            songs: songAnnotations,
-            annotations: sonarAnnotations
+            songs: sonarSongs,
+            annotations: sonarAnnotations,
         }, {
-            destination: "./data_v3.json",
-            msg: "[*] File written to: " + "./data_v3.json"
+            destination: input.out
+        });
+
+
+
+        // log when transformation is complete
+        logger.write({
+            msg : "Output file written to " + (input.out || "stdin"),
+            agent : AGENT,
+            logLevel : LogLevelEnum.Info
+        })    
+
+
+
+    }).catch(err => {
+
+        logger.write({
+            msg: `Spatial annotation ETL\nSource: ${input.source}\nSource type:${input.sourceType}\nOut file: ${input.out || "stdin"}\n${err}`,
+            agent: AGENT,
+            logLevel: LogLevelEnum.Error 
         })
-        
-    })
+
+    });
+
 }
 
-main()
+
+// run main
+const botCli = new BotCli()
+botCli.run(main)

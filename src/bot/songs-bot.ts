@@ -6,7 +6,6 @@ import { SparqlETL } from "../etl/SparqlETL"
 import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 import { FilePublisher } from '../etl/load/json/FilePublisher';
 import { FileReader } from '../etl/extract/file/FileReader';
-import { config } from "./config"
 import { Mapper } from '../etl/transform/base/Mapper';
 
 const sparqlETL = Container.get(SparqlETL)
@@ -15,9 +14,11 @@ const fileReader = Container.get(FileReader)
 const mapper = Container.get(Mapper)
 
 
+// TODO embed in BotCli
+
 const sources = [{
     type: SourceEnum.File,
-    value: config.songsSource
+    value: "value here"
 }]
 
 const songQuery = fileReader.read({
@@ -52,11 +53,11 @@ async function main() {
         filePublisher.write({
             songs: sonarSongs,
         }, {
-            destination: config.outputDir + "data_v3.json",
-            msg: "[*] File written to: " + config.outputDir + "data_v3.json"
+            destination: "data_v3.json",
+            msg: "[*] File written to: " + "data_v3.json"
         })
 
     })
 }
 
-main()
+//main()
