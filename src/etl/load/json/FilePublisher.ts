@@ -23,8 +23,12 @@ export class FilePublisher implements IPublisher<any, FilePublisherOptions> {
 
         const jsons =  JSON.stringify(input, null, 2)
 
+        if (!options?.destination) {
+            console.log(jsons)
+            return 
+        }
         
-        const destination = options?.destination ? options.destination : "/tmp/test/"
+        const destination = options?.destination
 
         const dir = path.dirname(destination)
 

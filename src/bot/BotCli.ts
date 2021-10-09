@@ -1,13 +1,11 @@
 import { Service } from "typedi";
 
-import path from "path"
-
 import yargs from "yargs"
 import { SourceEnum } from "../etl/extract/sparql/SparqlClient";
 
 export type BotCliRunInput = {
     source : string,
-    out: string,
+    out?: string,
     verbose: boolean,
     sourceType: SourceEnum
 }
@@ -20,7 +18,7 @@ export class BotCli {
 
     constructor() {
         this.argv = yargs
-        .command("run", "Bot query SOURCE, transform results and save extracted data to OUT")
+        .command("run", "Bot query SOURCE, transform results and save extracted data to OUT (default OUT stdin)")
         .option('source', {
             alias: "s",
             description: "The source of a KG. Remote source or local file accepted",
@@ -34,7 +32,7 @@ export class BotCli {
         })
         .option('out', {
             alias: 'o',
-            description: 'The file where output extracted data',
+            description: 'The file where output extracted data. If no file specified output to stdin',
             type: 'string',
         })
         .option("log", {
@@ -46,7 +44,7 @@ export class BotCli {
         .help()
         .alias('help', 'h')
         .demandCommand(1, 'You need at least one command before moving on')
-        .demandOption(["source", "out", "type"], "Please provide a source to query and an output file")
+        .demandOption(["source", "type"], "Please provide a source to query and an output file")
         .argv;
 
     }

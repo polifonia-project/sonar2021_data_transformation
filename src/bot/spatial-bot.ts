@@ -17,34 +17,33 @@ const logger = Container.get(Logger)
 const fileReader = Container.get(FileReader)
 
 
-// Bot configuration
-
-// black, red, green, yellow, blue, magenta, cyan, white
+// Bot configuration:
+//  Logging agent
 const AGENT = {
     name : "spatial-bot",
     color: "green"
 }
 
 
-const songQueryPath = "./queries/songs.sparql"
-const spatialQueryPath = "./queries/spatial-annotations.sparql"
+// read query from file
+// in this way you don't need to rebuild the bot for changing query
 
-const getSongsQuery = fileReader.read({
-    path: path.join(__dirname, songQueryPath)
-})
+const spatialQueryPath = "./queries/spatial-annotations.sparql"
 
 const getAnnotationsQuery = fileReader.read({
     path:  path.join(__dirname, spatialQueryPath)
 })
 
-if (!getSongsQuery || !getAnnotationsQuery) {
+if (!getAnnotationsQuery) {
     logger.write({
-        msg : "Cannot find queries at" + songQueryPath  + " " + spatialQueryPath,
+        msg : "Cannot find query at " + spatialQueryPath,
         agent : AGENT,
         logLevel : LogLevelEnum.Error
     })
     throw new Error()
 }
+
+
 
 
 const toSonarSongAnnotation = (sparqlRow: any) => {
@@ -56,6 +55,7 @@ const toSonarSongAnnotation = (sparqlRow: any) => {
         youtubeID: sparqlRow.youtubeID,
     };
 };
+
 
 const toSonarAppAnnotation = (sparqlRow: any) => {
     return {
@@ -72,10 +72,6 @@ const toSonarAppAnnotation = (sparqlRow: any) => {
     }
 };
 
-// remove duplicates with same id
-const withoutDuplicates = (data: any[]) => {
-    return data.filter((v : any,i : any,a : any) => a.findIndex((t : any)=>(t.id === v.id))===i)
-}
 
 // get random integer between min and max
 const getRandomInt = (min: number, max: number) => {
@@ -115,6 +111,7 @@ const hydrateAnnotationRel = (a: any, data: any[], maxRelationships: number) => 
 
 function main(input : BotCliRunInput) {
 
+
     logger.write({
         msg : "Start ETL: " + input.source,
         agent : AGENT,
@@ -133,39 +130,32 @@ function main(input : BotCliRunInput) {
         logLevel : LogLevelEnum.Info
     })
 
-    // launch get songs job
-    const getSongs = sparqlETL.run({
-        query: getSongsQuery,
-        sources: sources
-    }).then((getSongs) => {
-        logger.write({
-            msg : "Extracting songs complete",
-            agent : AGENT,
-            logLevel : LogLevelEnum.Info
-        })
-        return getSongs
-    });
-    // launch get annotation jobs
-    const getAnnotations = sparqlETL.run({
+
+
+    // launch get annotation job
+    sparqlETL.run({
+        
         query: getAnnotationsQuery,
         sources: sources
-    }).then((getAnnotations) => {
+
+    }).then((annotationResults) => {
+
+        // log when extraction of annotation is complete
         logger.write({
             msg : "Extracting annotations complete",
             agent : AGENT,
             logLevel : LogLevelEnum.Info
-        })    
-        return getAnnotations
-    });
+        })
 
-    // run queries in parallel
-    Promise.all([getSongs, getAnnotations]).then(([songsResults, annotationResults]) => {
+
         const MAX_RELATIONSHIPS = 3;
+
         // remove duplicates and map to App Entities
-        const sonarSongs = withoutDuplicates(songsResults.map(toSonarSongAnnotation))
+        const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID, MAX_RELATIONSHIPS);
         const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
+
 
         // write new json static file
         filePublisher.write({
@@ -174,13 +164,28 @@ function main(input : BotCliRunInput) {
         }, {
             destination: input.out
         });
+
+
+
+        // log when transformation is complete
         logger.write({
-            msg : "Output file written to" + input.out,
+            msg : "Output file written to " + input.out || "stdin",
             agent : AGENT,
             logLevel : LogLevelEnum.Info
         })    
 
+
+
+    }).catch(err => {
+
+        logger.write({
+            msg: `Spatial annotation ETL\nSource: ${input.source}\nSource type:${input.sourceType}\nOut file: ${input.out || "stdin"}\n${err}`,
+            agent: AGENT,
+            logLevel: LogLevelEnum.Error 
+        })
+
     });
+
 }
 
 
