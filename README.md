@@ -1,11 +1,18 @@
-# Sonar App Etl
+# Sonar App ETL
 
-ETL and services to extract data from Polifonia KG and prepare them for Sonar2021 app.
-Sonar Demo application is being developed in [this separate repo](https://github.com/polifonia-project/sonar2021_demo/).
+ETL and services to extract data from Polifonia KG and transform them for Sonar2021 app.
 
-Latest version of extracted data are at `data-out/polifonia-kg-places-latest-demo.json`
+Latest version of extracted Polifonia KG data is available at [/data-out/polifonia-kg-places-latest-demo.json](https://github.com/polifonia-project/sonar2021_data_transformation/blob/master/data-out/polifonia-kg-places-latest-demo.json).
 
-Progressive versions in: `data-out/versions/polifonia-kg-places-X.Y.Z-demo.json`
+Progressive versions are available at [/data-out/versions](https://github.com/polifonia-project/sonar2021_data_transformation/tree/master/data-out/versions).
+
+## Related work
+
+Data transformation from raw source files to Polifonia KG is being developed in [polifonia-project/polifonia_KG_data_transformation](https://github.com/polifonia-project/polifonia_KG_data_transformation).
+
+Sonar Demo application is being developed in [polifonia-project/sonar2021_demo](https://github.com/polifonia-project/sonar2021_demo/).
+
+
 
 ## Run Bots
 
