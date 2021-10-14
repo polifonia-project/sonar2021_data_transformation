@@ -63,11 +63,12 @@ const toSonarAppAnnotation = (sparqlRow: any) => {
         type: "spatial",
         songID: sparqlRow.recordingID,
         timestamp: getRandomInt(0, 60),
-        description: `${sparqlRow.sessionTypeLabel} ${sparqlRow.placeLabel} - ${sparqlRow.placeFullAddress}`,
         metadata: {
-            long: sparqlRow.placeLong,
-            lat: sparqlRow.placeLat,
-            placeName: sparqlRow.placeLabel
+            placeLabel: sparqlRow.placeLabel,
+            placeFullAddress: sparqlRow.placeFullAddress,
+            placeLong: sparqlRow.placeLong,
+            placeLat: sparqlRow.placeLat,
+            sessionTypeLabel: sparqlRow.sessionTypeLabel,
         },
         relationships: sparqlRow.relationships
     }
