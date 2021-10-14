@@ -48,7 +48,7 @@ Options:
 An example to extract spatial annotations from polifonia knowledge graph and save them to data-out folder.
 
 ```
-node .\build\bot\spatial-bot.js run --source "https://raw.githubusercontent.com/polifonia-project/sonar2021_demo/datasets/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.1.ttl" --type "file" --out "./data-out/example.json" --log
+node .\build\bot\spatial-bot.js run --source "https://raw.githubusercontent.com/polifonia-project/KG_data_transformation/feature/short-dev-file/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.2b-limit.ttl" --type "file" --out "./data-out/example.json" --log
 ```
 
 
