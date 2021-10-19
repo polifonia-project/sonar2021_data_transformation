@@ -49,6 +49,12 @@ const hydrateHarmonicAnnotationIDs = (a: any) => {
     return a
 };
 
+// convert KG timeString to seconds based timestamp
+const timeStringToSeconds = (timeString: string) => {
+    let [hours, minutes, seconds] = timeString.split(':').map(parseFloat)
+    return hours * 60 * 60 + minutes * 60 + seconds
+};
+
 // add relationships to single annotation
 const hydrateHarmonicAnnotationRel = (a: any, _index:number, array: any[]) => {
     let relationshipsHarmonic = array
@@ -70,11 +76,11 @@ const toSonarHarmonicAnnotation = (sparqlRow:any) => {
         id: sparqlRow.id,
         type: "harmonic",
         songID: sparqlRow.sourceRecordingID,
-        timestamp: sparqlRow.startInRecording,
+        timestamp: timeStringToSeconds(sparqlRow.startInRecording),
         metadata: {
             chordProgression: sparqlRow.chordProgression,
-            startInRecording: sparqlRow.startInRecording,
-            endInRecording: sparqlRow.endInRecording,
+            startInRecording: timeStringToSeconds(sparqlRow.startInRecording),
+            endInRecording: timeStringToSeconds(sparqlRow.endInRecording),
             targetRecordingID: sparqlRow.targetRecordingID,
             harmSim: sparqlRow.harmSim,
         },
