@@ -19,8 +19,7 @@ WHERE {
   .
   
   FILTER(
-    ?sourceRecordingID != ?targetRecordingID 
-    #&& ?harmSim != <https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_00424_00339>
+    ?sourceRecordingID != ?targetRecordingID
   ) .
   
   ?chordProgression
