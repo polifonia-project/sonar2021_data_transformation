@@ -1,0 +1,144 @@
+{
+  "annotations": [
+    {
+      "id": "bZ1MKYviMTKbQILNV4wm5",
+      "type": "harmonic",
+      "songID": "https://w3id.org/polifonia/resource/Recording/00424",
+      "timestamp": "0:01:01.320000",
+      "metadata": {
+        "chordProgression": "https://w3id.org/polifonia/resource/ChordProgression/00424_GmajB_Cmaj_GmajD",
+        "startInRecording": "0:01:01.320000",
+        "endInRecording": "0:01:03.700000",
+        "targetRecordingID": "https://w3id.org/polifonia/resource/Recording/00339",
+        "harmSim": "https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_00424_00339"
+      },
+      "relationships": [
+        {
+          "annotationID": "mlZ75IuJu4Tx9azmWMtqU",
+          "type": "harmonic",
+          "score": 0.9
+        },
+        {
+          "annotationID": "lkov7uHFcoVzkMjsr4tPa",
+          "type": "harmonic",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "odj8dbwwcUXPUSqSXQ-Bh",
+      "type": "harmonic",
+      "songID": "https://w3id.org/polifonia/resource/Recording/00424",
+      "timestamp": "0:03:51.70000",
+      "metadata": {
+        "chordProgression": "https://w3id.org/polifonia/resource/ChordProgression/00424_Fmaj_Cmaj_Fmaj",
+        "startInRecording": "0:03:51.70000",
+        "endInRecording": "0:03:53.900000",
+        "targetRecordingID": "https://w3id.org/polifonia/resource/Recording/00339",
+        "harmSim": "https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_00424_00339"
+      },
+      "relationships": [
+        {
+          "annotationID": "mlZ75IuJu4Tx9azmWMtqU",
+          "type": "harmonic",
+          "score": 0.9
+        },
+        {
+          "annotationID": "lkov7uHFcoVzkMjsr4tPa",
+          "type": "harmonic",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "mlZ75IuJu4Tx9azmWMtqU",
+      "type": "harmonic",
+      "songID": "https://w3id.org/polifonia/resource/Recording/00339",
+      "timestamp": "0:00:01.206300",
+      "metadata": {
+        "chordProgression": "https://w3id.org/polifonia/resource/ChordProgression/00339_C%23_F%235_C%23",
+        "startInRecording": "0:00:01.206300",
+        "endInRecording": "0:01:58.925813",
+        "targetRecordingID": "https://w3id.org/polifonia/resource/Recording/00424",
+        "harmSim": "https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_00424_00339"
+      },
+      "relationships": [
+        {
+          "annotationID": "bZ1MKYviMTKbQILNV4wm5",
+          "type": "harmonic",
+          "score": 0.9
+        },
+        {
+          "annotationID": "odj8dbwwcUXPUSqSXQ-Bh",
+          "type": "harmonic",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "lkov7uHFcoVzkMjsr4tPa",
+      "type": "harmonic",
+      "songID": "https://w3id.org/polifonia/resource/Recording/00339",
+      "timestamp": "0:02:45.320000",
+      "metadata": {
+        "chordProgression": "https://w3id.org/polifonia/resource/ChordProgression/00339_Fmaj%23_G%235_C%23",
+        "startInRecording": "0:02:45.320000",
+        "endInRecording": "0:03:09.124000",
+        "targetRecordingID": "https://w3id.org/polifonia/resource/Recording/00424",
+        "harmSim": "https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_00424_00339"
+      },
+      "relationships": [
+        {
+          "annotationID": "bZ1MKYviMTKbQILNV4wm5",
+          "type": "harmonic",
+          "score": 0.9
+        },
+        {
+          "annotationID": "odj8dbwwcUXPUSqSXQ-Bh",
+          "type": "harmonic",
+          "score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "OUvPsPDCv2uNNWWHZcPMb",
+      "type": "harmonic",
+      "songID": "https://w3id.org/polifonia/resource/Recording/00111",
+      "timestamp": "0:01:01.206300",
+      "metadata": {
+        "chordProgression": "https://w3id.org/polifonia/resource/ChordProgression/00111_C%23_F%235_C%23",
+        "startInRecording": "0:01:01.206300",
+        "endInRecording": "0:01:48.00000",
+        "targetRecordingID": "https://w3id.org/polifonia/resource/Recording/08888",
+        "harmSim": "https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_08888_00111"
+      },
+      "relationships": [
+        {
+          "annotationID": "yEuqx5gD50qFOeDd1XWb6",
+          "type": "harmonic",
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "id": "yEuqx5gD50qFOeDd1XWb6",
+      "type": "harmonic",
+      "songID": "https://w3id.org/polifonia/resource/Recording/08888",
+      "timestamp": "0:09:01.320000",
+      "metadata": {
+        "chordProgression": "https://w3id.org/polifonia/resource/ChordProgression/08888_AmajB_Fmaj_D",
+        "startInRecording": "0:09:01.320000",
+        "endInRecording": "0:10:03.700000",
+        "targetRecordingID": "https://w3id.org/polifonia/resource/Recording/00111",
+        "harmSim": "https://w3id.org/polifonia/resource/HarmonicSimilarity/harm_sim_08888_00111"
+      },
+      "relationships": [
+        {
+          "annotationID": "OUvPsPDCv2uNNWWHZcPMb",
+          "type": "harmonic",
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}
