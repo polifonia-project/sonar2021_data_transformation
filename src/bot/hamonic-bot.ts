@@ -131,7 +131,8 @@ function main(input : BotCliRunInput) {
         // remove duplicates and map to App Entities
         const annotationResultsWithIDs = annotationResults.map(hydrateHarmonicAnnotationIDs);
         const annotationResultsWithRels = annotationResults.map(hydrateHarmonicAnnotationRel);
-        const sonarAnnotations = annotationResultsWithRels.map(toSonarHarmonicAnnotation);
+        const sonarAnnotationsWithEmptyRels = annotationResultsWithRels.map(toSonarHarmonicAnnotation);
+        const sonarAnnotations = sonarAnnotationsWithEmptyRels.filter(a => a.relationships.length);
 
         // write new json static file
         filePublisher.write({
