@@ -28,7 +28,7 @@ const AGENT = {
 // read query from file
 // in this way you don't need to rebuild the bot for changing query
 
-const harmonicQueryPath = "./queries/harmonic-annotations.sparql"
+const harmonicQueryPath = "./queries/harmonic-annotations-2.sparql"
 
 const getAnnotationsQuery = fileReader.read({
     path:  path.join(__dirname, harmonicQueryPath)
@@ -58,10 +58,14 @@ const timeStringToSeconds = (timeString: string) => {
 // add relationships to single annotation
 const hydrateHarmonicAnnotationRel = (a: any, _index:number, array: any[]) => {
     let relationshipsHarmonic = array
-        .filter(anotherA => anotherA.harmSim == a.harmSim && anotherA.id !== a.id && anotherA.sourceRecordingID == a.targetRecordingID )
-        .map(anotherA => {
+        .filter(b => 
+            b.harmonicSimIRI == a.harmonicSimIRI 
+            && b.id !== a.id 
+            && b.recordingAIRI == a.recordingBIRI 
+        )
+        .map(b => {
             return {
-                annotationID: anotherA.id,
+                annotationID: b.id,
                 type: "harmonic",
                 score: parseFloat(a.simScore),
             }
@@ -75,14 +79,14 @@ const toSonarHarmonicAnnotation = (sparqlRow:any) => {
     return {
         id: sparqlRow.id,
         type: "harmonic",
-        songID: sparqlRow.sourceRecordingID,
-        timestamp: timeStringToSeconds(sparqlRow.startInRecording),
+        songID: sparqlRow.recordingAIRI,
+        timestamp: timeStringToSeconds(sparqlRow.beginCPA),
         metadata: {
-            chordProgression: sparqlRow.chordProgression,
-            startInRecording: timeStringToSeconds(sparqlRow.startInRecording),
-            endInRecording: timeStringToSeconds(sparqlRow.endInRecording),
-            targetRecordingID: sparqlRow.targetRecordingID,
-            harmSim: sparqlRow.harmSim,
+            chordProgressionAIRI: sparqlRow.chordProgressionAIRI,
+            beginCPA: timeStringToSeconds(sparqlRow.beginCPA),
+            endCPA: timeStringToSeconds(sparqlRow.endCPA),
+            recordingBIRI: sparqlRow.recordingBIRI,
+            harmonicSimIRI: sparqlRow.harmonicSimIRI,
         },
         relationships: sparqlRow.relationships
     }
