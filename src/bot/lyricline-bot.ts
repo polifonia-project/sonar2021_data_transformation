@@ -1,7 +1,5 @@
 import 'reflect-metadata';
 
-import path from "path"
-
 import { Container } from 'typedi';
 import { nanoid } from "nanoid"
 

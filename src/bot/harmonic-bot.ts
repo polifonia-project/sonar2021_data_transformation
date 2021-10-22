@@ -25,6 +25,16 @@ const AGENT = {
 }
 
 
+const toSonarSongAnnotation = (sparqlRow: any) => {
+    return {
+        name: sparqlRow.recordingTitleLabel,
+        artist: sparqlRow.performerLabel,
+        artistId: sparqlRow.performerID,
+        id: sparqlRow.recordingID,
+        youtubeID: sparqlRow.youtubeID,
+    };
+};
+
 // add IDs to annotations
 const hydrateHarmonicAnnotationIDs = (a: any) => {
     a.id = nanoid()
@@ -145,6 +155,7 @@ function main(input : BotCliRunInput) {
         })
 
         // remove duplicates and map to App Entities
+        const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
         const annotationResultsWithIDs = annotationResults.map(hydrateHarmonicAnnotationIDs);
         const annotationResultsWithRels = annotationResults.map(hydrateHarmonicAnnotationRel);
         const sonarAnnotationsWithEmptyRels = annotationResultsWithRels.map(toSonarHarmonicAnnotation);

@@ -9,35 +9,29 @@ PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
 PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?harmonicSimIRI ?recordingAIRI ?recordingBIRI ?chordProgressionAIRI ?chordProgressionBIRI ?simScore ?beginCPA ?endCPA
+SELECT DISTINCT 
+  ?harmonicSimIRI 
+  ?recordingAIRI 
+#  ?recordingBIRI #          <= How getting this ? 
+  ?chordProgressionAIRI 
+#  ?chordProgressionBIRI #    <= How getting this ?
+  ?simScore
+  ?beginCPA 
+  ?endCPA
 WHERE {  
     ?recordingAIRI  a mp:Recording ;
-                    mf:hasChordProgression ?chordProgressionAIRI ;
-                    cm:isHarmonicallySimilarTo ?recordingBIRI ;
-                    cm:isInvolvedInHarmonicSimilarity ?harmonicSimIRI .
-  
-    ?chordProgressionAIRI   a mf:ChordProgression ;
-                    mf:isChordProgressionOf ?recordingAIRI ;
-                    mf:hasStartInRecording ?beginCPA ;
-                    mf:hasEndInRecording ?endCPA ;                    
-                    cm:isInvolvedInHarmonicSimilarity ?harmonicSimIRI ;
-                    cm:hasSimilarChordProgression ?chordProgressionBIRI .
+                    cm:isRecordingInvolvedInCPSim ?CPinSimAIRI ;
+                    cm:isRecordingInvolvedInHarmSim ?harmonicSimIRI .
 
-    ?harmonicSimIRI a cm:HarmonicSimilarity ;
-                    cm:involves ?recordingAIRI ;
-                    cm:involves ?recordingBIRI ;
-                    cm:involves ?chordProgressionAIRI ;
-                    cm:involves ?chordProgressionBIRI ;
-                    cm:hasSimScore ?simScore .
-  
-      ?chordProgressionAIRI   a mf:ChordProgression ;
-                    mf:isChordProgressionOf ?recordingAIRI ;
-                    mf:hasStartInRecording ?beginCPA ;
-                    mf:hasEndInRecording ?endCPA ;                    
-                    cm:isInvolvedInHarmonicSimilarity ?harmonicSimIRI ;
-                    cm:hasSimilarChordProgression ?chordProgressionBIRI .
-    FILTER(
-      ?recordingAIRI != ?recordingBIRI 
-      && ?chordProgressionAIRI != ?chordProgressionBIRI
-  ) .
+    ?CPinSimAIRI a cm:ChordProgressionInSimilarity ;
+                core:hasTimeInterval ?timeIntervalAIRI;
+                cm:aboutChordProgression ?chordProgressionAIRI .
+
+    ?timeIntervalAIRI    a core:TimeInterval ;
+                            core:startTime ?beginCPA ;
+                            core:endTime ?endCPA .
+
+    ?harmonicSimIRI cm:similarityScore ?simScore .
+
+
 }
