@@ -21,7 +21,7 @@ const fileReader = Container.get(FileReader)
 //  Logging agent
 const AGENT = {
     name : "harmonic-bot",
-    color: "green"
+    color: "magenta"
 }
 
 
@@ -30,7 +30,7 @@ const toSonarSongAnnotation = (sparqlRow: any) => {
         name: sparqlRow.recordingTitleLabel,
         artist: sparqlRow.performerLabel,
         artistId: sparqlRow.performerID,
-        id: sparqlRow.recordingID,
+        id: sparqlRow.recordingAIRI,
         youtubeID: sparqlRow.youtubeID,
     };
 };
@@ -163,6 +163,7 @@ function main(input : BotCliRunInput) {
 
         // write new json static file
         filePublisher.write({
+            songs : sonarSongs,
             annotations: sonarAnnotations,
         }, {
             destination: input.out

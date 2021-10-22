@@ -1,19 +1,41 @@
-#!/usr/bin/env node
+#!/usr/bin/bash -e
 
 
-LYR_QUERY_PATH="queries/lyric-line.sparql"
 SOURCE="https://arco.istc.cnr.it/polifonia/sparql"
 SOURCE_TYPE="sparql"
-#LYR_OUT="-o data-out/demo/lyric-line.json"
-LYR_OUT=""
 
+
+# Lyrics
+LYR_QUERY="queries/lyric-line.sparql"
+LYR_OUT="data-out/demo/lyric-line.json"
+#LYR_OUT=""
+
+
+# Spatials
+SPAT_QUERY="queries/spatial-annotations-rec-process-session.sparql"
+SPAT_OUT="data-out/demo/spat-rec.json"
+#SPAT_OUT=""
+
+
+# Harmonics
+HARM_QUERY="queries/harmonic-annotations.sparql"
+HARM_OUT="data-out/demo/harmonic.json"
+
+# merged out
+
+DEMO_OUT="data-out/demo_dataset.json"
 
 
 # Produce lyric annotations
-build/bot/lyricline-bot.js run -f $LYR_QUERY_PATH -s $SOURCE -t $SOURCE_TYPE $LYR_OUT
+node build/bot/lyricline-bot.js run -f $LYR_QUERY -s $SOURCE -t $SOURCE_TYPE -o $LYR_OUT
 
 # Produce spatial annotations
-build/bot/spatial-bot.js run -f "queries/spatial-annotations-rec-process-session.sparql" -s https://arco.istc.cnr.it/polifonia/sparql -t sparql
+node build/bot/spatial-bot.js run -f $SPAT_QUERY -s $SOURCE -t $SOURCE_TYPE -o $SPAT_OUT
+
+# Produce harmonic annotations
+node build/bot/harmonic-bot.js run -f $HARM_QUERY -s $SOURCE -t $SOURCE_TYPE -o $HARM_OUT
+
 
 # Merge Annotations
-build/bot/merger.js run -l "data-out/demo/lyric-line.json data-out/demo/spatial-recordings.json" -o data-out/demo/merged.json
+
+node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT}" -o $DEMO_OUT

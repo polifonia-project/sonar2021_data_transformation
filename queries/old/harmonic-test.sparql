@@ -1,0 +1,62 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT 
+  ?track1 ?recordingBIRI ?harmonicSimIRI ?CPinSimAIRI ?CPinSimBIRI  ?simScore  ?beginCPA  ?endCPA  ?beginCPB  ?endCPB
+WHERE {  
+   <https://w3id.org/polifonia/resource/Recording/jaah_28>  a mp:Recording;
+                    core:hasTitle ?title1 ;
+                    cm:isRecordingInvolvedInCPSim ?CPinSimAIRI ;
+                    cm:isRecordingInvolvedInHarmSim ?harmonicSimIRI .
+
+    ?recordingBIRI a mp:Recording ;
+                    cm:isRecordingInvolvedInHarmSim ?harmonicSimIRI;
+                    cm:isRecordingInvolvedInCPSim ?CPinSimBIRI ;
+                    core:hasTitle ?title2.
+
+    ?CPinSimAIRI a cm:ChordProgressionInSimilarity ;
+                    cm:isChordProgressionInHarmSim ?harmonicSimIRI ; # TYPO
+                    core:hasTimeInterval ?timeIntervalAIRI;
+                    cm:CPSimInvolvesRecording <https://w3id.org/polifonia/resource/Recording/jaah_28> ;
+                    cm:aboutChordProgression ?cpA.
+
+    ?CPinSimBIRI a cm:ChordProgressionInSimilarity ;
+                    cm:isChordProgressionInHarmSim ?harmonicSimIRI ; # TYPO
+                    core:hasTimeInterval ?timeIntervalBIRI;
+                    cm:CPSimInvolvesRecording ?recordingBIRI ;
+                    cm:aboutChordProgression ?cpB.
+
+    
+    ?cpA a mf:ChordProgression.
+
+    ?cpB a mf:ChordProgression.
+
+    ?timeIntervalAIRI    a core:TimeInterval ;
+                    core:startTime ?beginCPA ;
+                    core:endTime ?endCPA .
+
+    ?timeIntervalBIRI    a core:TimeInterval ;
+                    core:startTime ?beginCPB ;
+                    core:endTime ?endCPB .
+
+    ?harmonicSimIRI a cm:HarmonicSimilarity ;
+                    cm:similarityScore ?simScore;
+                    cm:harmSimInvolvesRecording <https://w3id.org/polifonia/resource/Recording/jaah_28>;
+                    cm:harmSimInvolvesRecording ?recordingBIRI;
+                    cm:hasChordProgressionInHarmSim ?CPinSimAIRI;
+                    cm:hasChordProgressionInHarmSim ?CPinSimBIRI.
+
+    ?title1 rdfs:label ?track1.
+    ?title2 rdfs:label "Dinah".
+
+
+FILTER (?recordingBIRI != <https://w3id.org/polifonia/resource/Recording/jaah_28>)
+}

@@ -1,0 +1,30 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?harmSim ?simScore ?chordProgression ?startInRecording ?endInRecording ?sourceRecordingID ?targetRecordingID
+WHERE {  
+  ?harmSim
+    rdf:type cm:HarmonicSimilarity ;
+    cm:hasSimScore ?simScore ;
+    cm:involvesChordProgression ?chordProgression ;
+    cm:involvesRecording ?sourceRecordingID, ?targetRecordingID ;
+  .
+  
+  FILTER(
+    ?sourceRecordingID != ?targetRecordingID
+  ) .
+  
+  ?chordProgression
+    mf:isChordProgressionOf  ?sourceRecordingID ;
+    mf:hasEndInRecording     ?endInRecording ;
+    mf:hasStartInRecording   ?startInRecording ;
+  .
+}

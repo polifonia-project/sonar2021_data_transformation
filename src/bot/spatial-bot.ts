@@ -21,7 +21,7 @@ const fileReader = Container.get(FileReader)
 //  Logging agent
 const AGENT = {
     name : "spatial-bot",
-    color: "green"
+    color: "cyan"
 }
 
 
