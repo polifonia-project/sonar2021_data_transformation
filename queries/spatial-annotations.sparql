@@ -10,32 +10,40 @@ SELECT
   ?recordingID 
   ?recordingTitleLabel 
   ?performerID 
-  ?performerLabel ?youtubeID ?sessionType ?placeLabel ?placeFullAddress ?placeLat ?placeLong ?sessionTypeLabel
+  ?performerLabel 
+   ?youtubeID 
+   ?sessionType 
+   ?placeLabel 
+   ?placeFullAddress 
+   ?placeLat 
+   ?placeLong 
+   ?placeID
+   ?sessionTypeLabel
 WHERE {
 
   ?recordingID rdf:type mp:Recording ;
       core:hasTitle ?title ;
       core:hasYoutubeID ?youtubeID ;
-      mp:hasRecordingPerformer ?performerID ;
-      mp:isRecordingProducedBy ?recordingProcess
-  .
-  ?title rdfs:label ?recordingTitleLabel.
-  ?performerID rdfs:label ?performerLabel.
+      mp:hasRecordingPerformer ?performerID .
 
-  ?recordingProcess mp:hasSession ?session.
-  ?session core:hasPlace ?place ;
-           core:hasType ?sessionType.
+     ?title rdfs:label ?recordingTitleLabel.
+     ?performerID rdfs:label ?performerLabel.
 
-  ?sessionType rdfs:label ?sessionTypeLabel .
+  {
+      ?recordingID       mp:isRecordingProducedBy ?recordingProcess .
+      ?recordingProcess mp:hasSession ?session.
+      ?session core:hasPlace ?placeID ;
+               core:hasType ?sessionType.
+      OPTIONAL { ?sessionType rdfs:label ?sessionTypeLabel2B } .
+      BIND ( IF (BOUND ( ?sessionTypeLabel2B ), ?sessionTypeLabel2B, "" )  as ?sessionTypeLabel )
 
-  ?place rdfs:label ?placeLabel ;
-         core:hasAddress ?placeAddress ;
-         core:hasGeometry ?placeGeometry
-  .
+      ?place rdfs:label ?placeLabel ;
+             core:hasAddress ?placeAddress ;
+             core:hasGeometry ?placeGeometry   .
 
-  ?placeAddress core:fullAddress ?placeFullAddress.
-  ?placeGeometry core:lat ?placeLat ;
-                 core:long ?placeLong
-  .
+      ?placeAddress core:fullAddress ?placeFullAddress.
+      ?placeGeometry core:lat ?placeLat ;
+                   core:long ?placeLong .
+  }
 
 }
