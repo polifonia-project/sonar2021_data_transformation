@@ -1,5 +1,75 @@
 PREFIX core:  <https://w3id.org/polifonia/ON/core/>
 PREFIX pr:    <https://w3id.org/polifonia/resource/>
+<<<<<<< HEAD
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT
+   ?recordingID 
+   ?recordingTitleLabel 
+   ?performerID 
+   ?performerLabel 
+   ?youtubeID 
+   ?placeID
+   ?placeLabel 
+
+#   Recording Process Session Place Variables
+    ?sessionType 
+    ?placeFullAddress 
+    ?placeLat 
+    ?placeLong 
+    ?sessionTypeLabel
+
+WHERE {
+     ?recordingID rdf:type mp:Recording ;
+          core:hasTitle ?title ;
+          core:hasYoutubeID ?youtubeID ;
+          mp:hasRecordingPerformer ?performerID ;
+          core:hasPlace ?placeID .
+
+      ?title rdfs:label ?recordingTitleLabel.
+      ?performerID rdfs:label ?performerLabel.
+     
+    {
+        ?session a mp:Session ;
+                core:hasType ?sessionType;
+                core:hasPlace ?placeID .
+
+        OPTIONAL { ?sessionType rdfs:label ?sessionTypeLabel2B } .
+        BIND ( IF (BOUND ( ?sessionTypeLabel2B ), ?sessionTypeLabel2B, "" )  as ?sessionTypeLabel )
+
+        ?placeID rdfs:label ?placeLabel ;
+                 core:hasAddress ?placeAddress ;
+                 core:hasGeometry ?placeGeometry   .
+
+        ?placeAddress core:fullAddress ?placeFullAddress.
+        ?placeGeometry core:lat ?placeLat ;
+                     core:long ?placeLong .
+            
+    }
+    UNION
+    {
+        ?performerID core:hasBirthPlace ?placeID .
+        ?placeID rdfs:label ?placeLabelCountry .
+
+        BIND ( CONCAT("born in ", ?placeLabelCountry) as ?placeLabel )
+
+    }
+    UNION
+    {
+        ?performerID core:hasStartCareerPlace ?placeID .
+        ?placeID rdfs:label ?placeLabelCountry .
+
+        BIND ( CONCAT("started career at ", ?placeLabelCountry) as ?placeLabel )
+
+
+    }
+     
+=======
 PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
 PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -38,4 +108,5 @@ WHERE {
                  core:long ?placeLong
   .
 
+>>>>>>> develop
 }
