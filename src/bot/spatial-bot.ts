@@ -79,7 +79,7 @@ const hydrateAnnotationRel = (a: any, data: any[], maxRelationships: number) => 
     let relationshipsSpatial = data
         .filter(anotherA => anotherA.placeID == a.placeID && anotherA.id !== a.id)
         .map(anotherA => {
-            return {
+            return {    
                 annotationID: anotherA.id,
                 type: "spatial",
                 score: 1,
@@ -163,7 +163,7 @@ function main(input : BotCliRunInput) {
         })
 
 
-        const MAX_RELATIONSHIPS = 3;
+        const MAX_RELATIONSHIPS = 10;
 
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
