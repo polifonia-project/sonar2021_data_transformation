@@ -1,0 +1,4998 @@
+{
+  "songs": [
+    {
+      "name": "A Day In The Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
+      "youtubeID": "usNsCeOV4GM"
+    },
+    {
+      "name": "A Day In The Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
+      "youtubeID": "usNsCeOV4GM"
+    },
+    {
+      "name": "All My Loving",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
+      "youtubeID": "pOxAqhTaXzw"
+    },
+    {
+      "name": "All My Loving",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
+      "youtubeID": "pOxAqhTaXzw"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Free",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/free",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Free",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/free",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Pras Michel",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/pras_michel",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Pras Michel",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/pras_michel",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Any Time At All",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "youtubeID": "txSs2FFRt8s"
+    },
+    {
+      "name": "Any Time At All",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "youtubeID": "txSs2FFRt8s"
+    },
+    {
+      "name": "Any Time At All",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "youtubeID": "txSs2FFRt8s"
+    },
+    {
+      "name": "Any Time At All",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "youtubeID": "txSs2FFRt8s"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Carry That Weight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "youtubeID": "6B224XDJw6g"
+    },
+    {
+      "name": "Carry That Weight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "youtubeID": "6B224XDJw6g"
+    },
+    {
+      "name": "Carry That Weight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "youtubeID": "6B224XDJw6g"
+    },
+    {
+      "name": "Carry That Weight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "youtubeID": "6B224XDJw6g"
+    },
+    {
+      "name": "Crazy Little Thing Called Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "youtubeID": "zO6D_BAuYCI"
+    },
+    {
+      "name": "Crazy Little Thing Called Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "youtubeID": "zO6D_BAuYCI"
+    },
+    {
+      "name": "Crazy Little Thing Called Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "youtubeID": "zO6D_BAuYCI"
+    },
+    {
+      "name": "Crazy Little Thing Called Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "youtubeID": "zO6D_BAuYCI"
+    },
+    {
+      "name": "Dear Prudence",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
+      "youtubeID": "IUKYiQCB7ss"
+    },
+    {
+      "name": "Dear Prudence",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
+      "youtubeID": "IUKYiQCB7ss"
+    },
+    {
+      "name": "Dig a Pony",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
+      "youtubeID": "TiciTBTvFMo"
+    },
+    {
+      "name": "Dig a Pony",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
+      "youtubeID": "TiciTBTvFMo"
+    },
+    {
+      "name": "Do You Want To Know A Secret",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_9",
+      "youtubeID": "3T7iFfkX_nA"
+    },
+    {
+      "name": "Do You Want To Know A Secret",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_9",
+      "youtubeID": "3T7iFfkX_nA"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Fat Bottomed Girls",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
+      "youtubeID": "VMnjF1O4eH0"
+    },
+    {
+      "name": "Fat Bottomed Girls",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
+      "youtubeID": "VMnjF1O4eH0"
+    },
+    {
+      "name": "Getting Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "youtubeID": "nqomuMaW1Fw"
+    },
+    {
+      "name": "Getting Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "youtubeID": "nqomuMaW1Fw"
+    },
+    {
+      "name": "Getting Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "youtubeID": "nqomuMaW1Fw"
+    },
+    {
+      "name": "Getting Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "youtubeID": "nqomuMaW1Fw"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Good Night",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
+      "youtubeID": "OiLr2Vk9xR4"
+    },
+    {
+      "name": "Good Night",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
+      "youtubeID": "OiLr2Vk9xR4"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "Hold Me Tight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
+      "youtubeID": "BiLpp-G6M-I"
+    },
+    {
+      "name": "Hold Me Tight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
+      "youtubeID": "BiLpp-G6M-I"
+    },
+    {
+      "name": "I Saw Her Standing There",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
+      "youtubeID": "mwBdWVTR-o8"
+    },
+    {
+      "name": "I Saw Her Standing There",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
+      "youtubeID": "mwBdWVTR-o8"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "I Wanna Be Your Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "youtubeID": "mnct7Qf3SUQ"
+    },
+    {
+      "name": "I Wanna Be Your Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "youtubeID": "mnct7Qf3SUQ"
+    },
+    {
+      "name": "I Wanna Be Your Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "youtubeID": "mnct7Qf3SUQ"
+    },
+    {
+      "name": "I Wanna Be Your Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "youtubeID": "mnct7Qf3SUQ"
+    },
+    {
+      "name": "I Want It All",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "youtubeID": "hFDcoX7s6rE"
+    },
+    {
+      "name": "I Want It All",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "youtubeID": "hFDcoX7s6rE"
+    },
+    {
+      "name": "I Want It All",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "youtubeID": "hFDcoX7s6rE"
+    },
+    {
+      "name": "I Want It All",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "youtubeID": "hFDcoX7s6rE"
+    },
+    {
+      "name": "I Want To Break Free",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "youtubeID": "f4Mc-NYPHaQ"
+    },
+    {
+      "name": "I Want To Break Free",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "youtubeID": "f4Mc-NYPHaQ"
+    },
+    {
+      "name": "I Want To Break Free",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "youtubeID": "f4Mc-NYPHaQ"
+    },
+    {
+      "name": "I Want To Break Free",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "youtubeID": "f4Mc-NYPHaQ"
+    },
+    {
+      "name": "I Want To Tell You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
+      "youtubeID": "qg9xSo-WEGc"
+    },
+    {
+      "name": "I Want To Tell You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
+      "youtubeID": "qg9xSo-WEGc"
+    },
+    {
+      "name": "I Will",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "youtubeID": "IJ6bAHOvPH0"
+    },
+    {
+      "name": "I Will",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "youtubeID": "IJ6bAHOvPH0"
+    },
+    {
+      "name": "I Will",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "youtubeID": "IJ6bAHOvPH0"
+    },
+    {
+      "name": "I Will",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "youtubeID": "IJ6bAHOvPH0"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "If I Needed Someone",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "youtubeID": "A8dLntONeIA"
+    },
+    {
+      "name": "If I Needed Someone",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "youtubeID": "A8dLntONeIA"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Love You To",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
+      "youtubeID": "Mki1p2Fbr28"
+    },
+    {
+      "name": "Love You To",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
+      "youtubeID": "Mki1p2Fbr28"
+    },
+    {
+      "name": "Lucy In The Sky With Diamonds",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
+      "youtubeID": "mgNYK96lQOg"
+    },
+    {
+      "name": "Lucy In The Sky With Diamonds",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
+      "youtubeID": "mgNYK96lQOg"
+    },
+    {
+      "name": "Magical Mystery Tour",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
+      "youtubeID": "K2xpbKBuTEw"
+    },
+    {
+      "name": "Magical Mystery Tour",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
+      "youtubeID": "K2xpbKBuTEw"
+    },
+    {
+      "name": "Martha My Dear",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_278",
+      "youtubeID": "RXawa90YU2s"
+    },
+    {
+      "name": "Martha My Dear",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_278",
+      "youtubeID": "RXawa90YU2s"
+    },
+    {
+      "name": "Misery",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
+      "youtubeID": "VqNT0fjlzmE"
+    },
+    {
+      "name": "Misery",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
+      "youtubeID": "VqNT0fjlzmE"
+    },
+    {
+      "name": "Mother Nature's Son",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_196",
+      "youtubeID": "OfFS4Lu83EY"
+    },
+    {
+      "name": "Mother Nature's Son",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_196",
+      "youtubeID": "OfFS4Lu83EY"
+    },
+    {
+      "name": "Piggies",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
+      "youtubeID": "O3bCtx7SNAE"
+    },
+    {
+      "name": "Piggies",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
+      "youtubeID": "O3bCtx7SNAE"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Run For Your Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
+      "youtubeID": "fDa7bOUEsGE"
+    },
+    {
+      "name": "Run For Your Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
+      "youtubeID": "fDa7bOUEsGE"
+    },
+    {
+      "name": "Save Me",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
+      "youtubeID": "Iw3izcZd9zU"
+    },
+    {
+      "name": "Save Me",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
+      "youtubeID": "Iw3izcZd9zU"
+    },
+    {
+      "name": "She Said She Said",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
+      "youtubeID": "nsd6JVAXI3Q"
+    },
+    {
+      "name": "She Said She Said",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
+      "youtubeID": "nsd6JVAXI3Q"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Strawberry Fields Forever",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
+      "youtubeID": "HtUH9z_Oey8"
+    },
+    {
+      "name": "Strawberry Fields Forever",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
+      "youtubeID": "HtUH9z_Oey8"
+    },
+    {
+      "name": "Taxman",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
+      "youtubeID": "ZAWugfIKyWA"
+    },
+    {
+      "name": "Taxman",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
+      "youtubeID": "ZAWugfIKyWA"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "The Word",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_249",
+      "youtubeID": "x9kmeGIdEow"
+    },
+    {
+      "name": "The Word",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_249",
+      "youtubeID": "x9kmeGIdEow"
+    },
+    {
+      "name": "The Word",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_249",
+      "youtubeID": "x9kmeGIdEow"
+    },
+    {
+      "name": "The Word",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_249",
+      "youtubeID": "x9kmeGIdEow"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Tomorrow Never Knows",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
+      "youtubeID": "pHNbHn3i9S4"
+    },
+    {
+      "name": "Tomorrow Never Knows",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
+      "youtubeID": "pHNbHn3i9S4"
+    },
+    {
+      "name": "We Are The Champions",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_1",
+      "youtubeID": "04854XqcfCY"
+    },
+    {
+      "name": "We Are The Champions",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_1",
+      "youtubeID": "04854XqcfCY"
+    },
+    {
+      "name": "We Are The Champions",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_1",
+      "youtubeID": "04854XqcfCY"
+    },
+    {
+      "name": "We Are The Champions",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_1",
+      "youtubeID": "04854XqcfCY"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "d3AAwZJe8pSRMvPq6dzJG",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
+      "metadata": {
+        "lyricLine": "Ah-ah-ah, ah-ah-ahh"
+      },
+      "relationships": [
+        {
+          "annotationID": "UeCk9U6TV8qJCkJAIhn7e",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "pvCnDyYwV3OlzJm9qAWP-",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
+      "metadata": {
+        "lyricLine": "Ah-ah-ah, ah-ah-ahh"
+      },
+      "relationships": [
+        {
+          "annotationID": "JqaIEgM2uP_dsh3bO7eVl",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "El_o4gUDmfabNRogt6F6P",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
+      "metadata": {
+        "lyricLine": "Remember I'll always be true"
+      },
+      "relationships": [
+        {
+          "annotationID": "PDbv2SA9eiGO55ZtgHnq8",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "92dDtt6IGLpyrRaE5WAXb",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
+      "metadata": {
+        "lyricLine": "Remember I'll always be true"
+      },
+      "relationships": [
+        {
+          "annotationID": "3sv43moDP0_0WOYupQwsv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Pt37PXiYnQsBsPKIMGxv6",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "metadata": {
+        "lyricLine": "You took me for everything that I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "PtCsB6oWbBi6yaZhc0P_P",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "sXlSx1SqvzSb-afYz6BAu",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "0WBPG27Ko6KaLMuVunfpA",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "rFZ_B9S9Qqt6rj3zhaYpC",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "metadata": {
+        "lyricLine": "You took me for everything that I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "6sFNlzWMQd_61MjHGq33C",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "YgR2_PxCMBtmFDM5cXwpw",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "S-9uzfXhBEVOiPLAJKVmM",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "PtCsB6oWbBi6yaZhc0P_P",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "metadata": {
+        "lyricLine": "You took me for everything that I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "Pt37PXiYnQsBsPKIMGxv6",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "sXlSx1SqvzSb-afYz6BAu",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "0WBPG27Ko6KaLMuVunfpA",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6sFNlzWMQd_61MjHGq33C",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "metadata": {
+        "lyricLine": "You took me for everything that I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "rFZ_B9S9Qqt6rj3zhaYpC",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "YgR2_PxCMBtmFDM5cXwpw",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "S-9uzfXhBEVOiPLAJKVmM",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "sXlSx1SqvzSb-afYz6BAu",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "metadata": {
+        "lyricLine": "You took me for everything that I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "Pt37PXiYnQsBsPKIMGxv6",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "PtCsB6oWbBi6yaZhc0P_P",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "0WBPG27Ko6KaLMuVunfpA",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "YgR2_PxCMBtmFDM5cXwpw",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "metadata": {
+        "lyricLine": "You took me for everything that I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "rFZ_B9S9Qqt6rj3zhaYpC",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "6sFNlzWMQd_61MjHGq33C",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "S-9uzfXhBEVOiPLAJKVmM",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Y4Fb3n48WKamEYkBIjvCf",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "metadata": {
+        "lyricLine": "If you need somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "ikT5tH8faxj0AOiRN-65k",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "b0tSXwIXe8L8nRK4152nP",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "metadata": {
+        "lyricLine": "If you need somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "Kb7nGuNzkbyAzSETpnIoV",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0zUkIDn83a39Csahzj-zJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Anyone can see"
+      },
+      "relationships": [
+        {
+          "annotationID": "TNSE0I5FDqjT5qnSC5yEv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "XHDzUW65xIU6vsNTef27L",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Open your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "JLRZOfNjQ5VXs_926hZ51",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "pSWY3Q8Iy6StXqXu3F8-t",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Open your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "gK9NN33SD1UgWz4TrWyp_",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "BTrchn-9FBwHJzka959PI",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Nothing really matters to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "mCnPjPsAmtRQfZ0oFzf3r",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "le2-0NLo5wF1JYVxpYjOY",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Any way the wind blows"
+      },
+      "relationships": [
+        {
+          "annotationID": "-hKTJiShPP0cIQnmlSr1s",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "24dOk6KS3J8egMNSHq74x",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Any way the wind blows"
+      },
+      "relationships": [
+        {
+          "annotationID": "29Fuiqadx-zRAzRBueV0q",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "E4P6vwsHX0ZhMj0iRVph4",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Anyone can see"
+      },
+      "relationships": [
+        {
+          "annotationID": "NyfuKwP6wsKNYafxRK79J",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zCwN36l1ONUGEE01qs7Ae",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Open your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "S-s0rxrEkylGwf-BwHyF_",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zxW7VIZTEu4b-EQFc6ptR",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Open your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "jf2znVgA6U10fDQFlYqYq",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q59vc8yAhuysd1Y9pnBCx",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "metadata": {
+        "lyricLine": "Nothing really matters to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "vm0vjgwu4krZQ9_6hLMoc",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "kSqFagIO3h54TCY1lOpeo",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "-RBm_cQ-t04Ji3xeKTyDG",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "NsroxfRAW8Dl-cwfzzUb2",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "eEVEW51lfTMdIhzlEPM_f",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "OBAh4rCrt8BO7bpZDbqag",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "Ax6VJEuUDV1wUYpBx2wco",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "xMXbfvaWjw2Y4AGJnUzd6",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "lIxPjun7PEdgsvaprTCJh",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "tnmPrIqwrXFQvazI3BEfC",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "metadata": {
+        "lyricLine": "She drives me crazy"
+      },
+      "relationships": [
+        {
+          "annotationID": "2Uvx5NfN8YiQWpW6uTV7E",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QVHcfIIxFzz-UmX71v2Jk",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "metadata": {
+        "lyricLine": "She drives me crazy"
+      },
+      "relationships": [
+        {
+          "annotationID": "K-P79qPD-hZh-YQzsBvpN",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "diYJsZLSvTuDVU3Xf3qJK",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "metadata": {
+        "lyricLine": "She drives me crazy"
+      },
+      "relationships": [
+        {
+          "annotationID": "zDjjsVCcpzQUc5NEa2aJ_",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "MotWvZxAwVyOAaLu4b12Z",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "metadata": {
+        "lyricLine": "She drives me crazy"
+      },
+      "relationships": [
+        {
+          "annotationID": "rlfqJ99cB7jKTBqZj5qc8",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "JLRZOfNjQ5VXs_926hZ51",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
+      "metadata": {
+        "lyricLine": "Open up your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "XHDzUW65xIU6vsNTef27L",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "S-s0rxrEkylGwf-BwHyF_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
+      "metadata": {
+        "lyricLine": "Open up your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "zCwN36l1ONUGEE01qs7Ae",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "-hKTJiShPP0cIQnmlSr1s",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
+      "metadata": {
+        "lyricLine": "I feel the wind blow"
+      },
+      "relationships": [
+        {
+          "annotationID": "le2-0NLo5wF1JYVxpYjOY",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "29Fuiqadx-zRAzRBueV0q",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
+      "metadata": {
+        "lyricLine": "I feel the wind blow"
+      },
+      "relationships": [
+        {
+          "annotationID": "24dOk6KS3J8egMNSHq74x",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "u2sHmtFNp9ViCIqvGbPba",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "metadata": {
+        "lyricLine": "Just give me a call"
+      },
+      "relationships": [
+        {
+          "annotationID": "2N7hI8rwGEbpyoiEuj9px",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6aEvzU2IgrKdkk_kKZM44",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "metadata": {
+        "lyricLine": "Just give me a call"
+      },
+      "relationships": [
+        {
+          "annotationID": "a3jWESjyNib8muWK5QCTe",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ISYMvHX9Jti2oQJEmgkC1",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "metadata": {
+        "lyricLine": "Just give me a call"
+      },
+      "relationships": [
+        {
+          "annotationID": "c0bqoHdjrLX4EaKIu3S0S",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "UeCk9U6TV8qJCkJAIhn7e",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "metadata": {
+        "lyricLine": "Ha da da, ha da da ahh"
+      },
+      "relationships": [
+        {
+          "annotationID": "d3AAwZJe8pSRMvPq6dzJG",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "JqaIEgM2uP_dsh3bO7eVl",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "metadata": {
+        "lyricLine": "Ha da da, ha da da ahh"
+      },
+      "relationships": [
+        {
+          "annotationID": "pvCnDyYwV3OlzJm9qAWP-",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "yP9Y5Rwg2hkM64hXWR0-L",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "metadata": {
+        "lyricLine": "Just give me a call"
+      },
+      "relationships": [
+        {
+          "annotationID": "Q6CdnoP_5cXrnPJ4VeL_R",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "n2BO2oN3VWl8mNMZwwoS7",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
+      "metadata": {
+        "lyricLine": "Hey, listen here"
+      },
+      "relationships": [
+        {
+          "annotationID": "ym2Np7Lg3INBH2kE4_Pal",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "TRlMDENpqzRxXfkWs9XL_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
+      "metadata": {
+        "lyricLine": "Hey, listen here"
+      },
+      "relationships": [
+        {
+          "annotationID": "JcdFHm1SxeglTlBmOFJwd",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Nk8F8Grwpeff5gFaWSoER",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "metadata": {
+        "lyricLine": "Me hiding me head in the sand"
+      },
+      "relationships": [
+        {
+          "annotationID": "LPy0botlqbiLYj566DRkR",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "WKw_nvMDAhnjZgdDWrCHN",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "metadata": {
+        "lyricLine": "Me hiding me head in the sand"
+      },
+      "relationships": [
+        {
+          "annotationID": "4AAbpUQ_4nMlRit2X9Cq4",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ym2Np7Lg3INBH2kE4_Pal",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "metadata": {
+        "lyricLine": "Listen to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "n2BO2oN3VWl8mNMZwwoS7",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "JcdFHm1SxeglTlBmOFJwd",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "metadata": {
+        "lyricLine": "Listen to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "TRlMDENpqzRxXfkWs9XL_",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "43gAV20Kwan8RJsnSGgO3",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
+      "metadata": {
+        "lyricLine": "Everybody, everywhere"
+      },
+      "relationships": [
+        {
+          "annotationID": "dlkLwEvMfg9UxaBi9279l",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "awy2oNKbpZTAYImJmp7J6",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
+      "metadata": {
+        "lyricLine": "Everybody, everywhere"
+      },
+      "relationships": [
+        {
+          "annotationID": "YugbDDtlPGKftz2dHd7jH",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "qIn3mz7LNKsXtoMDaeB4x",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "metadata": {
+        "lyricLine": "One more time"
+      },
+      "relationships": [
+        {
+          "annotationID": "zTB4vpW1FX7IK3v_4HVOp",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "FuJPJNBTbMb0nLYXuemLJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "metadata": {
+        "lyricLine": "Tow the line and play their game"
+      },
+      "relationships": [
+        {
+          "annotationID": "1lrHxUZk1WKIsPzNfOaM2",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "j8h_r-kUeA8EbCMMCRe8z",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "metadata": {
+        "lyricLine": "Tow the line and play their game"
+      },
+      "relationships": [
+        {
+          "annotationID": "hxe6XYi9ofI2NOAQu_Okh",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "PPEhy4WhxCLUu0C0_6_93",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "metadata": {
+        "lyricLine": "Tow the line and play their game"
+      },
+      "relationships": [
+        {
+          "annotationID": "ZdRsb4B_QMfNmNmD71hd2",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "HKLb86O7lw0n0yWt0NGFU",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "metadata": {
+        "lyricLine": "Tow the line and play their game"
+      },
+      "relationships": [
+        {
+          "annotationID": "OTygcRvkpHoSj-9ZX5COP",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "LNqm_XUERmvyrYm6xInt6",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "metadata": {
+        "lyricLine": "One more time"
+      },
+      "relationships": [
+        {
+          "annotationID": "xClKbY7U5BDEBvIAA06ES",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ehTKhXfuO0-6N82TaemIr",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
+      "metadata": {
+        "lyricLine": "Tell me I'm the only one"
+      },
+      "relationships": [
+        {
+          "annotationID": "szhdI-DBsrWaHusDmFDbZ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QFqljSvRFwphNlxf9i_EE",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
+      "metadata": {
+        "lyricLine": "Tell me I'm the only one"
+      },
+      "relationships": [
+        {
+          "annotationID": "t2SjyWKSxldsYp40MimrR",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "XpkQUSrMJWgj8Fgqni1av",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
+      "metadata": {
+        "lyricLine": "One, two, three, four!"
+      },
+      "relationships": [
+        {
+          "annotationID": "0KFSV6MDRVdgbzw2LHsoh",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "fFoXFuWTSDIFQB4wQwp3p",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
+      "metadata": {
+        "lyricLine": "One, two, three, four!"
+      },
+      "relationships": [
+        {
+          "annotationID": "y1n2wgj_VR9z9925ExkN0",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "C0IJqyT9q1nPb_coRf5uH",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "That I would love everything that you do"
+      },
+      "relationships": [
+        {
+          "annotationID": "pCZVSC6fDAftUM_KG2bKb",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Kp3IYhO_3zMo58g3V0RqR",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "You're gonna say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "Nrk6M0md40wRYeO5U1SZq",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "7mSXihkAIcvHkQ-0rCSu5",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "You're gonna say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "mvO-Hm8nPGNdkMmLQ4Sl1",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Rxp4qIhe3b6XFrPCnoO8c",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "You're gonna say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "u__xSvVkjeno-bUpt_nYl",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "lWgkYAf9rJ4_fomMxxrcO",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "You're going to say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "j_mJlUO8_RJX3MhT5hojj",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "s7JPF8r4Z5E4W6BIBdb_U",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "That I would love everything that you do"
+      },
+      "relationships": [
+        {
+          "annotationID": "wvRYcDvkUVmpODfAcXBSw",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zGJm1NQQbvXMMnQixUFb8",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "You're going to say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "SHAdHjcabn3nOvnyopQIz",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "c7gIwZ--6LMkKJzsnOcs4",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "metadata": {
+        "lyricLine": "You're gonna say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "ThWjtoYK4OMr7UHlV3W2K",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "UNJOKxelEnrFnDIyxyjX_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "metadata": {
+        "lyricLine": "Tell me that you love me baby"
+      },
+      "relationships": [
+        {
+          "annotationID": "QGZqJXNbQFqlzD3ujzZ4v",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "XXHODHkd4YF-28poZXxnv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "metadata": {
+        "lyricLine": "Tell me that you love me baby"
+      },
+      "relationships": [
+        {
+          "annotationID": "NI-DomrTFi6NjoZlLhUoF",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "it6xds3bXyed8LUmjrZXg",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "metadata": {
+        "lyricLine": "Let me understand"
+      },
+      "relationships": [
+        {
+          "annotationID": "U9p4FpfHvC680SqQwkcWm",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0DJD-BP5nJAKsw4ugWW_I",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "metadata": {
+        "lyricLine": "Let me understand"
+      },
+      "relationships": [
+        {
+          "annotationID": "AASLTsFZmKDKSLLGJjAlu",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2N7hI8rwGEbpyoiEuj9px",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "metadata": {
+        "lyricLine": "Just give me the sign"
+      },
+      "relationships": [
+        {
+          "annotationID": "u2sHmtFNp9ViCIqvGbPba",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "a3jWESjyNib8muWK5QCTe",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "metadata": {
+        "lyricLine": "Just give me the sign"
+      },
+      "relationships": [
+        {
+          "annotationID": "6aEvzU2IgrKdkk_kKZM44",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "c0bqoHdjrLX4EaKIu3S0S",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "metadata": {
+        "lyricLine": "Just give me the sign"
+      },
+      "relationships": [
+        {
+          "annotationID": "ISYMvHX9Jti2oQJEmgkC1",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q6CdnoP_5cXrnPJ4VeL_R",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "metadata": {
+        "lyricLine": "Just give me the sign"
+      },
+      "relationships": [
+        {
+          "annotationID": "yP9Y5Rwg2hkM64hXWR0-L",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "KBOmGzUkMxOKCAmbn9LsZ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "metadata": {
+        "lyricLine": "But I have to be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "cTFlh2q_KBiztKvuuRWac",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "xw7b0q5jXZ2PeYdOlm7Er",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "metadata": {
+        "lyricLine": "But I have to be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "jhgxorfNFvG6VTYAyRXk0",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cc2NiDf65eNY2oX4ZAYSb",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "metadata": {
+        "lyricLine": "But I have to be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "_RNEowXnoi1psxuZu_UjJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "HSuOXFJpIRIfeWBcAYP0D",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "metadata": {
+        "lyricLine": "But I have to be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "si3sQvQ5LfPW5zmouAY5s",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "02_GW18AwhqzfEY6JHb2P",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
+      "metadata": {
+        "lyricLine": "It's all right"
+      },
+      "relationships": [
+        {
+          "annotationID": "Z5vB_dDofsKmevXKxTkbS",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Pgudt60zrKg0NBq8IMRwY",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
+      "metadata": {
+        "lyricLine": "It's all right"
+      },
+      "relationships": [
+        {
+          "annotationID": "nxKZvW7ZUi64zuiwP9A7b",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "BySGteIBq1wVoPVw7LgeU",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "metadata": {
+        "lyricLine": "You know I love you still"
+      },
+      "relationships": [
+        {
+          "annotationID": "QoVod1OjOBqslE_rpZnmx",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "U9gzjFq3s-LBjO0nY3rKW",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "metadata": {
+        "lyricLine": "You know I love you still"
+      },
+      "relationships": [
+        {
+          "annotationID": "G0XYR-l9r3JbpX1HULwp-",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "YcvnBvSK0qtK0FU-IyrDj",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "metadata": {
+        "lyricLine": "If you want me to, I will"
+      },
+      "relationships": [
+        {
+          "annotationID": "wpnfkYUp8wS7G1bMqQwqI",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "060rVP_Fi7pvc_ojhsTzn",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "metadata": {
+        "lyricLine": "If you want me to, I will"
+      },
+      "relationships": [
+        {
+          "annotationID": "axrFxo36Svhh8ghOXCCy6",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cTFlh2q_KBiztKvuuRWac",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "I must be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "KBOmGzUkMxOKCAmbn9LsZ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "jhgxorfNFvG6VTYAyRXk0",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "I must be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "xw7b0q5jXZ2PeYdOlm7Er",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "_RNEowXnoi1psxuZu_UjJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "I must be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "cc2NiDf65eNY2oX4ZAYSb",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "YQcUBOlP8rZaMjIUnoh4t",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "From the very start"
+      },
+      "relationships": [
+        {
+          "annotationID": "ZAAcE15US9Xgf4-po5e_Y",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "U9p4FpfHvC680SqQwkcWm",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "And help me understand"
+      },
+      "relationships": [
+        {
+          "annotationID": "it6xds3bXyed8LUmjrZXg",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "si3sQvQ5LfPW5zmouAY5s",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "I must be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "HSuOXFJpIRIfeWBcAYP0D",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t8-RhQEkg4Dt6diIICVcP",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "From the very start"
+      },
+      "relationships": [
+        {
+          "annotationID": "cdCwc9mbCNIdDmsdlV4kH",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "AASLTsFZmKDKSLLGJjAlu",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "metadata": {
+        "lyricLine": "And help me understand"
+      },
+      "relationships": [
+        {
+          "annotationID": "0DJD-BP5nJAKsw4ugWW_I",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "iaMG7SVitazCHWvysnfOF",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "metadata": {
+        "lyricLine": "If I needed someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "AV9djR-KZebiVrZe_hhEr",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "qBe9_PhUUDh883HpnLHRc",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "metadata": {
+        "lyricLine": "If I needed someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "0JixXXoFFPuFvOusXFNjv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GgjuVXyV9w3a1FuzOXGuz",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "So come, come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "84VoBO4bDrsfwo_uZ_KtT",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "9ZNBpT1gCWm2YTrBhkykr",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "Just come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "t5Zc1emJ6ByGc9qTWBshn",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "in1niOo_oDZ4Ra6aIMCUC",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "Just come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "Dx7tbGvDWdhn6SJtRcm-M",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "_WG4smkSyYD33I4502BT-",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "Just come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "ouEmvMkt8CC5zE6lKMW85",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zuKQ668MhHL4gUpAwWjdY",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "Just come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "BKX-dOTTUklQ4pdtnS2FH",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QH3mHI0GW79iiFaelEEB5",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "So come, come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "gaueshgpW3Pyd8aonL-Zj",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Rw5d1jZ_Y320Y9hSMV6CJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "Just come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "0r5YD3rfxz9S9gY4xnnxy",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "D1_VoxxwCKSd0CKQmmecq",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "So come, come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "plIJUiiRxgH5rB2LW5yNm",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6B1BvwKy_rolsTMU958EK",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "Just come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "6yyTdgHIOYorp5-8cGvRR",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "WZxmmHdNIQ5hERKj_S65T",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "metadata": {
+        "lyricLine": "So come, come on, come on"
+      },
+      "relationships": [
+        {
+          "annotationID": "9iWhWXv7nXSX0q1jVRsFQ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "p4N5hZCy3iCI6rCIbzdjC",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "PHLf16oFxMrmcsjOFvy9_",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Qq990R3c8gcY1taK9UhU3",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "5hidoB3FiTXa_-DLhr11o",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QoVod1OjOBqslE_rpZnmx",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "You know I love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "BySGteIBq1wVoPVw7LgeU",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "G0XYR-l9r3JbpX1HULwp-",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "You know I love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "U9gzjFq3s-LBjO0nY3rKW",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "-cJiuQEZbeDyLRY95XZHC",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "_qOIl_SxAC8X5Z6GYGH8V",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "9XYXNyc3iwkDiVYa_aqFS",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "QSJp_benZi6JPmmrXORRJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "MlpXFy2vQp7rAAuaPnFdc",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "You know I love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "L7LakxNR-65kd9_mA4WoJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "PDbv2SA9eiGO55ZtgHnq8",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "I'll always be true"
+      },
+      "relationships": [
+        {
+          "annotationID": "El_o4gUDmfabNRogt6F6P",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "9B9RPp1ZqVlnfYel7ClSf",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "Z0saOaxabyO05UwRVg4Q5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t02ZEYCE26R9ndMt5C0oj",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "pPA4EQEsK71UtwOFWJvr4",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "B8M4SlrFi2NwQ07LmkyVG",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "You know I love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "YUUI0GuakatPYa6KFC6wQ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "WvpZq2du4mUA_RN_eMqZr",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "VNlS0-4IXl9ZYmNio6Lnw",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "VcLvyIoY0CoxqriV9jgxs",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "OupkeJxoF9V1Rs4avksYv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "MaUlOTaAb1clWFDNonODr",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "ReJV_pvFtPckbuMaVxUG5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "jvWPLsVJQS2dell6G4TLW",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "You know I love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "Q246hc1zr_UOavfeYwJb0",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "3sv43moDP0_0WOYupQwsv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "I'll always be true"
+      },
+      "relationships": [
+        {
+          "annotationID": "92dDtt6IGLpyrRaE5WAXb",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QQhbeQVN_ZEGhRIKj37sN",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "You know I love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "iTQM9x8MgEWsNkTEjLeLL",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "JOH6SKOqqUJM-mAUYrUBJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "W4QmtkVbfgbxJ0LT5n_vG",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "X2PzGljkMUPxOvRnTM67g",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "DP8H2gKLiX4F0BR2nwh0e",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "XiPsoMOJ6ml5eOL8iy7SE",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "metadata": {
+        "lyricLine": "Someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "6ZPil67zMK4rrx0gJs0q5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "wpnfkYUp8wS7G1bMqQwqI",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
+      "metadata": {
+        "lyricLine": "If you want me to"
+      },
+      "relationships": [
+        {
+          "annotationID": "YcvnBvSK0qtK0FU-IyrDj",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "axrFxo36Svhh8ghOXCCy6",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
+      "metadata": {
+        "lyricLine": "If you want me to"
+      },
+      "relationships": [
+        {
+          "annotationID": "060rVP_Fi7pvc_ojhsTzn",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0zjBldhYyammu26X8pHHA",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
+      "metadata": {
+        "lyricLine": "Waiting to take you away"
+      },
+      "relationships": [
+        {
+          "annotationID": "5-rI_8iK5ObptKSoSyZMG",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "eMxWEZf7pJRFxUITdGmJY",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
+      "metadata": {
+        "lyricLine": "Waiting to take you away"
+      },
+      "relationships": [
+        {
+          "annotationID": "GC0rSZx-8tyOCVVEySYV1",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "5-rI_8iK5ObptKSoSyZMG",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
+      "metadata": {
+        "lyricLine": "Hoping to take you away"
+      },
+      "relationships": [
+        {
+          "annotationID": "0zjBldhYyammu26X8pHHA",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "GC0rSZx-8tyOCVVEySYV1",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
+      "metadata": {
+        "lyricLine": "Hoping to take you away"
+      },
+      "relationships": [
+        {
+          "annotationID": "eMxWEZf7pJRFxUITdGmJY",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "TNSE0I5FDqjT5qnSC5yEv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
+      "metadata": {
+        "lyricLine": "'Cause everyone can see"
+      },
+      "relationships": [
+        {
+          "annotationID": "0zUkIDn83a39Csahzj-zJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "NyfuKwP6wsKNYafxRK79J",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
+      "metadata": {
+        "lyricLine": "'Cause everyone can see"
+      },
+      "relationships": [
+        {
+          "annotationID": "E4P6vwsHX0ZhMj0iRVph4",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zTB4vpW1FX7IK3v_4HVOp",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
+      "metadata": {
+        "lyricLine": "One more time"
+      },
+      "relationships": [
+        {
+          "annotationID": "qIn3mz7LNKsXtoMDaeB4x",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "xClKbY7U5BDEBvIAA06ES",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
+      "metadata": {
+        "lyricLine": "One more time"
+      },
+      "relationships": [
+        {
+          "annotationID": "LNqm_XUERmvyrYm6xInt6",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "gK9NN33SD1UgWz4TrWyp_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Open up your mind"
+      },
+      "relationships": [
+        {
+          "annotationID": "pSWY3Q8Iy6StXqXu3F8-t",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1lrHxUZk1WKIsPzNfOaM2",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Play the game, play the game"
+      },
+      "relationships": [
+        {
+          "annotationID": "FuJPJNBTbMb0nLYXuemLJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "hxe6XYi9ofI2NOAQu_Okh",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Play the game, play the game"
+      },
+      "relationships": [
+        {
+          "annotationID": "j8h_r-kUeA8EbCMMCRe8z",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "2Uvx5NfN8YiQWpW6uTV7E",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Driving me insane"
+      },
+      "relationships": [
+        {
+          "annotationID": "tnmPrIqwrXFQvazI3BEfC",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "K-P79qPD-hZh-YQzsBvpN",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Driving me insane"
+      },
+      "relationships": [
+        {
+          "annotationID": "QVHcfIIxFzz-UmX71v2Jk",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ZdRsb4B_QMfNmNmD71hd2",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Play the game, play the game"
+      },
+      "relationships": [
+        {
+          "annotationID": "PPEhy4WhxCLUu0C0_6_93",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zDjjsVCcpzQUc5NEa2aJ_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Driving me insane"
+      },
+      "relationships": [
+        {
+          "annotationID": "diYJsZLSvTuDVU3Xf3qJK",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "OTygcRvkpHoSj-9ZX5COP",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Play the game, play the game"
+      },
+      "relationships": [
+        {
+          "annotationID": "HKLb86O7lw0n0yWt0NGFU",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "rlfqJ99cB7jKTBqZj5qc8",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Driving me insane"
+      },
+      "relationships": [
+        {
+          "annotationID": "MotWvZxAwVyOAaLu4b12Z",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "jf2znVgA6U10fDQFlYqYq",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "metadata": {
+        "lyricLine": "Open up your mind"
+      },
+      "relationships": [
+        {
+          "annotationID": "zxW7VIZTEu4b-EQFc6ptR",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "84VoBO4bDrsfwo_uZ_KtT",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), Come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "GgjuVXyV9w3a1FuzOXGuz",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t5Zc1emJ6ByGc9qTWBshn",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "9ZNBpT1gCWm2YTrBhkykr",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Dx7tbGvDWdhn6SJtRcm-M",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on) Come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "in1niOo_oDZ4Ra6aIMCUC",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ouEmvMkt8CC5zE6lKMW85",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), Come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "_WG4smkSyYD33I4502BT-",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "BKX-dOTTUklQ4pdtnS2FH",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "zuKQ668MhHL4gUpAwWjdY",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "gaueshgpW3Pyd8aonL-Zj",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "QH3mHI0GW79iiFaelEEB5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0r5YD3rfxz9S9gY4xnnxy",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), Come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "Rw5d1jZ_Y320Y9hSMV6CJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "plIJUiiRxgH5rB2LW5yNm",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), Come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "D1_VoxxwCKSd0CKQmmecq",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6yyTdgHIOYorp5-8cGvRR",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on) Come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "6B1BvwKy_rolsTMU958EK",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "9iWhWXv7nXSX0q1jVRsFQ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "metadata": {
+        "lyricLine": "Come on (Come on), come on (Come on)"
+      },
+      "relationships": [
+        {
+          "annotationID": "WZxmmHdNIQ5hERKj_S65T",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "LPy0botlqbiLYj566DRkR",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
+      "metadata": {
+        "lyricLine": "Hide your head in the sand little girl"
+      },
+      "relationships": [
+        {
+          "annotationID": "Nk8F8Grwpeff5gFaWSoER",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "4AAbpUQ_4nMlRit2X9Cq4",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
+      "metadata": {
+        "lyricLine": "Hide your head in the sand little girl"
+      },
+      "relationships": [
+        {
+          "annotationID": "WKw_nvMDAhnjZgdDWrCHN",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "YUUI0GuakatPYa6KFC6wQ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
+      "metadata": {
+        "lyricLine": "How I loved you"
+      },
+      "relationships": [
+        {
+          "annotationID": "B8M4SlrFi2NwQ07LmkyVG",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "iTQM9x8MgEWsNkTEjLeLL",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
+      "metadata": {
+        "lyricLine": "How I loved you"
+      },
+      "relationships": [
+        {
+          "annotationID": "QQhbeQVN_ZEGhRIKj37sN",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Z5vB_dDofsKmevXKxTkbS",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
+      "metadata": {
+        "lyricLine": "Everything was right"
+      },
+      "relationships": [
+        {
+          "annotationID": "02_GW18AwhqzfEY6JHb2P",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "nxKZvW7ZUi64zuiwP9A7b",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
+      "metadata": {
+        "lyricLine": "Everything was right"
+      },
+      "relationships": [
+        {
+          "annotationID": "Pgudt60zrKg0NBq8IMRwY",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "PHLf16oFxMrmcsjOFvy9_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "(Somebody to love)"
+      },
+      "relationships": [
+        {
+          "annotationID": "p4N5hZCy3iCI6rCIbzdjC",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "5hidoB3FiTXa_-DLhr11o",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "(Somebody to love)"
+      },
+      "relationships": [
+        {
+          "annotationID": "Qq990R3c8gcY1taK9UhU3",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ikT5tH8faxj0AOiRN-65k",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "Y4Fb3n48WKamEYkBIjvCf",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "_qOIl_SxAC8X5Z6GYGH8V",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "-cJiuQEZbeDyLRY95XZHC",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QSJp_benZi6JPmmrXORRJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Someone to love?)"
+      },
+      "relationships": [
+        {
+          "annotationID": "9XYXNyc3iwkDiVYa_aqFS",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "AV9djR-KZebiVrZe_hhEr",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "iaMG7SVitazCHWvysnfOF",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Kb7nGuNzkbyAzSETpnIoV",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "b0tSXwIXe8L8nRK4152nP",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Z0saOaxabyO05UwRVg4Q5",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "9B9RPp1ZqVlnfYel7ClSf",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "pPA4EQEsK71UtwOFWJvr4",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "t02ZEYCE26R9ndMt5C0oj",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "dlkLwEvMfg9UxaBi9279l",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Anybody, anywhere, anybody"
+      },
+      "relationships": [
+        {
+          "annotationID": "43gAV20Kwan8RJsnSGgO3",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "VNlS0-4IXl9ZYmNio6Lnw",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "WvpZq2du4mUA_RN_eMqZr",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "OupkeJxoF9V1Rs4avksYv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Somebody to love?"
+      },
+      "relationships": [
+        {
+          "annotationID": "VcLvyIoY0CoxqriV9jgxs",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ReJV_pvFtPckbuMaVxUG5",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Someone to love?)"
+      },
+      "relationships": [
+        {
+          "annotationID": "MaUlOTaAb1clWFDNonODr",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "W4QmtkVbfgbxJ0LT5n_vG",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "JOH6SKOqqUJM-mAUYrUBJ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "YugbDDtlPGKftz2dHd7jH",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Anybody, anywhere, anybody"
+      },
+      "relationships": [
+        {
+          "annotationID": "awy2oNKbpZTAYImJmp7J6",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "DP8H2gKLiX4F0BR2nwh0e",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "X2PzGljkMUPxOvRnTM67g",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6ZPil67zMK4rrx0gJs0q5",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Somebody to love?"
+      },
+      "relationships": [
+        {
+          "annotationID": "XiPsoMOJ6ml5eOL8iy7SE",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0JixXXoFFPuFvOusXFNjv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "metadata": {
+        "lyricLine": "Find me somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "qBe9_PhUUDh883HpnLHRc",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mCnPjPsAmtRQfZ0oFzf3r",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
+      "metadata": {
+        "lyricLine": "It doesn't matter much to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "BTrchn-9FBwHJzka959PI",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "vm0vjgwu4krZQ9_6hLMoc",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
+      "metadata": {
+        "lyricLine": "It doesn't matter much to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "Q59vc8yAhuysd1Y9pnBCx",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "HakJ-hX181Av7IgCb1tV3",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
+      "metadata": {
+        "lyricLine": "One, two... (One, two, three, four)"
+      },
+      "relationships": [
+        {
+          "annotationID": "VDRLzYgENtmUoBvXLi0cF",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0MjRoxgaqvm0O-ZIT8ebe",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
+      "metadata": {
+        "lyricLine": "One, two... (One, two, three, four)"
+      },
+      "relationships": [
+        {
+          "annotationID": "WTwI3VAvl03Zw5kamp8ng",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0WBPG27Ko6KaLMuVunfpA",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "metadata": {
+        "lyricLine": "Well I gave you everything I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "Pt37PXiYnQsBsPKIMGxv6",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "PtCsB6oWbBi6yaZhc0P_P",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "sXlSx1SqvzSb-afYz6BAu",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "S-9uzfXhBEVOiPLAJKVmM",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "metadata": {
+        "lyricLine": "Well I gave you everything I had"
+      },
+      "relationships": [
+        {
+          "annotationID": "rFZ_B9S9Qqt6rj3zhaYpC",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "6sFNlzWMQd_61MjHGq33C",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "YgR2_PxCMBtmFDM5cXwpw",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QGZqJXNbQFqlzD3ujzZ4v",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "UNJOKxelEnrFnDIyxyjX_",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "szhdI-DBsrWaHusDmFDbZ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "Be the only one"
+      },
+      "relationships": [
+        {
+          "annotationID": "ehTKhXfuO0-6N82TaemIr",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t2SjyWKSxldsYp40MimrR",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "Be the only one"
+      },
+      "relationships": [
+        {
+          "annotationID": "QFqljSvRFwphNlxf9i_EE",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "NI-DomrTFi6NjoZlLhUoF",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "XXHODHkd4YF-28poZXxnv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Nrk6M0md40wRYeO5U1SZq",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "Kp3IYhO_3zMo58g3V0RqR",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "mvO-Hm8nPGNdkMmLQ4Sl1",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "7mSXihkAIcvHkQ-0rCSu5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "u__xSvVkjeno-bUpt_nYl",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "Rxp4qIhe3b6XFrPCnoO8c",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "j_mJlUO8_RJX3MhT5hojj",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "lWgkYAf9rJ4_fomMxxrcO",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "SHAdHjcabn3nOvnyopQIz",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "zGJm1NQQbvXMMnQixUFb8",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ThWjtoYK4OMr7UHlV3W2K",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "metadata": {
+        "lyricLine": "You say you will love me"
+      },
+      "relationships": [
+        {
+          "annotationID": "c7gIwZ--6LMkKJzsnOcs4",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "ZAAcE15US9Xgf4-po5e_Y",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
+      "metadata": {
+        "lyricLine": "Of the beginning"
+      },
+      "relationships": [
+        {
+          "annotationID": "YQcUBOlP8rZaMjIUnoh4t",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "cdCwc9mbCNIdDmsdlV4kH",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
+      "metadata": {
+        "lyricLine": "Of the beginning"
+      },
+      "relationships": [
+        {
+          "annotationID": "t8-RhQEkg4Dt6diIICVcP",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "L7LakxNR-65kd9_mA4WoJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "metadata": {
+        "lyricLine": "I really love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "MlpXFy2vQp7rAAuaPnFdc",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "pCZVSC6fDAftUM_KG2bKb",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "metadata": {
+        "lyricLine": "I really love the things that you do"
+      },
+      "relationships": [
+        {
+          "annotationID": "C0IJqyT9q1nPb_coRf5uH",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Q246hc1zr_UOavfeYwJb0",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "metadata": {
+        "lyricLine": "I really love you"
+      },
+      "relationships": [
+        {
+          "annotationID": "jvWPLsVJQS2dell6G4TLW",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "wvRYcDvkUVmpODfAcXBSw",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "metadata": {
+        "lyricLine": "I really love the things that you do"
+      },
+      "relationships": [
+        {
+          "annotationID": "s7JPF8r4Z5E4W6BIBdb_U",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "-RBm_cQ-t04Ji3xeKTyDG",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "You break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "kSqFagIO3h54TCY1lOpeo",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "VDRLzYgENtmUoBvXLi0cF",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "One, two, three, four, five, six, seven"
+      },
+      "relationships": [
+        {
+          "annotationID": "HakJ-hX181Av7IgCb1tV3",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "0KFSV6MDRVdgbzw2LHsoh",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "One, two, three, four, five, six, seven"
+      },
+      "relationships": [
+        {
+          "annotationID": "XpkQUSrMJWgj8Fgqni1av",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "WTwI3VAvl03Zw5kamp8ng",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "One, two, three, four, five, six, seven"
+      },
+      "relationships": [
+        {
+          "annotationID": "0MjRoxgaqvm0O-ZIT8ebe",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "eEVEW51lfTMdIhzlEPM_f",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "NsroxfRAW8Dl-cwfzzUb2",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Ax6VJEuUDV1wUYpBx2wco",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "You break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "OBAh4rCrt8BO7bpZDbqag",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "lIxPjun7PEdgsvaprTCJh",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "xMXbfvaWjw2Y4AGJnUzd6",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "y1n2wgj_VR9z9925ExkN0",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "metadata": {
+        "lyricLine": "One, two, three, four, five, six, seven"
+      },
+      "relationships": [
+        {
+          "annotationID": "fFoXFuWTSDIFQB4wQwp3p",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}
