@@ -25,24 +25,6 @@ const AGENT = {
 }
 
 
-// read query from file
-// in this way you don't need to rebuild the bot for changing query
-
-const harmonicQueryPath = "./queries/harmonic-annotations-2.sparql"
-
-const getAnnotationsQuery = fileReader.read({
-    path:  path.join(__dirname, harmonicQueryPath)
-})
-
-if (!getAnnotationsQuery) {
-    logger.write({
-        msg : "Cannot find query at " + harmonicQueryPath,
-        agent : AGENT,
-        logLevel : LogLevelEnum.Error
-    })
-    throw new Error()
-}
-
 // add IDs to annotations
 const hydrateHarmonicAnnotationIDs = (a: any) => {
     a.id = nanoid()
@@ -93,6 +75,40 @@ const toSonarHarmonicAnnotation = (sparqlRow:any) => {
 };
 
 function main(input : BotCliRunInput) {
+
+
+    /** READ QUERY */
+
+    let getAnnotationsQuery : any
+
+    if (!input.file && !input.query) {
+
+        logger.write({
+            msg : "You must specify a query to extract annotations",
+            agent : AGENT,
+            logLevel : LogLevelEnum.Error
+        })
+    }
+
+
+    if (input.file) {
+         /** Try from file */
+         getAnnotationsQuery = fileReader.read({
+            path:  input.file
+        })
+        if (!getAnnotationsQuery) {
+            logger.write({
+                msg : "Cannot find query at " + input.file,
+                agent : AGENT,
+                logLevel : LogLevelEnum.Error
+            })
+
+        }    
+    }
+    /** Query from cli */
+    if (input.query) {
+        getAnnotationsQuery = input.query
+   }
 
 
     logger.write({
