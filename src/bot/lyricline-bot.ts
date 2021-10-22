@@ -38,16 +38,12 @@ const toSonarSongAnnotation = (sparqlRow: any) => {
 
 const toSonarAppAnnotation = (sparqlRow: any) => {
     return {
+
         id: sparqlRow.id,
-        type: "spatial",
+        type: "lyrics",
         songID: sparqlRow.recordingID,
-        timestamp: getRandomInt(0, 60),
         metadata: {
-            placeLabel: sparqlRow.placeLabel,
-            placeFullAddress: sparqlRow.placeFullAddress,
-            placeLong: sparqlRow.placeLong,
-            placeLat: sparqlRow.placeLat,
-            sessionTypeLabel: sparqlRow.sessionTypeLabel,
+            lyricLine: sparqlRow.lineLabel 
         },
         relationships: sparqlRow.relationships
     }
@@ -70,25 +66,30 @@ const hydrateAnnotationIDs = (data: any[]) => {
 };
 
 // add relationships to annotations
-const hydrateAnnotationRels = (data: any[], maxRelationships: number) => {
-    return data.map(a => hydrateAnnotationRel(a, data, maxRelationships));
+const hydrateAnnotationRels = (data: any[]) => {
+    return data.map(a => hydrateAnnotationRel(a, data));
 };
 
 // add relationships to single annotation
-const hydrateAnnotationRel = (a: any, data: any[], maxRelationships: number) => {
-    let relationshipsSpatial = data
-        .filter(anotherA => anotherA.placeID == a.placeID && anotherA.id !== a.id)
+const hydrateAnnotationRel = (a: any, data: any[]) => {
+    let relationshipsLyrics = data
+        .filter(anotherA => anotherA.lyricSimilarityID == a.lyricSimilarityID && anotherA.id !== a.id)
         .map(anotherA => {
-            return {    
+            return {
                 annotationID: anotherA.id,
-                type: "spatial",
+                type: "lyrics",
                 score: 1,
             }
         })
-    a.relationships = relationshipsSpatial.slice(0, maxRelationships)
+    a.relationships = relationshipsLyrics
     return a;
 };
 
+const filterAnnotationWithoutRelationship = (data: any[]) => {
+    return data.filter(a => {
+        return a.relationships.length > 0
+    })
+}
 
 function main(input : BotCliRunInput) {
 
@@ -162,14 +163,11 @@ function main(input : BotCliRunInput) {
             logLevel : LogLevelEnum.Info
         })
 
-
-        const MAX_RELATIONSHIPS = 10;
-
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
-        const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID, MAX_RELATIONSHIPS);
-        const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
+        const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID);
+        const sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
 
 
         // write new json static file
