@@ -1,0 +1,41 @@
+#!/usr/bin/bash -e
+
+
+SOURCE="https://arco.istc.cnr.it/polifonia/sparql"
+SOURCE_TYPE="sparql"
+
+
+# Lyrics
+LYR_QUERY="queries/lyric-line.sparql"
+LYR_OUT="data-out/demo/lyric-line.json"
+#LYR_OUT=""
+
+
+# Spatials
+SPAT_QUERY="queries/spatial-annotations-rec-process-session.sparql"
+SPAT_OUT="data-out/demo/spat-rec.json"
+#SPAT_OUT=""
+
+
+# Harmonics
+HARM_QUERY="queries/harmonic-annotations.sparql"
+HARM_OUT="data-out/demo/harmonic.json"
+
+# merged out
+
+DEMO_OUT="data-out/demo_dataset.json"
+
+
+# Produce lyric annotations
+node build/bot/lyricline-bot.js run -f $LYR_QUERY -s $SOURCE -t $SOURCE_TYPE -o $LYR_OUT
+
+# Produce spatial annotations
+node build/bot/spatial-bot.js run -f $SPAT_QUERY -s $SOURCE -t $SOURCE_TYPE -o $SPAT_OUT
+
+# Produce harmonic annotations
+node build/bot/harmonic-bot.js run -f $HARM_QUERY -s $SOURCE -t $SOURCE_TYPE -o $HARM_OUT
+
+
+# Merge Annotations
+
+node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT}" -o $DEMO_OUT
