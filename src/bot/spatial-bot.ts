@@ -25,27 +25,6 @@ const AGENT = {
 }
 
 
-// read query from file
-// in this way you don't need to rebuild the bot for changing query
-
-const spatialQueryPath = "./queries/spatial-annotations.sparql"
-
-const getAnnotationsQuery = fileReader.read({
-    path:  path.join(__dirname, spatialQueryPath)
-})
-
-if (!getAnnotationsQuery) {
-    logger.write({
-        msg : "Cannot find query at " + spatialQueryPath,
-        agent : AGENT,
-        logLevel : LogLevelEnum.Error
-    })
-    throw new Error()
-}
-
-
-
-
 const toSonarSongAnnotation = (sparqlRow: any) => {
     return {
         name: sparqlRow.recordingTitleLabel,
@@ -112,6 +91,40 @@ const hydrateAnnotationRel = (a: any, data: any[], maxRelationships: number) => 
 
 
 function main(input : BotCliRunInput) {
+
+
+        /** READ QUERY */
+
+        let getAnnotationsQuery : any
+
+        if (!input.file && !input.query) {
+    
+            logger.write({
+                msg : "You must specify a query to extract annotations",
+                agent : AGENT,
+                logLevel : LogLevelEnum.Error
+            })
+        }
+    
+    
+        if (input.file) {
+             /** Try from file */
+             getAnnotationsQuery = fileReader.read({
+                path:  input.file
+            })
+            if (!getAnnotationsQuery) {
+                logger.write({
+                    msg : "Cannot find query at " + input.file,
+                    agent : AGENT,
+                    logLevel : LogLevelEnum.Error
+                })
+    
+            }    
+        }
+        /** Query from cli */
+        if (input.query) {
+            getAnnotationsQuery = input.query
+       }
 
 
     logger.write({

@@ -27,9 +27,12 @@ node .\path\to\bot.js --help
 Helps for spatial bot:
 
 ```
+spatial-bot.js <command>
+
 Commands:
-  spatial-bot.js run  Bot query SOURCE, transform results and save extracted
-                      data to OUT
+  spatial-bot.js run  Bot extract data from SOURCE with given QUERY or FILE,
+                      transform results and save extracted data to OUT (default
+                      OUT stdin)
 
 Options:
       --version  Show version number                                   [boolean]
@@ -38,8 +41,14 @@ Options:
   -t, --type     Source type. []
     [string] [required] [choices: "sparql", "file", "hypermedia", "rdfjsSource",
                                                        "hdtFile", "ostrichFile"]
-  -o, --out      The file where output extracted data        [string] [required]
-  -v, --log      verbose log in the console           [boolean] [default: false]
+  -o, --out      The file where output extracted data. If no file specified
+                 output to stdin                                        [string]
+  -f, --file     The file with query to extract annotations. One of file or
+                 query option must be specified                         [string]
+  -q, --query    String with a query to extract annotations. One of file or
+                 query option must be specified. This option has priority over
+                 file                                                   [string]
+  -v, --log      verbose log in the console            [boolean] [default: true]
   -h, --help     Show help                                             [boolean]
 ```
 
@@ -49,12 +58,12 @@ An example to extract spatial annotations from polifonia knowledge graph and sav
 
 on \*nix:
 ```
-node ./build/bot/spatial-bot.js run --source "https://raw.githubusercontent.com/polifonia-project/KG_data_transformation/feature/short-dev-file/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.2b-limit.ttl" --type "file" --out "./data-out/example.json" --log
+node ./build/bot/spatial-bot.js run --source "https://raw.githubusercontent.com/polifonia-project/KG_data_transformation/feature/short-dev-file/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.2b-limit.ttl" --type "file" --file "./queries/spatial-annotations.sparql" --out "./data-out/example.json" --log
 ```
 
 on windows:
 ```
-node .\build\bot\spatial-bot.js run --source "https://raw.githubusercontent.com/polifonia-project/KG_data_transformation/feature/short-dev-file/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.2b-limit.ttl" --type "file" --out "./data-out/example.json" --log
+node .\build\bot\spatial-bot.js run --source "https://raw.githubusercontent.com/polifonia-project/KG_data_transformation/feature/short-dev-file/polifonia_places_etl/kg/versions/polifonia-kg-places-0.0.2b-limit.ttl" --type "file" --file ".\queries\spatial-annotations.sparql" --out "./data-out/example.json" --log
 ```
 
 

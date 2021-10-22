@@ -41,6 +41,7 @@ export class Logger implements IPublisher<LoggerInput, void> {
                 break
             case LogLevelEnum.Error:
                 logger.error(this.prependAgent(input.msg,input.agent?.name))
+                process.exit(1)
                 break
             default: 
                 logger.color(input.agent?.color || "blue").log(this.prependAgent(input.msg,input.agent?.name))

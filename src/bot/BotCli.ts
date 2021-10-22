@@ -6,6 +6,8 @@ import { SourceEnum } from "../etl/extract/sparql/SparqlClient";
 export type BotCliRunInput = {
     source : string,
     out?: string,
+    query? : string,
+    file?: string,
     verbose: boolean,
     sourceType: SourceEnum
 }
@@ -18,7 +20,7 @@ export class BotCli {
 
     constructor() {
         this.argv = yargs
-        .command("run", "Bot query SOURCE, transform results and save extracted data to OUT (default OUT stdin)")
+        .command("run", "Bot extract data from SOURCE with given QUERY or FILE, transform results and save extracted data to OUT (default OUT stdin)")
         .option('source', {
             alias: "s",
             description: "The source of a KG. Remote source or local file accepted",
@@ -33,6 +35,16 @@ export class BotCli {
         .option('out', {
             alias: 'o',
             description: 'The file where output extracted data. If no file specified output to stdin',
+            type: 'string',
+        })
+        .option('file', {
+            alias: 'f',
+            description: 'The file with query to extract annotations. One of file or query option must be specified',
+            type: 'string',
+        })
+        .option('query', {
+            alias: 'q',
+            description: 'String with a query to extract annotations. One of file or query option must be specified. This option has priority over file',
             type: 'string',
         })
         .option("log", {
@@ -54,6 +66,8 @@ export class BotCli {
             main({
                 source: this.argv.source,
                 out: this.argv.out,
+                query: this.argv.query,
+                file: this.argv.file,
                 verbose: this.argv.log,
                 sourceType: this.argv.type
             })
