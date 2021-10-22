@@ -1,0 +1,49 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT 
+  ?recordingID 
+  ?recordingTitleLabel 
+  ?performerID 
+  ?performerLabel 
+   ?youtubeID 
+   ?sessionType 
+   ?placeLabel 
+   ?placeFullAddress 
+   ?placeLat 
+   ?placeLong 
+   ?placeID
+   ?sessionTypeLabel
+WHERE {
+
+  ?recordingID rdf:type mp:Recording ;
+      core:hasTitle ?title ;
+      core:hasYoutubeID ?youtubeID ;
+      mp:hasRecordingPerformer ?performerID .
+
+     ?title rdfs:label ?recordingTitleLabel.
+     ?performerID rdfs:label ?performerLabel.
+
+  {
+      ?recordingID       mp:isRecordingProducedBy ?recordingProcess .
+      ?recordingProcess mp:hasSession ?session.
+      ?session core:hasPlace ?placeID ;
+               core:hasType ?sessionType.
+      OPTIONAL { ?sessionType rdfs:label ?sessionTypeLabel2B } .
+      BIND ( IF (BOUND ( ?sessionTypeLabel2B ), ?sessionTypeLabel2B, "" )  as ?sessionTypeLabel )
+
+      ?placeID rdfs:label ?placeLabel ;
+               core:hasAddress ?placeAddress ;
+               core:hasGeometry ?placeGeometry   .
+
+      ?placeAddress core:fullAddress ?placeFullAddress.
+      ?placeGeometry core:lat ?placeLat ;
+                   core:long ?placeLong .
+  }
+
+}
