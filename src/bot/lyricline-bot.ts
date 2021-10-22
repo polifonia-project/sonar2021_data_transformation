@@ -40,6 +40,7 @@ const toSonarAppAnnotation = (sparqlRow: any) => {
         id: sparqlRow.id,
         type: "lyrics",
         songID: sparqlRow.recordingID,
+        timestamp: getRandomInt(0, 60),
         metadata: {
             lyricLine: sparqlRow.lineLabel 
         },

@@ -19,11 +19,10 @@ export class FileReader implements IReader<File, string> {
 
     read(input: File): any {
         try {
-            const file = fs.readFileSync(input.path, input.encoding ? input.encoding : "utf-8")
             if (input.json) {
-                return JSON.parse(file)
+                return JSON.parse(fs.readFileSync(input.path, input.encoding ? input.encoding : "utf-8"))
             } else {
-                return file
+                return fs.readFileSync(input.path, input.encoding ? input.encoding : "utf-8")
             }
         } catch(err) {
            throw new Error(`[!] Error while reading file ${input.path} ${err}`)

@@ -163,7 +163,7 @@ function main(input : BotCliRunInput) {
         })
 
 
-        const MAX_RELATIONSHIPS = 10;
+        const MAX_RELATIONSHIPS = 3;
 
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))

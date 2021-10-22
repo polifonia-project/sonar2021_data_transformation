@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+
+LYR_QUERY_PATH="queries/lyric-line.sparql"
+SOURCE="https://arco.istc.cnr.it/polifonia/sparql"
+SOURCE_TYPE="sparql"
+#LYR_OUT="-o data-out/demo/lyric-line.json"
+LYR_OUT=""
+
+
+
+# Produce lyric annotations
+build/bot/lyricline-bot.js run -f $LYR_QUERY_PATH -s $SOURCE -t $SOURCE_TYPE $LYR_OUT
+
+# Produce spatial annotations
+build/bot/spatial-bot.js run -f "queries/spatial-annotations-rec-process-session.sparql" -s https://arco.istc.cnr.it/polifonia/sparql -t sparql
+
+# Merge Annotations
+build/bot/merger.js run -l "data-out/demo/lyric-line.json data-out/demo/spatial-recordings.json" -o data-out/demo/merged.json
