@@ -9,6 +9,8 @@ import { FileReader } from '../etl/extract/file/FileReader';
 import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 
+import {uniqWith} from "lodash"
+
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
 const logger = Container.get(Logger)
@@ -76,6 +78,7 @@ const hydrateAnnotationRel = (a: any, data: any[]) => {
         .map(anotherA => {
             return {
                 annotationID: anotherA.id,
+                songID : anotherA.songID,
                 type: "lyrics",
                 score: 1,
             }
@@ -164,9 +167,17 @@ function main(input : BotCliRunInput) {
 
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
+
+        const cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals = (data : any[]) => {
+            return uniqWith(data, function(arrVal, othVal) {
+                return (arrVal.songID == othVal.songID) && (arrVal.metadata.lyricLine === othVal.metadata.lyricLine) && (arrVal.relationships.songID === othVal.relationships.sogID)
+            })
+        }
+
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID);
-        const sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
+        let sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
+        sonarAnnotations = cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals(sonarAnnotations)
 
 
         // write new json static file

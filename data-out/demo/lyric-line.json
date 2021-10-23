@@ -1795,3408 +1795,1172 @@
   ],
   "annotations": [
     {
-      "id": "1_okxx2Osn7pa9u8pexww",
+      "id": "EnaACCvHALQ3D9K6XNT4D",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
-      "timestamp": 26,
+      "timestamp": 53,
       "metadata": {
         "lyricLine": "Ah-ah-ah, ah-ah-ahh"
       },
       "relationships": [
         {
-          "annotationID": "Y94k2E8IVVPRVO-8vokNp",
+          "annotationID": "Fz-2vb5OqbRONcvFnZAtr",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "-5PTFfS6nuHkB96wWsWgn",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
-      "timestamp": 21,
-      "metadata": {
-        "lyricLine": "Ah-ah-ah, ah-ah-ahh"
-      },
-      "relationships": [
-        {
-          "annotationID": "_ghedt2AxTRysRKDL1iJg",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "fdsl5LoBsGx7BF_UhqKvj",
+      "id": "8NnIhJEm6rZceOnIuTGiA",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
-      "timestamp": 55,
-      "metadata": {
-        "lyricLine": "Remember I'll always be true"
-      },
-      "relationships": [
-        {
-          "annotationID": "PlC46nEPGcNpMUIk75z2N",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "WziMesYzl8mQBYHBstYrI",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
-      "timestamp": 21,
-      "metadata": {
-        "lyricLine": "Remember I'll always be true"
-      },
-      "relationships": [
-        {
-          "annotationID": "IkKCYkjKRS9GkRl6kl_QP",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "dad80W8wUeFqqtMe4Yqd3",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
-      "timestamp": 47,
-      "metadata": {
-        "lyricLine": "You took me for everything that I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "mAqLTtQKgwUKbdKuAc9WZ",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "1onucrpJN9_n1FrUXFoAv",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "oi-thLu97ijX0Xt4vC1HP",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "wXw-XR7-FrJ2534fDXoC3",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
-      "timestamp": 18,
-      "metadata": {
-        "lyricLine": "You took me for everything that I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "YVOHfdmQW6QD_QLRuyA-F",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "2zADBmggycwQkSnzTfzno",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "At8rBHz_7zZ-TvctO53Zj",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "mAqLTtQKgwUKbdKuAc9WZ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
-      "timestamp": 33,
-      "metadata": {
-        "lyricLine": "You took me for everything that I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "dad80W8wUeFqqtMe4Yqd3",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "1onucrpJN9_n1FrUXFoAv",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "oi-thLu97ijX0Xt4vC1HP",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "YVOHfdmQW6QD_QLRuyA-F",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
-      "timestamp": 56,
-      "metadata": {
-        "lyricLine": "You took me for everything that I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "wXw-XR7-FrJ2534fDXoC3",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "2zADBmggycwQkSnzTfzno",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "At8rBHz_7zZ-TvctO53Zj",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "1onucrpJN9_n1FrUXFoAv",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
-      "timestamp": 33,
-      "metadata": {
-        "lyricLine": "You took me for everything that I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "dad80W8wUeFqqtMe4Yqd3",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "mAqLTtQKgwUKbdKuAc9WZ",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "oi-thLu97ijX0Xt4vC1HP",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "2zADBmggycwQkSnzTfzno",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
-      "timestamp": 51,
-      "metadata": {
-        "lyricLine": "You took me for everything that I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "wXw-XR7-FrJ2534fDXoC3",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "YVOHfdmQW6QD_QLRuyA-F",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "At8rBHz_7zZ-TvctO53Zj",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Al1b907b7KIUhP9KcJuLm",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
-      "timestamp": 22,
-      "metadata": {
-        "lyricLine": "If you need somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "f08bPkYI4Dypv_Srj3O0m",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Ff0QIxvwkCKWCmcyNT-hi",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "If you need somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "a9icdWxHleGuw87rGf5xi",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "fUKb5z0Am_11RC0H9bv9v",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 43,
-      "metadata": {
-        "lyricLine": "Anyone can see"
-      },
-      "relationships": [
-        {
-          "annotationID": "gak6OxuPjXSTLMn-dvoEi",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "0N7tAzBUTfTKzPhsP6AO0",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 15,
-      "metadata": {
-        "lyricLine": "Open your eyes"
-      },
-      "relationships": [
-        {
-          "annotationID": "xnnmBYElbYp9aDK8XwTIw",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "-QFuS5lFKQdUSf0sHyFws",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 37,
-      "metadata": {
-        "lyricLine": "Open your eyes"
-      },
-      "relationships": [
-        {
-          "annotationID": "vdWwUwL3-gTGOP_EzqB1Q",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "L7504gmy890k614QmwYVF",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 24,
-      "metadata": {
-        "lyricLine": "Nothing really matters to me"
-      },
-      "relationships": [
-        {
-          "annotationID": "JddgwjUgjjNb0E5_sUd2A",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "T_W3BAxuwLW1grCb9HfCf",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "Any way the wind blows"
-      },
-      "relationships": [
-        {
-          "annotationID": "iTC1yflTAfv-MJA_AMQjD",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "32OAUHzIiIVBwG6NOPh6-",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 37,
-      "metadata": {
-        "lyricLine": "Any way the wind blows"
-      },
-      "relationships": [
-        {
-          "annotationID": "oEv1EIdxBAEBQpC_he9bE",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "bEs_ZxqHClMSLquc60Z9W",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 47,
-      "metadata": {
-        "lyricLine": "Anyone can see"
-      },
-      "relationships": [
-        {
-          "annotationID": "_FPMJL_Tvc3suxeryyzNS",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "WRR2gj8VZATTwm1_rmysq",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "Open your eyes"
-      },
-      "relationships": [
-        {
-          "annotationID": "YnbANOuqHHXo9SklcL9O1",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "BjgZ-DatZ3-cY3SAGjlMV",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 24,
-      "metadata": {
-        "lyricLine": "Open your eyes"
-      },
-      "relationships": [
-        {
-          "annotationID": "gVLxSm0m_W5geH7vcNTYh",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "d3FFAl-DnxhW-6tuLO--d",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
-      "timestamp": 32,
-      "metadata": {
-        "lyricLine": "Nothing really matters to me"
-      },
-      "relationships": [
-        {
-          "annotationID": "XsgfL_QqnmtbrbP44Crm8",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "LrkqhxlFb1fWf9SAydwmE",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
-      "timestamp": 0,
-      "metadata": {
-        "lyricLine": "I break down"
-      },
-      "relationships": [
-        {
-          "annotationID": "tbHrFa2f5xZmgOCFVRUqe",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "_PsF-z6DltHRCafDDq9eY",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
-      "timestamp": 44,
-      "metadata": {
-        "lyricLine": "I break down"
-      },
-      "relationships": [
-        {
-          "annotationID": "MGPjEPRDaO3B_BMG2R6e_",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Er7wQ9HJYvhR3lqgYhr3O",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
-      "timestamp": 35,
-      "metadata": {
-        "lyricLine": "I break down"
-      },
-      "relationships": [
-        {
-          "annotationID": "IVXNe5sozquGxcu23_SHU",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "3Q9pFimf4cnXwaH4kBNou",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
-      "timestamp": 40,
-      "metadata": {
-        "lyricLine": "I break down"
-      },
-      "relationships": [
-        {
-          "annotationID": "OF46Y8igWnrBt1Mw_1ww5",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "CL7wujUTKmphmp_r4rGLj",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
-      "timestamp": 6,
-      "metadata": {
-        "lyricLine": "She drives me crazy"
-      },
-      "relationships": [
-        {
-          "annotationID": "tkN7B_v1gaBdaiowyG75P",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "7h9cVo0XSDNBqUMdM3kt5",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
-      "timestamp": 51,
-      "metadata": {
-        "lyricLine": "She drives me crazy"
-      },
-      "relationships": [
-        {
-          "annotationID": "Tzlg-2O-OM42aKWElPDfm",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "3MafmG2A4wOhja-A2lM60",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "She drives me crazy"
-      },
-      "relationships": [
-        {
-          "annotationID": "GKYDOMT-WP1N5icfRW79B",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "L6qOnGRTi-u3BaF1XgeYX",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
-      "timestamp": 1,
-      "metadata": {
-        "lyricLine": "She drives me crazy"
-      },
-      "relationships": [
-        {
-          "annotationID": "7Vh2GqnXV8kSsiiYHrwWm",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "xnnmBYElbYp9aDK8XwTIw",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
-      "timestamp": 59,
-      "metadata": {
-        "lyricLine": "Open up your eyes"
-      },
-      "relationships": [
-        {
-          "annotationID": "0N7tAzBUTfTKzPhsP6AO0",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "YnbANOuqHHXo9SklcL9O1",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
-      "timestamp": 27,
-      "metadata": {
-        "lyricLine": "Open up your eyes"
-      },
-      "relationships": [
-        {
-          "annotationID": "WRR2gj8VZATTwm1_rmysq",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "iTC1yflTAfv-MJA_AMQjD",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
-      "timestamp": 36,
-      "metadata": {
-        "lyricLine": "I feel the wind blow"
-      },
-      "relationships": [
-        {
-          "annotationID": "T_W3BAxuwLW1grCb9HfCf",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "oEv1EIdxBAEBQpC_he9bE",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
-      "timestamp": 14,
-      "metadata": {
-        "lyricLine": "I feel the wind blow"
-      },
-      "relationships": [
-        {
-          "annotationID": "32OAUHzIiIVBwG6NOPh6-",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "EclgkQw_0mzHc4jzykMho",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
-      "timestamp": 12,
-      "metadata": {
-        "lyricLine": "Just give me a call"
-      },
-      "relationships": [
-        {
-          "annotationID": "CydMm6eNQCGZDC3-0p3Ts",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "YsmNFTC2ndDz5P8BZgDIB",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
-      "timestamp": 27,
-      "metadata": {
-        "lyricLine": "Just give me a call"
-      },
-      "relationships": [
-        {
-          "annotationID": "XAPYxNB-EPwvqAA7vjvcQ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "hV4a6ewaJ19F0VBPtoqlZ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
-      "timestamp": 51,
-      "metadata": {
-        "lyricLine": "Just give me a call"
-      },
-      "relationships": [
-        {
-          "annotationID": "vG7VRfUNRzs8zv7xni265",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Y94k2E8IVVPRVO-8vokNp",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
-      "timestamp": 45,
-      "metadata": {
-        "lyricLine": "Ha da da, ha da da ahh"
-      },
-      "relationships": [
-        {
-          "annotationID": "1_okxx2Osn7pa9u8pexww",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "_ghedt2AxTRysRKDL1iJg",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
-      "timestamp": 0,
-      "metadata": {
-        "lyricLine": "Ha da da, ha da da ahh"
-      },
-      "relationships": [
-        {
-          "annotationID": "-5PTFfS6nuHkB96wWsWgn",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "tgmGxYmhW7WmoVycYdjDf",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
-      "timestamp": 4,
-      "metadata": {
-        "lyricLine": "Just give me a call"
-      },
-      "relationships": [
-        {
-          "annotationID": "3zmZ7ArV398e3dD15HFbh",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "KistheRY9QxTifQaIgDRS",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
-      "timestamp": 57,
-      "metadata": {
-        "lyricLine": "Hey, listen here"
-      },
-      "relationships": [
-        {
-          "annotationID": "aHffdDygUWtR74yCXAIxB",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "2ZnNohovGzPSlik8zIX0_",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
-      "timestamp": 43,
-      "metadata": {
-        "lyricLine": "Hey, listen here"
-      },
-      "relationships": [
-        {
-          "annotationID": "H66C42t8xUd-59h5pr1__",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "YyqQcUTXAhzaNW4-5n3vE",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
-      "timestamp": 9,
-      "metadata": {
-        "lyricLine": "Me hiding me head in the sand"
-      },
-      "relationships": [
-        {
-          "annotationID": "MUIMKzIQQb_F8PNyAbFPA",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "1qCaMKKtzZVjWLpONguD2",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
-      "timestamp": 55,
-      "metadata": {
-        "lyricLine": "Me hiding me head in the sand"
-      },
-      "relationships": [
-        {
-          "annotationID": "TpJQ4UwzY6jqO6w3PxyMf",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "aHffdDygUWtR74yCXAIxB",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "Listen to me"
-      },
-      "relationships": [
-        {
-          "annotationID": "KistheRY9QxTifQaIgDRS",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "H66C42t8xUd-59h5pr1__",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
-      "timestamp": 22,
-      "metadata": {
-        "lyricLine": "Listen to me"
-      },
-      "relationships": [
-        {
-          "annotationID": "2ZnNohovGzPSlik8zIX0_",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "IBowTMh0ppDgvCJHU0Hh4",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
-      "timestamp": 47,
-      "metadata": {
-        "lyricLine": "Everybody, everywhere"
-      },
-      "relationships": [
-        {
-          "annotationID": "XojSl0Jz7uTinIbZPz-gi",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "C5dCdYIaNlrnUcdQUudhq",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
-      "timestamp": 34,
-      "metadata": {
-        "lyricLine": "Everybody, everywhere"
-      },
-      "relationships": [
-        {
-          "annotationID": "Mp9esSMN9kW7LlmL09qcv",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ChTPjM6RFnf25PgjA9yXP",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
-      "timestamp": 19,
-      "metadata": {
-        "lyricLine": "One more time"
-      },
-      "relationships": [
-        {
-          "annotationID": "715WhT2wqP2sUcHvCg-55",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "EuIHenwOUNOJdPwRu7ZP0",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
-      "timestamp": 5,
-      "metadata": {
-        "lyricLine": "Tow the line and play their game"
-      },
-      "relationships": [
-        {
-          "annotationID": "uI0CRSPJHb3g-v3KWb25O",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "IdF0xYbrWeCp-jZUvqOSY",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "Tow the line and play their game"
-      },
-      "relationships": [
-        {
-          "annotationID": "1cLVPJQLVmuWm8tR6N0IE",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "xhcBKyyfq1BTN_cfbnG9e",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
-      "timestamp": 37,
-      "metadata": {
-        "lyricLine": "Tow the line and play their game"
-      },
-      "relationships": [
-        {
-          "annotationID": "oK3TUa1unFL5rJn72cpMB",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Ox6tJoAZ-w78VFzqbi1e6",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
-      "timestamp": 57,
-      "metadata": {
-        "lyricLine": "Tow the line and play their game"
-      },
-      "relationships": [
-        {
-          "annotationID": "9ZwAK1T5TQGM1MbXrnyEM",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "QGbhDBp89KBMu-Z2ma0Z_",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "One more time"
-      },
-      "relationships": [
-        {
-          "annotationID": "DicZJZKdMhFRdLVvNPMwz",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "v_fNwhjlgSonxhesrnGEF",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
-      "timestamp": 11,
-      "metadata": {
-        "lyricLine": "Tell me I'm the only one"
-      },
-      "relationships": [
-        {
-          "annotationID": "zM0E24IY12rcF4PgDkC-y",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "etc5VP9gxmxoCfSKgpKG7",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
-      "timestamp": 21,
-      "metadata": {
-        "lyricLine": "Tell me I'm the only one"
-      },
-      "relationships": [
-        {
-          "annotationID": "qvvOQanWdT24k5dsl0dMf",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "iHeTrn_JsuxbFjqe7Jv4U",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
-      "timestamp": 10,
-      "metadata": {
-        "lyricLine": "One, two, three, four!"
-      },
-      "relationships": [
-        {
-          "annotationID": "9uPxFdPbmVePIYA0PvpZR",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "4wxA9-eO1lUv70G6JTiLQ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
-      "timestamp": 24,
-      "metadata": {
-        "lyricLine": "One, two, three, four!"
-      },
-      "relationships": [
-        {
-          "annotationID": "0vinehAMWyhu23AatZ15x",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "sm0CXJDP33pMmtnG2yg1a",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 54,
-      "metadata": {
-        "lyricLine": "That I would love everything that you do"
-      },
-      "relationships": [
-        {
-          "annotationID": "-Y9L9bIsQhZ75FBHhfQTD",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "NyDTtlt7TPf_MylwkKug6",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 22,
-      "metadata": {
-        "lyricLine": "You're gonna say you love me too"
-      },
-      "relationships": [
-        {
-          "annotationID": "akVxYeKdmMZ_wJXNXa-Qj",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "akGQmeuNojDrGk3_IGVK2",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 4,
-      "metadata": {
-        "lyricLine": "You're gonna say you love me too"
-      },
-      "relationships": [
-        {
-          "annotationID": "baF6rIImk3LDk5We9jLn1",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "04S9BzHHapo58ABOaCBkS",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 2,
-      "metadata": {
-        "lyricLine": "You're gonna say you love me too"
-      },
-      "relationships": [
-        {
-          "annotationID": "th8u_FepLAkOpDDHRSVHo",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "UA6kqjeLbkeEC-XpMYWpR",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 57,
-      "metadata": {
-        "lyricLine": "You're going to say you love me too"
-      },
-      "relationships": [
-        {
-          "annotationID": "VQm8-xwHcL-M-VEN156vo",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "CS2fWJirXLOhJO1MCqe9w",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 24,
-      "metadata": {
-        "lyricLine": "That I would love everything that you do"
-      },
-      "relationships": [
-        {
-          "annotationID": "d0z3NdJXbwKMRNkkDh-lu",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "aKNz0ETfWbX-IKE4UtcVM",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 12,
-      "metadata": {
-        "lyricLine": "You're going to say you love me too"
-      },
-      "relationships": [
-        {
-          "annotationID": "DXSbpbNkmrr7-84vGrv_I",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Wyr9xPVgS0xUdcCW9f88K",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
-      "timestamp": 12,
-      "metadata": {
-        "lyricLine": "You're gonna say you love me too"
-      },
-      "relationships": [
-        {
-          "annotationID": "6EwcdCfIFBmlUdesxei57",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "KpGfP-gCQ6XtSaG4E-Zt_",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
-      "timestamp": 32,
-      "metadata": {
-        "lyricLine": "Tell me that you love me baby"
-      },
-      "relationships": [
-        {
-          "annotationID": "ShFIhcy1y_tXkHwU7hZgh",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "QdY-mFq-IsvRO_xsYBufi",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
-      "timestamp": 20,
-      "metadata": {
-        "lyricLine": "Tell me that you love me baby"
-      },
-      "relationships": [
-        {
-          "annotationID": "nqBEXAu0ZG6NUpAZfv6cf",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "xtqD6pn8YjcHvMj1hvTaM",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
-      "timestamp": 50,
-      "metadata": {
-        "lyricLine": "Let me understand"
-      },
-      "relationships": [
-        {
-          "annotationID": "18Ftse4JzGiac-Zaoaoru",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ALfzCQCGohZQU-rTuR012",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
-      "timestamp": 3,
-      "metadata": {
-        "lyricLine": "Let me understand"
-      },
-      "relationships": [
-        {
-          "annotationID": "dyrIOV7X4lupAin1M2kcM",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "CydMm6eNQCGZDC3-0p3Ts",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
-      "timestamp": 54,
-      "metadata": {
-        "lyricLine": "Just give me the sign"
-      },
-      "relationships": [
-        {
-          "annotationID": "EclgkQw_0mzHc4jzykMho",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "XAPYxNB-EPwvqAA7vjvcQ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
-      "timestamp": 56,
-      "metadata": {
-        "lyricLine": "Just give me the sign"
-      },
-      "relationships": [
-        {
-          "annotationID": "YsmNFTC2ndDz5P8BZgDIB",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "vG7VRfUNRzs8zv7xni265",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "Just give me the sign"
-      },
-      "relationships": [
-        {
-          "annotationID": "hV4a6ewaJ19F0VBPtoqlZ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "3zmZ7ArV398e3dD15HFbh",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
-      "timestamp": 0,
-      "metadata": {
-        "lyricLine": "Just give me the sign"
-      },
-      "relationships": [
-        {
-          "annotationID": "tgmGxYmhW7WmoVycYdjDf",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "fCRphd1bXR9xkJxKVAQKm",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "But I have to be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "2p5-SEE4D0EAK2HKoigKy",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ELFBShWwuoBiFlQWznvtK",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
-      "timestamp": 25,
-      "metadata": {
-        "lyricLine": "But I have to be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "t4Cy4WfQ3AOZ7h56T8KdZ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "SwvoA8IDaAviYg701ZM2N",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
-      "timestamp": 5,
-      "metadata": {
-        "lyricLine": "But I have to be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "FEgv5A2W6OUiAP9n1nhJ4",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "_go5yz_zBnLL1CG-NJKxs",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
-      "timestamp": 46,
-      "metadata": {
-        "lyricLine": "But I have to be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "I4rZAfzhzIwu121Am2-Ub",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "YDWBWKJsBDYsbCcjcdYkP",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
-      "timestamp": 29,
-      "metadata": {
-        "lyricLine": "It's all right"
-      },
-      "relationships": [
-        {
-          "annotationID": "bUrsJ58NzcXlrSBKNHb87",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "qVu0lIGI0LruvKpAm3ZmZ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
-      "timestamp": 27,
-      "metadata": {
-        "lyricLine": "It's all right"
-      },
-      "relationships": [
-        {
-          "annotationID": "l2VuGT5yWYoSrpV7LAXgd",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "4N6kkyqQRvKYIOd5tSmXu",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
-      "timestamp": 5,
-      "metadata": {
-        "lyricLine": "You know I love you still"
-      },
-      "relationships": [
-        {
-          "annotationID": "HPgu3Icl-ofdvCSZOLpRd",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "PwhGnQWqxdq7Lin9gZfG7",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
-      "timestamp": 48,
-      "metadata": {
-        "lyricLine": "You know I love you still"
-      },
-      "relationships": [
-        {
-          "annotationID": "ziWAuHDrgu9j4VxSq1GR4",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "gbGQwbioYw2yEZHo_Wzpi",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
-      "timestamp": 9,
-      "metadata": {
-        "lyricLine": "If you want me to, I will"
-      },
-      "relationships": [
-        {
-          "annotationID": "ValTbrYjv7ghEyUP8Iz8U",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "B6bujs3uTlDJtpvGbqCUc",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
-      "timestamp": 44,
-      "metadata": {
-        "lyricLine": "If you want me to, I will"
-      },
-      "relationships": [
-        {
-          "annotationID": "oJuCc1wlwitzx0Kp86SxR",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "2p5-SEE4D0EAK2HKoigKy",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 55,
-      "metadata": {
-        "lyricLine": "I must be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "fCRphd1bXR9xkJxKVAQKm",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "t4Cy4WfQ3AOZ7h56T8KdZ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 34,
-      "metadata": {
-        "lyricLine": "I must be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "ELFBShWwuoBiFlQWznvtK",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "FEgv5A2W6OUiAP9n1nhJ4",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 36,
-      "metadata": {
-        "lyricLine": "I must be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "SwvoA8IDaAviYg701ZM2N",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "PoopuhO-qhZq49Fwhyupo",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 22,
-      "metadata": {
-        "lyricLine": "From the very start"
-      },
-      "relationships": [
-        {
-          "annotationID": "Emmn1ewbaGVutNy0smuU1",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "18Ftse4JzGiac-Zaoaoru",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 48,
-      "metadata": {
-        "lyricLine": "And help me understand"
-      },
-      "relationships": [
-        {
-          "annotationID": "xtqD6pn8YjcHvMj1hvTaM",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "I4rZAfzhzIwu121Am2-Ub",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 24,
-      "metadata": {
-        "lyricLine": "I must be sure"
-      },
-      "relationships": [
-        {
-          "annotationID": "_go5yz_zBnLL1CG-NJKxs",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "9GAqBQGmP3EMJPP0PHqFN",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
-      "timestamp": 21,
-      "metadata": {
-        "lyricLine": "From the very start"
-      },
-      "relationships": [
-        {
-          "annotationID": "d88nO9zkSy-pDCFBL0gp2",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "dyrIOV7X4lupAin1M2kcM",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
       "timestamp": 8,
       "metadata": {
-        "lyricLine": "And help me understand"
+        "lyricLine": "Remember I'll always be true"
       },
       "relationships": [
         {
-          "annotationID": "ALfzCQCGohZQU-rTuR012",
+          "annotationID": "j9iUTHMNCeolRX5-J7ZXx",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "ZexX6Tk1l_g__3hNJ-JHL",
+      "id": "_FehuOxREqxrLbc-By7_K",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
-      "timestamp": 7,
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "timestamp": 37,
       "metadata": {
-        "lyricLine": "If I needed someone to love"
+        "lyricLine": "You took me for everything that I had"
       },
       "relationships": [
         {
-          "annotationID": "1MB1YMuMegG7YyLjP-sub",
+          "annotationID": "TueGBxe-BSFftr-XjtrHX",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "Rq9MX9ljds7vQTeowQTJN",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "oMrdMXwIwPZNpEPuPL3Wx",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "3VoDutQihVJRMnXj7GMki",
+      "id": "33SkxSiUEfClSlfseY1-l",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "timestamp": 0,
+      "metadata": {
+        "lyricLine": "If you need somebody to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "z8K5LtalOCgKPi1diWWVE",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Ex2wTjmKm7duVuo4CgceV",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "timestamp": 26,
+      "metadata": {
+        "lyricLine": "Anyone can see"
+      },
+      "relationships": [
+        {
+          "annotationID": "4gYRAzrRkH6Hw_XG3D9KZ",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "-IMP97tEORw6pAbItuH9a",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "timestamp": 18,
+      "metadata": {
+        "lyricLine": "Open your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "11zh4fDBIFCxNiDVYRwi9",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "655nICsMK0SyNk2bS6Wwl",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "timestamp": 37,
+      "metadata": {
+        "lyricLine": "Nothing really matters to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "1YFUXk8S5nUEZa0WgeS0O",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "4rUG8OdOYDuUvHrqu3xVu",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "timestamp": 21,
+      "metadata": {
+        "lyricLine": "Any way the wind blows"
+      },
+      "relationships": [
+        {
+          "annotationID": "fq7PB00nyPt9mh1fj9Eie",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "_DNTVvy75xemAxNiOdGDa",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "timestamp": 59,
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "s5doSHyIagYpo17vv-FH1",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "00Z3zMNAJRshLxZU_giKd",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "timestamp": 14,
+      "metadata": {
+        "lyricLine": "She drives me crazy"
+      },
+      "relationships": [
+        {
+          "annotationID": "zmYBS6D3xO5GG-DdO6Eq3",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "11zh4fDBIFCxNiDVYRwi9",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
+      "timestamp": 45,
+      "metadata": {
+        "lyricLine": "Open up your eyes"
+      },
+      "relationships": [
+        {
+          "annotationID": "-IMP97tEORw6pAbItuH9a",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "fq7PB00nyPt9mh1fj9Eie",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
       "timestamp": 1,
       "metadata": {
-        "lyricLine": "If I needed someone to love"
+        "lyricLine": "I feel the wind blow"
       },
       "relationships": [
         {
-          "annotationID": "Y1HxzD-uCKgpgC3RY4126",
+          "annotationID": "4rUG8OdOYDuUvHrqu3xVu",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "nE6sb3erU4Z_cV7XQhCTy",
+      "id": "PGNgF70_Ue7wjAZBC2aU-",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
-      "timestamp": 22,
-      "metadata": {
-        "lyricLine": "So come, come on, come on"
-      },
-      "relationships": [
-        {
-          "annotationID": "ChamyW1iVkqH8jhZ2-f6K",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "voTaWUKYyo0TxTcrecNrE",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
-      "timestamp": 23,
-      "metadata": {
-        "lyricLine": "Just come on, come on"
-      },
-      "relationships": [
-        {
-          "annotationID": "_Im9MQPn55zYQdA9B9q8f",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ZVI4hJWsM4UUj3GsEDT5-",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
       "timestamp": 39,
       "metadata": {
-        "lyricLine": "Just come on, come on"
+        "lyricLine": "Just give me a call"
       },
       "relationships": [
         {
-          "annotationID": "80PyTDNxJ3UxWwl_1xuY5",
+          "annotationID": "sYKGe8_g3LDC6Qj_Hyfx3",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "gp-sO53qX_etRmri5hZct",
+      "id": "Fz-2vb5OqbRONcvFnZAtr",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
-      "timestamp": 44,
-      "metadata": {
-        "lyricLine": "Just come on, come on"
-      },
-      "relationships": [
-        {
-          "annotationID": "9u0dX9V5msq6JDNwFWVpi",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "9veBMCU6CYatPxzlFXE4l",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
-      "timestamp": 14,
-      "metadata": {
-        "lyricLine": "Just come on, come on"
-      },
-      "relationships": [
-        {
-          "annotationID": "y_Wf4cftjXk5771MpvylZ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "K58aqlE73jzuzJEncA9bE",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
       "timestamp": 53,
       "metadata": {
-        "lyricLine": "So come, come on, come on"
+        "lyricLine": "Ha da da, ha da da ahh"
       },
       "relationships": [
         {
-          "annotationID": "lolzuhIq2kWK5kplQsUYy",
+          "annotationID": "EnaACCvHALQ3D9K6XNT4D",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "08n8wfkTp9R1DJe1aqb9k",
+      "id": "Cx8HNs_feLskLaUrGoAVt",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
-      "timestamp": 5,
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
+      "timestamp": 2,
       "metadata": {
-        "lyricLine": "Just come on, come on"
+        "lyricLine": "Hey, listen here"
       },
       "relationships": [
         {
-          "annotationID": "JMbkBJTBwat3t4ASVhi-Q",
+          "annotationID": "A5IhZekH2V4IBPku7Yj-j",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "U0KQKQUbXbVll4SUOLUZp",
+      "id": "fziTdp3a3hMqXsvcHEKHa",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "timestamp": 2,
+      "metadata": {
+        "lyricLine": "Me hiding me head in the sand"
+      },
+      "relationships": [
+        {
+          "annotationID": "SQO9r4P8K7SiyB1-vslbF",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "A5IhZekH2V4IBPku7Yj-j",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "timestamp": 26,
+      "metadata": {
+        "lyricLine": "Listen to me"
+      },
+      "relationships": [
+        {
+          "annotationID": "Cx8HNs_feLskLaUrGoAVt",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "OWRsGtQBuoGDN7BvUoEDa",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
+      "timestamp": 53,
+      "metadata": {
+        "lyricLine": "Everybody, everywhere"
+      },
+      "relationships": [
+        {
+          "annotationID": "7MtdhBAUsKzdEE8FCjSe5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "HRqhENFfYtdLvEk4PtkCO",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "timestamp": 12,
+      "metadata": {
+        "lyricLine": "One more time"
+      },
+      "relationships": [
+        {
+          "annotationID": "EGIHHL1NAGB7r1X88zI_K",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "LY1rCH856uQ7_02MTkwnb",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
       "timestamp": 11,
       "metadata": {
+        "lyricLine": "Tow the line and play their game"
+      },
+      "relationships": [
+        {
+          "annotationID": "GFKjUaWjk-rDfNlGKR7J5",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "6_1mUkrNWaafhCFpG7AvC",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
+      "timestamp": 47,
+      "metadata": {
+        "lyricLine": "Tell me I'm the only one"
+      },
+      "relationships": [
+        {
+          "annotationID": "95BEpFAD535YqYc4dsXB4",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "tzOjSZgi5LicCLHqLOV6V",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
+      "timestamp": 21,
+      "metadata": {
+        "lyricLine": "One, two, three, four!"
+      },
+      "relationships": [
+        {
+          "annotationID": "G2aAyTLHD-eCjeFtEzxi9",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "DM_-1rL5v9FczuycIWMtv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "timestamp": 57,
+      "metadata": {
+        "lyricLine": "That I would love everything that you do"
+      },
+      "relationships": [
+        {
+          "annotationID": "bAUJUHwOyeKaJxSItqujV",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Y5Od94YNfc3aewJ-ZLrD_",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "timestamp": 23,
+      "metadata": {
+        "lyricLine": "You're gonna say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "zE0XmxqBTrvdR4HT869ko",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "stq_VES38bd-D-oJmJZ8x",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "timestamp": 44,
+      "metadata": {
+        "lyricLine": "You're going to say you love me too"
+      },
+      "relationships": [
+        {
+          "annotationID": "5knmhe7EgmxUMM82YjR2I",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "s6BLqZSCIHg88HqvZPrfA",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "timestamp": 26,
+      "metadata": {
+        "lyricLine": "Tell me that you love me baby"
+      },
+      "relationships": [
+        {
+          "annotationID": "Hr1D5QTA3BDLvaC8QQSbi",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1C_i2d5tfzn-qfzBhrNG7",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "timestamp": 56,
+      "metadata": {
+        "lyricLine": "Let me understand"
+      },
+      "relationships": [
+        {
+          "annotationID": "RyMtaSWv2MHs0VpiiOQLc",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "sYKGe8_g3LDC6Qj_Hyfx3",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "timestamp": 22,
+      "metadata": {
+        "lyricLine": "Just give me the sign"
+      },
+      "relationships": [
+        {
+          "annotationID": "PGNgF70_Ue7wjAZBC2aU-",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "jc5IVj9kk1lvCsseTHabp",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "timestamp": 48,
+      "metadata": {
+        "lyricLine": "But I have to be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "vuTP1mwpXPudJB23gWbGl",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "o6qAu49kkjgFV_gv4dz_Y",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
+      "timestamp": 28,
+      "metadata": {
+        "lyricLine": "It's all right"
+      },
+      "relationships": [
+        {
+          "annotationID": "ld08n8_GmLSXuEe0CAspI",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Wt1hvm-40IUh28HLoOXUd",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "timestamp": 12,
+      "metadata": {
+        "lyricLine": "You know I love you still"
+      },
+      "relationships": [
+        {
+          "annotationID": "rvcBk4XhiAItxDQCC-1A-",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "xN2FqDYz9e8AOYy73QpTv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "timestamp": 38,
+      "metadata": {
+        "lyricLine": "If you want me to, I will"
+      },
+      "relationships": [
+        {
+          "annotationID": "Q8FgOAYs849-5Qd6tl-j1",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "vuTP1mwpXPudJB23gWbGl",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "timestamp": 24,
+      "metadata": {
+        "lyricLine": "I must be sure"
+      },
+      "relationships": [
+        {
+          "annotationID": "jc5IVj9kk1lvCsseTHabp",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "SYKFadCJtvHgc9CaSAtJv",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "timestamp": 56,
+      "metadata": {
+        "lyricLine": "From the very start"
+      },
+      "relationships": [
+        {
+          "annotationID": "-jNhpLwkb5C3SPCXbQ1rY",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "RyMtaSWv2MHs0VpiiOQLc",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "timestamp": 17,
+      "metadata": {
+        "lyricLine": "And help me understand"
+      },
+      "relationships": [
+        {
+          "annotationID": "1C_i2d5tfzn-qfzBhrNG7",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "4L7EvNszw2wcSmio4sQyJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "timestamp": 50,
+      "metadata": {
+        "lyricLine": "If I needed someone to love"
+      },
+      "relationships": [
+        {
+          "annotationID": "ZOyuFuS5cp6HJ_6K44Fsc",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "1RNVQxQW5OoEgoYKiRKFJ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "timestamp": 21,
+      "metadata": {
         "lyricLine": "So come, come on, come on"
       },
       "relationships": [
         {
-          "annotationID": "ORqgcYhJQrPHDSOOgXX0Y",
+          "annotationID": "Y7DdOsFDF8dx-TD9yu6Qj",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "jGOKHpiXYM0LE1smKTzWJ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
-      "timestamp": 45,
-      "metadata": {
-        "lyricLine": "Just come on, come on"
-      },
-      "relationships": [
-        {
-          "annotationID": "2Z54sdnp7il0HqzwO1iqn",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "jQpU2y_pq8rsqqQ1rBmim",
+      "id": "95FFqYRsTOptmtwPtG9Ig",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
       "timestamp": 0,
       "metadata": {
-        "lyricLine": "So come, come on, come on"
+        "lyricLine": "Just come on, come on"
       },
       "relationships": [
         {
-          "annotationID": "tx0ghJb-JoKdjdYAgfsn7",
+          "annotationID": "EiqKaWTGbp3XDmmnvguq7",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "unvjEvf9F27wC4WDHcDm-",
+      "id": "TI4lkVAUaxmOc90XfVtU7",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 54,
+      "timestamp": 0,
       "metadata": {
         "lyricLine": "Someone to love"
       },
       "relationships": [
         {
-          "annotationID": "Cv29e_pFXO4iwap6QY5X1",
+          "annotationID": "YC9vu2RyhKtJZU19GVOKH",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "kMGlrvLidmvg0i1qAF_dB",
+      "id": "rvcBk4XhiAItxDQCC-1A-",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 8,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "ysVS1eGjbTRcfiNlUYx0N",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "HPgu3Icl-ofdvCSZOLpRd",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 26,
+      "timestamp": 31,
       "metadata": {
         "lyricLine": "You know I love you"
       },
       "relationships": [
         {
-          "annotationID": "4N6kkyqQRvKYIOd5tSmXu",
+          "annotationID": "Wt1hvm-40IUh28HLoOXUd",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "ziWAuHDrgu9j4VxSq1GR4",
+      "id": "j9iUTHMNCeolRX5-J7ZXx",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 5,
-      "metadata": {
-        "lyricLine": "You know I love you"
-      },
-      "relationships": [
-        {
-          "annotationID": "PwhGnQWqxdq7Lin9gZfG7",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "I73mb2v08VBzDBlVKbLMz",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 15,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "ldbig5rUHfC1Kt_z9mIc4",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "7iBXd1p9hU852nqv_bDIn",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 18,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "A5eL6htt3EQ8kbFhT0NY7",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "CyybsDMKsI5D_JXiIM7Ii",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 53,
-      "metadata": {
-        "lyricLine": "You know I love you"
-      },
-      "relationships": [
-        {
-          "annotationID": "KRTEjVKJL4I_Wdd9CJkZ-",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "PlC46nEPGcNpMUIk75z2N",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 56,
+      "timestamp": 55,
       "metadata": {
         "lyricLine": "I'll always be true"
       },
       "relationships": [
         {
-          "annotationID": "fdsl5LoBsGx7BF_UhqKvj",
+          "annotationID": "8NnIhJEm6rZceOnIuTGiA",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "kDDlvS6eIAoRbir69VDk_",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 45,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "dUWsm8Gby0nZiARLgT4nf",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "PX1UR1CFf3JguQybPFPDr",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 46,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "R9dDt7DK_tRSb7Z7LqNl7",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "LlsLITkBtZkd_-YQrnZ30",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 40,
-      "metadata": {
-        "lyricLine": "You know I love you"
-      },
-      "relationships": [
-        {
-          "annotationID": "2iaFBsbL2AhBlbx73PLQZ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "mEjejajoLjGVLDPqgmIc7",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 36,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "dFvOaGmuFVRGkWwrTNA8e",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "4yo1Gc9EyuxsXZu2zCQj1",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "q9aZDqDjayc_DMDqH6-SV",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "5O3cqFplInKpSwj70pH8S",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 19,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "h1ny19w40JCLVMOn662hb",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "tUSpUoXif6HXp0dB0V3Y7",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 36,
-      "metadata": {
-        "lyricLine": "You know I love you"
-      },
-      "relationships": [
-        {
-          "annotationID": "Lvfh3gz2X7KiL3RK0AWjM",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "IkKCYkjKRS9GkRl6kl_QP",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 50,
-      "metadata": {
-        "lyricLine": "I'll always be true"
-      },
-      "relationships": [
-        {
-          "annotationID": "WziMesYzl8mQBYHBstYrI",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "U08b0HobUZVtcpOP6scp0",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 50,
-      "metadata": {
-        "lyricLine": "You know I love you"
-      },
-      "relationships": [
-        {
-          "annotationID": "nddy69Abj85d-_ZEQ15ti",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "fSrvmi-xPE7f5E5fgEgZP",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 6,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "n7FQDXJDtcVWQQLaod68h",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "t_ES2FxK_xEmcPdcKWEvQ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 44,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "CxyaVvVMKRnizzT1o8SXT",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "dXBVVFb-tyf3GYIpCff4V",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
-      "timestamp": 11,
-      "metadata": {
-        "lyricLine": "Someone to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "-baijcak15Z8G-pWusmnk",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ValTbrYjv7ghEyUP8Iz8U",
+      "id": "Q8FgOAYs849-5Qd6tl-j1",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
-      "timestamp": 28,
+      "timestamp": 43,
       "metadata": {
         "lyricLine": "If you want me to"
       },
       "relationships": [
         {
-          "annotationID": "gbGQwbioYw2yEZHo_Wzpi",
+          "annotationID": "xN2FqDYz9e8AOYy73QpTv",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "oJuCc1wlwitzx0Kp86SxR",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "If you want me to"
-      },
-      "relationships": [
-        {
-          "annotationID": "B6bujs3uTlDJtpvGbqCUc",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "c_E3LMKhJ0y46xYWqfn3y",
+      "id": "AP0BxLz7xuXA8wcMzXvaY",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
-      "timestamp": 6,
+      "timestamp": 39,
       "metadata": {
         "lyricLine": "Waiting to take you away"
       },
       "relationships": [
         {
-          "annotationID": "aL19gcQ7OgttXi_PqY3VL",
+          "annotationID": "gT0kwjw3eCLEaOmJvYbVp",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "5Mh4IIwhG2QEh08_SNsFY",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
-      "timestamp": 6,
-      "metadata": {
-        "lyricLine": "Waiting to take you away"
-      },
-      "relationships": [
-        {
-          "annotationID": "QH6Yy0BrmpIe0y7g9sbOg",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "aL19gcQ7OgttXi_PqY3VL",
+      "id": "gT0kwjw3eCLEaOmJvYbVp",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
-      "timestamp": 34,
-      "metadata": {
-        "lyricLine": "Hoping to take you away"
-      },
-      "relationships": [
-        {
-          "annotationID": "c_E3LMKhJ0y46xYWqfn3y",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "QH6Yy0BrmpIe0y7g9sbOg",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
-      "timestamp": 30,
-      "metadata": {
-        "lyricLine": "Hoping to take you away"
-      },
-      "relationships": [
-        {
-          "annotationID": "5Mh4IIwhG2QEh08_SNsFY",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "gak6OxuPjXSTLMn-dvoEi",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
-      "timestamp": 3,
-      "metadata": {
-        "lyricLine": "'Cause everyone can see"
-      },
-      "relationships": [
-        {
-          "annotationID": "fUKb5z0Am_11RC0H9bv9v",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "_FPMJL_Tvc3suxeryyzNS",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
-      "timestamp": 58,
-      "metadata": {
-        "lyricLine": "'Cause everyone can see"
-      },
-      "relationships": [
-        {
-          "annotationID": "bEs_ZxqHClMSLquc60Z9W",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "715WhT2wqP2sUcHvCg-55",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
-      "timestamp": 40,
-      "metadata": {
-        "lyricLine": "One more time"
-      },
-      "relationships": [
-        {
-          "annotationID": "ChTPjM6RFnf25PgjA9yXP",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "DicZJZKdMhFRdLVvNPMwz",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
-      "timestamp": 41,
-      "metadata": {
-        "lyricLine": "One more time"
-      },
-      "relationships": [
-        {
-          "annotationID": "QGbhDBp89KBMu-Z2ma0Z_",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "vdWwUwL3-gTGOP_EzqB1Q",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 35,
-      "metadata": {
-        "lyricLine": "Open up your mind"
-      },
-      "relationships": [
-        {
-          "annotationID": "-QFuS5lFKQdUSf0sHyFws",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "uI0CRSPJHb3g-v3KWb25O",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 42,
-      "metadata": {
-        "lyricLine": "Play the game, play the game"
-      },
-      "relationships": [
-        {
-          "annotationID": "EuIHenwOUNOJdPwRu7ZP0",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "1cLVPJQLVmuWm8tR6N0IE",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 59,
-      "metadata": {
-        "lyricLine": "Play the game, play the game"
-      },
-      "relationships": [
-        {
-          "annotationID": "IdF0xYbrWeCp-jZUvqOSY",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "tkN7B_v1gaBdaiowyG75P",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 13,
-      "metadata": {
-        "lyricLine": "Driving me insane"
-      },
-      "relationships": [
-        {
-          "annotationID": "CL7wujUTKmphmp_r4rGLj",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Tzlg-2O-OM42aKWElPDfm",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 17,
-      "metadata": {
-        "lyricLine": "Driving me insane"
-      },
-      "relationships": [
-        {
-          "annotationID": "7h9cVo0XSDNBqUMdM3kt5",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "oK3TUa1unFL5rJn72cpMB",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 45,
-      "metadata": {
-        "lyricLine": "Play the game, play the game"
-      },
-      "relationships": [
-        {
-          "annotationID": "xhcBKyyfq1BTN_cfbnG9e",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "GKYDOMT-WP1N5icfRW79B",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 59,
-      "metadata": {
-        "lyricLine": "Driving me insane"
-      },
-      "relationships": [
-        {
-          "annotationID": "3MafmG2A4wOhja-A2lM60",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "9ZwAK1T5TQGM1MbXrnyEM",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 57,
-      "metadata": {
-        "lyricLine": "Play the game, play the game"
-      },
-      "relationships": [
-        {
-          "annotationID": "Ox6tJoAZ-w78VFzqbi1e6",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "7Vh2GqnXV8kSsiiYHrwWm",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
       "timestamp": 24,
       "metadata": {
-        "lyricLine": "Driving me insane"
+        "lyricLine": "Hoping to take you away"
       },
       "relationships": [
         {
-          "annotationID": "L6qOnGRTi-u3BaF1XgeYX",
+          "annotationID": "AP0BxLz7xuXA8wcMzXvaY",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "gVLxSm0m_W5geH7vcNTYh",
+      "id": "4gYRAzrRkH6Hw_XG3D9KZ",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
+      "timestamp": 19,
+      "metadata": {
+        "lyricLine": "'Cause everyone can see"
+      },
+      "relationships": [
+        {
+          "annotationID": "Ex2wTjmKm7duVuo4CgceV",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "EGIHHL1NAGB7r1X88zI_K",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
+      "timestamp": 28,
+      "metadata": {
+        "lyricLine": "One more time"
+      },
+      "relationships": [
+        {
+          "annotationID": "HRqhENFfYtdLvEk4PtkCO",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Kt3DMlwg_BxJsKkHqIdDN",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
-      "timestamp": 46,
+      "timestamp": 39,
       "metadata": {
         "lyricLine": "Open up your mind"
       },
       "relationships": [
         {
-          "annotationID": "BjgZ-DatZ3-cY3SAGjlMV",
+          "annotationID": "AhclaDCoaRTSbLPQmoIuJ",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "ChamyW1iVkqH8jhZ2-f6K",
+      "id": "GFKjUaWjk-rDfNlGKR7J5",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "timestamp": 39,
+      "metadata": {
+        "lyricLine": "Play the game, play the game"
+      },
+      "relationships": [
+        {
+          "annotationID": "LY1rCH856uQ7_02MTkwnb",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "zmYBS6D3xO5GG-DdO6Eq3",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "timestamp": 52,
+      "metadata": {
+        "lyricLine": "Driving me insane"
+      },
+      "relationships": [
+        {
+          "annotationID": "00Z3zMNAJRshLxZU_giKd",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "Y7DdOsFDF8dx-TD9yu6Qj",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 36,
+      "timestamp": 13,
       "metadata": {
         "lyricLine": "Come on (Come on), Come on (Come on)"
       },
       "relationships": [
         {
-          "annotationID": "nE6sb3erU4Z_cV7XQhCTy",
+          "annotationID": "1RNVQxQW5OoEgoYKiRKFJ",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "_Im9MQPn55zYQdA9B9q8f",
+      "id": "EiqKaWTGbp3XDmmnvguq7",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 32,
+      "timestamp": 28,
       "metadata": {
         "lyricLine": "Come on (Come on), come on (Come on)"
       },
       "relationships": [
         {
-          "annotationID": "voTaWUKYyo0TxTcrecNrE",
+          "annotationID": "95FFqYRsTOptmtwPtG9Ig",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "80PyTDNxJ3UxWwl_1xuY5",
+      "id": "4S7Rt9QzI1mVjhSRYXvPf",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 46,
-      "metadata": {
-        "lyricLine": "Come on (Come on) Come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "ZVI4hJWsM4UUj3GsEDT5-",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "9u0dX9V5msq6JDNwFWVpi",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 4,
-      "metadata": {
-        "lyricLine": "Come on (Come on), Come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "gp-sO53qX_etRmri5hZct",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "y_Wf4cftjXk5771MpvylZ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 4,
-      "metadata": {
-        "lyricLine": "Come on (Come on), come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "9veBMCU6CYatPxzlFXE4l",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "lolzuhIq2kWK5kplQsUYy",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 9,
-      "metadata": {
-        "lyricLine": "Come on (Come on), come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "K58aqlE73jzuzJEncA9bE",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "JMbkBJTBwat3t4ASVhi-Q",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "Come on (Come on), Come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "08n8wfkTp9R1DJe1aqb9k",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ORqgcYhJQrPHDSOOgXX0Y",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 17,
-      "metadata": {
-        "lyricLine": "Come on (Come on), Come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "U0KQKQUbXbVll4SUOLUZp",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "2Z54sdnp7il0HqzwO1iqn",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 48,
-      "metadata": {
-        "lyricLine": "Come on (Come on) Come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "jGOKHpiXYM0LE1smKTzWJ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "tx0ghJb-JoKdjdYAgfsn7",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
-      "timestamp": 21,
-      "metadata": {
-        "lyricLine": "Come on (Come on), come on (Come on)"
-      },
-      "relationships": [
-        {
-          "annotationID": "jQpU2y_pq8rsqqQ1rBmim",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "MUIMKzIQQb_F8PNyAbFPA",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
       "timestamp": 42,
       "metadata": {
-        "lyricLine": "Hide your head in the sand little girl"
+        "lyricLine": "Come on (Come on) Come on (Come on)"
       },
       "relationships": [
         {
-          "annotationID": "YyqQcUTXAhzaNW4-5n3vE",
+          "annotationID": "dNlnzRyOvUBMTj7GoQZpT",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "TpJQ4UwzY6jqO6w3PxyMf",
+      "id": "SQO9r4P8K7SiyB1-vslbF",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
-      "timestamp": 35,
+      "timestamp": 10,
       "metadata": {
         "lyricLine": "Hide your head in the sand little girl"
       },
       "relationships": [
         {
-          "annotationID": "1qCaMKKtzZVjWLpONguD2",
+          "annotationID": "fziTdp3a3hMqXsvcHEKHa",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "2iaFBsbL2AhBlbx73PLQZ",
+      "id": "0N5ZIfksWuJKoBWqKWkq6",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
-      "timestamp": 51,
+      "timestamp": 1,
       "metadata": {
         "lyricLine": "How I loved you"
       },
       "relationships": [
         {
-          "annotationID": "LlsLITkBtZkd_-YQrnZ30",
+          "annotationID": "2s3BuqYWZCqMzg1tJ9MtQ",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "nddy69Abj85d-_ZEQ15ti",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
-      "timestamp": 26,
-      "metadata": {
-        "lyricLine": "How I loved you"
-      },
-      "relationships": [
-        {
-          "annotationID": "U08b0HobUZVtcpOP6scp0",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "bUrsJ58NzcXlrSBKNHb87",
+      "id": "ld08n8_GmLSXuEe0CAspI",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
-      "timestamp": 22,
+      "timestamp": 47,
       "metadata": {
         "lyricLine": "Everything was right"
       },
       "relationships": [
         {
-          "annotationID": "YDWBWKJsBDYsbCcjcdYkP",
+          "annotationID": "o6qAu49kkjgFV_gv4dz_Y",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "l2VuGT5yWYoSrpV7LAXgd",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
-      "timestamp": 44,
-      "metadata": {
-        "lyricLine": "Everything was right"
-      },
-      "relationships": [
-        {
-          "annotationID": "qVu0lIGI0LruvKpAm3ZmZ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Cv29e_pFXO4iwap6QY5X1",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 33,
-      "metadata": {
-        "lyricLine": "(Somebody to love)"
-      },
-      "relationships": [
-        {
-          "annotationID": "unvjEvf9F27wC4WDHcDm-",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ysVS1eGjbTRcfiNlUYx0N",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 56,
-      "metadata": {
-        "lyricLine": "(Somebody to love)"
-      },
-      "relationships": [
-        {
-          "annotationID": "kMGlrvLidmvg0i1qAF_dB",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "f08bPkYI4Dypv_Srj3O0m",
+      "id": "YC9vu2RyhKtJZU19GVOKH",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
       "timestamp": 6,
+      "metadata": {
+        "lyricLine": "(Somebody to love)"
+      },
+      "relationships": [
+        {
+          "annotationID": "TI4lkVAUaxmOc90XfVtU7",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "z8K5LtalOCgKPi1diWWVE",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "timestamp": 58,
       "metadata": {
         "lyricLine": "Find me somebody to love"
       },
       "relationships": [
         {
-          "annotationID": "Al1b907b7KIUhP9KcJuLm",
+          "annotationID": "33SkxSiUEfClSlfseY1-l",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "ldbig5rUHfC1Kt_z9mIc4",
+      "id": "YeUy_tFLycwiD6aFPz7vw",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 22,
+      "timestamp": 6,
       "metadata": {
         "lyricLine": "Somebody to love"
       },
       "relationships": [
         {
-          "annotationID": "I73mb2v08VBzDBlVKbLMz",
+          "annotationID": "WfG8QbYOkDd5_2xpM25ud",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "A5eL6htt3EQ8kbFhT0NY7",
+      "id": "st-PzkU8QwI0sv1BpfiaH",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 6,
+      "timestamp": 3,
       "metadata": {
         "lyricLine": "Someone to love?)"
       },
       "relationships": [
         {
-          "annotationID": "7iBXd1p9hU852nqv_bDIn",
+          "annotationID": "I-v6TZaP6xCmACw9GPCXC",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "1MB1YMuMegG7YyLjP-sub",
+      "id": "7MtdhBAUsKzdEE8FCjSe5",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 6,
+      "timestamp": 16,
       "metadata": {
-        "lyricLine": "Find me somebody to love"
+        "lyricLine": "Anybody, anywhere, anybody"
       },
       "relationships": [
         {
-          "annotationID": "ZexX6Tk1l_g__3hNJ-JHL",
+          "annotationID": "OWRsGtQBuoGDN7BvUoEDa",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "a9icdWxHleGuw87rGf5xi",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 2,
-      "metadata": {
-        "lyricLine": "Find me somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "Ff0QIxvwkCKWCmcyNT-hi",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "dUWsm8Gby0nZiARLgT4nf",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 4,
-      "metadata": {
-        "lyricLine": "Find me somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "kDDlvS6eIAoRbir69VDk_",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "R9dDt7DK_tRSb7Z7LqNl7",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "Find me somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "PX1UR1CFf3JguQybPFPDr",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "XojSl0Jz7uTinIbZPz-gi",
+      "id": "eEcSd0hO4AZrjfSZr2M-r",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
       "timestamp": 1,
       "metadata": {
-        "lyricLine": "Anybody, anywhere, anybody"
-      },
-      "relationships": [
-        {
-          "annotationID": "IBowTMh0ppDgvCJHU0Hh4",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "dFvOaGmuFVRGkWwrTNA8e",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 28,
-      "metadata": {
-        "lyricLine": "Find me somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "mEjejajoLjGVLDPqgmIc7",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "q9aZDqDjayc_DMDqH6-SV",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 7,
-      "metadata": {
         "lyricLine": "Somebody to love?"
       },
       "relationships": [
         {
-          "annotationID": "4yo1Gc9EyuxsXZu2zCQj1",
+          "annotationID": "uRdyQ6pH_i__XeFqmNz4K",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "h1ny19w40JCLVMOn662hb",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 2,
-      "metadata": {
-        "lyricLine": "Someone to love?)"
-      },
-      "relationships": [
-        {
-          "annotationID": "5O3cqFplInKpSwj70pH8S",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "n7FQDXJDtcVWQQLaod68h",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 11,
-      "metadata": {
-        "lyricLine": "Find me somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "fSrvmi-xPE7f5E5fgEgZP",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Mp9esSMN9kW7LlmL09qcv",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 27,
-      "metadata": {
-        "lyricLine": "Anybody, anywhere, anybody"
-      },
-      "relationships": [
-        {
-          "annotationID": "C5dCdYIaNlrnUcdQUudhq",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "CxyaVvVMKRnizzT1o8SXT",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 56,
-      "metadata": {
-        "lyricLine": "Somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "t_ES2FxK_xEmcPdcKWEvQ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "-baijcak15Z8G-pWusmnk",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 32,
-      "metadata": {
-        "lyricLine": "Somebody to love?"
-      },
-      "relationships": [
-        {
-          "annotationID": "dXBVVFb-tyf3GYIpCff4V",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Y1HxzD-uCKgpgC3RY4126",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
-      "timestamp": 34,
-      "metadata": {
-        "lyricLine": "Find me somebody to love"
-      },
-      "relationships": [
-        {
-          "annotationID": "3VoDutQihVJRMnXj7GMki",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "JddgwjUgjjNb0E5_sUd2A",
+      "id": "1YFUXk8S5nUEZa0WgeS0O",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
-      "timestamp": 30,
+      "timestamp": 43,
       "metadata": {
         "lyricLine": "It doesn't matter much to me"
       },
       "relationships": [
         {
-          "annotationID": "L7504gmy890k614QmwYVF",
+          "annotationID": "655nICsMK0SyNk2bS6Wwl",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "XsgfL_QqnmtbrbP44Crm8",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
-      "timestamp": 8,
-      "metadata": {
-        "lyricLine": "It doesn't matter much to me"
-      },
-      "relationships": [
-        {
-          "annotationID": "d3FFAl-DnxhW-6tuLO--d",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "e4LbQUa8pDRl8RMkGBhqQ",
+      "id": "MeFn4LOPiZtP5lKTHAaKM",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
-      "timestamp": 23,
-      "metadata": {
-        "lyricLine": "One, two... (One, two, three, four)"
-      },
-      "relationships": [
-        {
-          "annotationID": "wzIpo_Js8TskODXHx0TCg",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "QUZaRxOxmyDKQf2C4pox-",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
-      "timestamp": 40,
-      "metadata": {
-        "lyricLine": "One, two... (One, two, three, four)"
-      },
-      "relationships": [
-        {
-          "annotationID": "aOvpA6IhG2gDP-381vspZ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "oi-thLu97ijX0Xt4vC1HP",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
-      "timestamp": 6,
-      "metadata": {
-        "lyricLine": "Well I gave you everything I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "dad80W8wUeFqqtMe4Yqd3",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "mAqLTtQKgwUKbdKuAc9WZ",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "1onucrpJN9_n1FrUXFoAv",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "At8rBHz_7zZ-TvctO53Zj",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
-      "timestamp": 17,
-      "metadata": {
-        "lyricLine": "Well I gave you everything I had"
-      },
-      "relationships": [
-        {
-          "annotationID": "wXw-XR7-FrJ2534fDXoC3",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "YVOHfdmQW6QD_QLRuyA-F",
-          "type": "lyrics",
-          "score": 1
-        },
-        {
-          "annotationID": "2zADBmggycwQkSnzTfzno",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "ShFIhcy1y_tXkHwU7hZgh",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 17,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "KpGfP-gCQ6XtSaG4E-Zt_",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "zM0E24IY12rcF4PgDkC-y",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 52,
-      "metadata": {
-        "lyricLine": "Be the only one"
-      },
-      "relationships": [
-        {
-          "annotationID": "v_fNwhjlgSonxhesrnGEF",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "qvvOQanWdT24k5dsl0dMf",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 31,
-      "metadata": {
-        "lyricLine": "Be the only one"
-      },
-      "relationships": [
-        {
-          "annotationID": "etc5VP9gxmxoCfSKgpKG7",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "nqBEXAu0ZG6NUpAZfv6cf",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 40,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "QdY-mFq-IsvRO_xsYBufi",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "akVxYeKdmMZ_wJXNXa-Qj",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 35,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "NyDTtlt7TPf_MylwkKug6",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "baF6rIImk3LDk5We9jLn1",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 44,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "akGQmeuNojDrGk3_IGVK2",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "th8u_FepLAkOpDDHRSVHo",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 59,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "04S9BzHHapo58ABOaCBkS",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "VQm8-xwHcL-M-VEN156vo",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 53,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "UA6kqjeLbkeEC-XpMYWpR",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "DXSbpbNkmrr7-84vGrv_I",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 55,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "aKNz0ETfWbX-IKE4UtcVM",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "6EwcdCfIFBmlUdesxei57",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
-      "timestamp": 49,
-      "metadata": {
-        "lyricLine": "You say you will love me"
-      },
-      "relationships": [
-        {
-          "annotationID": "Wyr9xPVgS0xUdcCW9f88K",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "Emmn1ewbaGVutNy0smuU1",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
-      "timestamp": 42,
-      "metadata": {
-        "lyricLine": "Of the beginning"
-      },
-      "relationships": [
-        {
-          "annotationID": "PoopuhO-qhZq49Fwhyupo",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "d88nO9zkSy-pDCFBL0gp2",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
-      "timestamp": 58,
-      "metadata": {
-        "lyricLine": "Of the beginning"
-      },
-      "relationships": [
-        {
-          "annotationID": "9GAqBQGmP3EMJPP0PHqFN",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "KRTEjVKJL4I_Wdd9CJkZ-",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
       "timestamp": 5,
       "metadata": {
-        "lyricLine": "I really love you"
+        "lyricLine": "One, two... (One, two, three, four)"
       },
       "relationships": [
         {
-          "annotationID": "CyybsDMKsI5D_JXiIM7Ii",
+          "annotationID": "znVFSWvjah4JNzGe7A89u",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "-Y9L9bIsQhZ75FBHhfQTD",
+      "id": "oMrdMXwIwPZNpEPuPL3Wx",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
-      "timestamp": 34,
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "timestamp": 16,
       "metadata": {
-        "lyricLine": "I really love the things that you do"
+        "lyricLine": "Well I gave you everything I had"
       },
       "relationships": [
         {
-          "annotationID": "sm0CXJDP33pMmtnG2yg1a",
+          "annotationID": "_FehuOxREqxrLbc-By7_K",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "TueGBxe-BSFftr-XjtrHX",
+          "type": "lyrics",
+          "score": 1
+        },
+        {
+          "annotationID": "Rq9MX9ljds7vQTeowQTJN",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "Lvfh3gz2X7KiL3RK0AWjM",
+      "id": "Hr1D5QTA3BDLvaC8QQSbi",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
-      "timestamp": 42,
-      "metadata": {
-        "lyricLine": "I really love you"
-      },
-      "relationships": [
-        {
-          "annotationID": "tUSpUoXif6HXp0dB0V3Y7",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "d0z3NdJXbwKMRNkkDh-lu",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
-      "timestamp": 37,
-      "metadata": {
-        "lyricLine": "I really love the things that you do"
-      },
-      "relationships": [
-        {
-          "annotationID": "CS2fWJirXLOhJO1MCqe9w",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "tbHrFa2f5xZmgOCFVRUqe",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
-      "timestamp": 7,
-      "metadata": {
-        "lyricLine": "You break down"
-      },
-      "relationships": [
-        {
-          "annotationID": "LrkqhxlFb1fWf9SAydwmE",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "wzIpo_Js8TskODXHx0TCg",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
-      "timestamp": 46,
-      "metadata": {
-        "lyricLine": "One, two, three, four, five, six, seven"
-      },
-      "relationships": [
-        {
-          "annotationID": "e4LbQUa8pDRl8RMkGBhqQ",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "9uPxFdPbmVePIYA0PvpZR",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
-      "timestamp": 17,
-      "metadata": {
-        "lyricLine": "One, two, three, four, five, six, seven"
-      },
-      "relationships": [
-        {
-          "annotationID": "iHeTrn_JsuxbFjqe7Jv4U",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "aOvpA6IhG2gDP-381vspZ",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
       "timestamp": 44,
       "metadata": {
-        "lyricLine": "One, two, three, four, five, six, seven"
+        "lyricLine": "You say you will love me"
       },
       "relationships": [
         {
-          "annotationID": "QUZaRxOxmyDKQf2C4pox-",
+          "annotationID": "s6BLqZSCIHg88HqvZPrfA",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "MGPjEPRDaO3B_BMG2R6e_",
+      "id": "95BEpFAD535YqYc4dsXB4",
       "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "timestamp": 54,
+      "metadata": {
+        "lyricLine": "Be the only one"
+      },
+      "relationships": [
+        {
+          "annotationID": "6_1mUkrNWaafhCFpG7AvC",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "-jNhpLwkb5C3SPCXbQ1rY",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
+      "timestamp": 48,
+      "metadata": {
+        "lyricLine": "Of the beginning"
+      },
+      "relationships": [
+        {
+          "annotationID": "SYKFadCJtvHgc9CaSAtJv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "SMrJRMjMRyW6IIgGzETI-",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
       "timestamp": 17,
       "metadata": {
-        "lyricLine": "I break down"
+        "lyricLine": "I really love you"
       },
       "relationships": [
         {
-          "annotationID": "_PsF-z6DltHRCafDDq9eY",
+          "annotationID": "10AkMH6xqMhFbSXVwhnln",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "IVXNe5sozquGxcu23_SHU",
+      "id": "bAUJUHwOyeKaJxSItqujV",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "timestamp": 44,
+      "metadata": {
+        "lyricLine": "I really love the things that you do"
+      },
+      "relationships": [
+        {
+          "annotationID": "DM_-1rL5v9FczuycIWMtv",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "s5doSHyIagYpo17vv-FH1",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
-      "timestamp": 55,
+      "timestamp": 33,
       "metadata": {
         "lyricLine": "You break down"
       },
       "relationships": [
         {
-          "annotationID": "Er7wQ9HJYvhR3lqgYhr3O",
+          "annotationID": "_DNTVvy75xemAxNiOdGDa",
           "type": "lyrics",
           "score": 1
         }
       ]
     },
     {
-      "id": "OF46Y8igWnrBt1Mw_1ww5",
+      "id": "znVFSWvjah4JNzGe7A89u",
       "type": "lyrics",
       "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
-      "timestamp": 2,
-      "metadata": {
-        "lyricLine": "I break down"
-      },
-      "relationships": [
-        {
-          "annotationID": "3Q9pFimf4cnXwaH4kBNou",
-          "type": "lyrics",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "0vinehAMWyhu23AatZ15x",
-      "type": "lyrics",
-      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
-      "timestamp": 50,
+      "timestamp": 38,
       "metadata": {
         "lyricLine": "One, two, three, four, five, six, seven"
       },
       "relationships": [
         {
-          "annotationID": "4wxA9-eO1lUv70G6JTiLQ",
+          "annotationID": "MeFn4LOPiZtP5lKTHAaKM",
+          "type": "lyrics",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "KFFbgcVhK8m2JAxSplsVP",
+      "type": "lyrics",
+      "songID": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "timestamp": 11,
+      "metadata": {
+        "lyricLine": "I break down"
+      },
+      "relationships": [
+        {
+          "annotationID": "PseDPe1h0rSyhkH9RUWK0",
           "type": "lyrics",
           "score": 1
         }

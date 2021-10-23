@@ -11,6 +11,8 @@ import { FileReader } from '../etl/extract/file/FileReader';
 import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 
+import {uniqWith} from "lodash"
+
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
 const logger = Container.get(Logger)
@@ -166,8 +168,20 @@ function main(input : BotCliRunInput) {
         const MAX_RELATIONSHIPS = 3;
 
         // remove duplicates and map to App Entities
-        const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
+        let sonarSongs = (annotationResults.map(toSonarSongAnnotation))
+
+        const cleanAnnotationsWithSameRecordingPlaceAndRecordingSessionType = (data : any[]) => {
+            return uniqWith(data, function(arrVal, othVal) {
+                return (arrVal.recordingID == othVal.recordingID) && (arrVal.placeLabel === othVal.placeLabel) && (arrVal.sessionTypeLabel === othVal.sessionTypeLabel)
+            })
+        }   
+        annotationResults = cleanAnnotationsWithSameRecordingPlaceAndRecordingSessionType(annotationResults)     
+
+
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
+
+
+
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID, MAX_RELATIONSHIPS);
         const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
 
