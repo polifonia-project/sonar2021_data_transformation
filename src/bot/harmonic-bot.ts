@@ -49,13 +49,31 @@ const timeStringToSeconds = (timeString: string) => {
     return Math.round(hours * 60 * 60 + minutes * 60 + seconds)
 };
 
+
+
+// ?recordingTitleLabel
+// ?performerLabel
+// ?performerID
+// ?youtubeID
+
+// ?harmonicSimIRI
+// ?recordingAIRI
+// ?recordingBIRI
+// ?chordProgressionAIRI 
+// ?chordProgressionBIRI
+// ?simScore
+// ?beginCPA 
+// ?endCPA
+// ?cProgrALabel
+
+
 // add relationships to single annotation
-const hydrateHarmonicAnnotationRel = (a: any, _index:number, array: any[]) => {
-    let relationshipsHarmonic = array
+const hydrateHarmonicAnnotationRel = (a: any, _index:number, annotations: any[]) => {
+    let relationshipsHarmonic = annotations
         .filter(b => 
             b.harmonicSimIRI == a.harmonicSimIRI 
             && b.id !== a.id 
-            && b.recordingAIRI == a.recordingBIRI 
+            && b.recordingAIRI == a.recordingBIRI
         )
         .map(b => {
             return {

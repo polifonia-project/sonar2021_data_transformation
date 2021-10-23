@@ -1,0 +1,72 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<https://w3id.org/polifonia/resource/Address/> .
+@prefix ns2:	<https://w3id.org/polifonia/ON/core/> .
+ns1:Arabellastrasse	rdf:type	ns2:Address .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:Arabellastrasse	rdfs:label	"Arabellastrasse" ;
+	ns2:fullAddress	"Arabellastrasse" .
+@prefix ns4:	<https://w3id.org/polifonia/resource/Agent/> .
+ns4:free	rdf:type	ns2:Agent ;
+	rdfs:label	"Free" ;
+	ns2:hasStartCareerPlace	<https://w3id.org/polifonia/resource/Place/United%20States> .
+@prefix ns5:	<https://w3id.org/polifonia/resource/Country/> .
+ns4:free	ns2:hasBirthPlace	ns5:US .
+ns4:pras_michel	rdf:type	ns2:Agent ;
+	rdfs:label	"Pras Michel" .
+@prefix ns6:	<https://w3id.org/polifonia/resource/Place/> .
+ns4:pras_michel	ns2:hasStartCareerPlace	ns6:Brooklyn ;
+	ns2:hasBirthPlace	ns5:US .
+ns4:queen	rdf:type	ns2:Agent ;
+	rdfs:label	"Queen" ;
+	ns2:hasStartCareerPlace	ns6:London ;
+	ns2:hasBirthPlace	ns5:GB .
+ns5:GB	rdf:type	ns2:Country ;
+	rdfs:label	"GB" .
+ns5:US	rdf:type	ns2:Country ;
+	rdfs:label	"US" .
+<https://w3id.org/polifonia/resource/Geometry/48_150108_11_619503>	rdf:type	ns2:Geometry ;
+	ns2:lat	"48.150108" ;
+	ns2:long	"11.619503" .
+<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4>	rdf:type	ns2:PhysicalSite ;
+	rdfs:label	"Musicland Studios" ;
+	ns2:hasGeometry	<https://w3id.org/polifonia/resource/Geometry/48_150108_11_619503> ;
+	ns2:hasAddress	ns1:Arabellastrasse .
+ns6:Brooklyn	rdf:type	ns2:Place ;
+	rdfs:label	"Brooklyn" .
+ns6:London	rdf:type	ns2:Place ;
+	rdfs:label	"London" .
+<https://w3id.org/polifonia/resource/Place/United%20States>	rdf:type	ns2:Place ;
+	rdfs:label	"United States" .
+@prefix ns7:	<https://w3id.org/polifonia/resource/RecordingProcess/> .
+@prefix ns8:	<https://w3id.org/polifonia/ON/musical-performance/> .
+ns7:isophonics_258	rdf:type	ns8:RecordingProcess ;
+	ns8:hasSession	<https://w3id.org/polifonia/resource/Session/00181_1> .
+<https://w3id.org/polifonia/resource/Session/00181_1>	rdf:type	ns8:Session ;
+	ns2:hasTimeInterval	<https://w3id.org/polifonia/resource/TimeInterval/1979-06_1980-05> ;
+	ns2:hasPlace	<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4> .
+<https://w3id.org/polifonia/resource/TimeInterval/1979-06_1980-05>	rdf:type	ns2:TimeInterval ;
+	ns2:endTime	"1980-05" ;
+	ns2:startTime	"1979-06" .
+@prefix ns9:	<https://w3id.org/polifonia/resource/Title/> .
+ns9:another_one_bites_the_dust	rdf:type	ns2:Title ;
+	rdfs:label	"Another One Bites The Dust" .
+@prefix ns10:	<https://w3id.org/polifonia/resource/Recording/> .
+ns10:isophonics_258	rdf:type	ns8:Recording ;
+	ns2:hasArtistBirthPlace	ns5:GB ,
+		ns5:US ;
+	ns2:hasArtistStartCareerPlace	ns6:London ,
+		<https://w3id.org/polifonia/resource/Place/United%20States> ,
+		ns6:Brooklyn ;
+	ns2:hasRecordingProcessSessionPlace	<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4> ;
+	ns2:hasYoutubeID	"rY0WxgSXdEE" ;
+	ns8:hasRecordingPerformer	ns4:pras_michel ,
+		ns4:queen ,
+		ns4:free ;
+	ns2:hasPlace	ns6:Brooklyn ,
+		<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4> ,
+		<https://w3id.org/polifonia/resource/Place/United%20States> ,
+		ns5:GB ,
+		ns5:US ,
+		ns6:London ;
+	ns2:hasTitle	ns9:another_one_bites_the_dust ;
+	ns8:isRecordingProducedBy	ns7:isophonics_258 .

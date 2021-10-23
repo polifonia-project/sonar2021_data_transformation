@@ -1,0 +1,83 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix core:	<https://w3id.org/polifonia/ON/core/> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mp:	<https://w3id.org/polifonia/ON/musical-performance/> .
+
+
+<https://w3id.org/polifonia/resource/Address/Arabellastrasse>	rdf:type	core:Address ;
+	                                                            rdfs:label	"Arabellastrasse" ;
+	                                                            core:fullAddress	"Arabellastrasse" .
+
+<https://w3id.org/polifonia/resource/Agent/free>	rdf:type	core:Agent ;
+	                                                rdfs:label	"Free" ;
+	                                                core:hasStartCareerPlace	<https://w3id.org/polifonia/resource/Place/United%20States> ;
+                                                  core:hasBirthPlace	<https://w3id.org/polifonia/resource/Country/US> .
+
+<https://w3id.org/polifonia/resource/Agent/pras_michel>	rdf:type	core:Agent ;
+	                                                      rdfs:label	"Pras Michel" ;
+                                                        core:hasStartCareerPlace	<https://w3id.org/polifonia/resource/Place/Brooklyn> ;
+	                                                      core:hasBirthPlace	<https://w3id.org/polifonia/resource/Country/US> .
+
+<https://w3id.org/polifonia/resource/Agent/queen>	rdf:type	core:Agent ;
+	                                                rdfs:label	"Queen" ;
+	                                                core:hasStartCareerPlace	<https://w3id.org/polifonia/resource/Place/London> ;
+	                                                core:hasBirthPlace	<https://w3id.org/polifonia/resource/Country/GB> .
+
+<https://w3id.org/polifonia/resource/Country/GB>	rdf:type	core:Country ;
+	                                                rdfs:label	"GB" .
+
+<https://w3id.org/polifonia/resource/Country/US>	rdf:type	core:Country ;
+	                                                rdfs:label	"US" .
+
+<https://w3id.org/polifonia/resource/Geometry/48_150108_11_619503>	rdf:type	core:Geometry ;
+	                                                                  core:lat	"48.150108" ;
+	                                                                  core:long	"11.619503" .
+
+<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4>	rdf:type	core:PhysicalSite ;
+	                                                                                      rdfs:label	"Musicland Studios" ;
+	                                                                                      core:hasGeometry	<https://w3id.org/polifonia/resource/Geometry/48_150108_11_619503> ;
+	                                                                                      core:hasAddress	<https://w3id.org/polifonia/resource/Address/Arabellastrasse> .
+
+<https://w3id.org/polifonia/resource/Place/Brooklyn>	rdf:type	core:Place ;
+	rdfs:label	"Brooklyn" .
+
+<https://w3id.org/polifonia/resource/Place/London>	rdf:type	core:Place ;
+	rdfs:label	"London" .
+
+<https://w3id.org/polifonia/resource/Place/United%20States>	rdf:type	core:Place ;
+	rdfs:label	"United States" .
+
+
+
+<https://w3id.org/polifonia/resource/RecordingProcess/isophonics_258>	rdf:type	mp:RecordingProcess ;
+	mp:hasSession	<https://w3id.org/polifonia/resource/Session/00181_1> .
+
+<https://w3id.org/polifonia/resource/Session/00181_1>	rdf:type	mp:Session ;
+	core:hasTimeInterval	<https://w3id.org/polifonia/resource/TimeInterval/1979-06_1980-05> ;
+	core:hasPlace	<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4> .
+
+<https://w3id.org/polifonia/resource/TimeInterval/1979-06_1980-05>	rdf:type	core:TimeInterval ;
+	core:endTime	"1980-05" ;
+	core:startTime	"1979-06" .
+
+<https://w3id.org/polifonia/resource/Title/another_one_bites_the_dust>	rdf:type	core:Title ;
+	rdfs:label	"Another One Bites The Dust" .
+
+<https://w3id.org/polifonia/resource/Recording/isophonics_258>	rdf:type	mp:Recording ;
+	core:hasArtistBirthPlace	<https://w3id.org/polifonia/resource/Country/GB> ,	<https://w3id.org/polifonia/resource/Country/US> ;
+	core:hasArtistStartCareerPlace	<https://w3id.org/polifonia/resource/Place/London> ,
+		<https://w3id.org/polifonia/resource/Place/United%20States> ,
+		<https://w3id.org/polifonia/resource/Place/Brooklyn> ;
+	core:hasRecordingProcessSessionPlace	<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4> ;
+	core:hasYoutubeID	"rY0WxgSXdEE" ;
+	mp:hasRecordingPerformer	<https://w3id.org/polifonia/resource/Agent/pras_michel> ,
+		<https://w3id.org/polifonia/resource/Agent/queen> ,
+		<https://w3id.org/polifonia/resource/Agent/free> ;
+	core:hasPlace	<https://w3id.org/polifonia/resource/Place/Brooklyn> ,
+		<https://w3id.org/polifonia/resource/PhysicalSite/98043b40_bcf9_40f0_be92_aa60004025b4> ,
+		<https://w3id.org/polifonia/resource/Place/United%20States> ,
+		<https://w3id.org/polifonia/resource/Country/GB> ,
+		<https://w3id.org/polifonia/resource/Country/US> ,
+		<https://w3id.org/polifonia/resource/Country/London> ;
+	core:hasTitle	<https://w3id.org/polifonia/resource/Title/another_one_bites_the_dust> ;
+	mp:isRecordingProducedBy	<https://w3id.org/polifonia/resource/RecordingProcess/isophonics_258> .

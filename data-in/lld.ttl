@@ -1,0 +1,50 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<https://w3id.org/polifonia/resource/LyricLine/> .
+@prefix ns2:	<https://w3id.org/polifonia/ON/musical-feature/> .
+ns1:isophonics_258_121	rdf:type	ns2:LyricLine .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:isophonics_258_121	rdfs:label	"You took me for everything that I had" .
+@prefix ns4:	<https://w3id.org/polifonia/ON/comparative-measure/> .
+@prefix ns5:	<https://w3id.org/polifonia/resource/LyricLineSimilarity/> .
+ns1:isophonics_258_121	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_258_isophonics_73_121_122 .
+ns1:isophonics_258_129	rdf:type	ns2:LyricLine ;
+	rdfs:label	"You took me for everything that I had" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_258_isophonics_73_129_130 .
+ns1:isophonics_73_092	rdf:type	ns2:LyricLine ;
+	rdfs:label	"Well I beg you on my bended knees" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_73_isophonics_217_092_093 .
+ns1:isophonics_73_121	rdf:type	ns2:LyricLine ;
+	rdfs:label	"Well I gave you everything I had" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_258_isophonics_73_121_122 .
+ns1:isophonics_73_129	rdf:type	ns2:LyricLine ;
+	rdfs:label	"Well I gave you everything I had" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_258_isophonics_73_129_130 .
+ns1:isophonics_73_157	rdf:type	ns2:LyricLine ;
+	rdfs:label	"Well I beg you on my bended knees" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_217_isophonics_73_157_158 .
+ns1:isophonics_73_236	rdf:type	ns2:LyricLine ;
+	rdfs:label	"Well I beg you on my bended knees" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_217_isophonics_73_236_237 .
+ns1:isophonics_73_289	rdf:type	ns2:LyricLine ;
+	rdfs:label	"Well I beg you on my bended knees" ;
+	ns4:isInvolvedinLyricLineSimilarity	ns5:lyr_sim_isophonics_73_isophonics_217_289_290 .
+@prefix ns6:	<https://w3id.org/polifonia/resource/Recording/> .
+@prefix ns7:	<https://w3id.org/polifonia/ON/musical-performance/> .
+ns6:isophonics_258	rdf:type	ns7:Recording ;
+	ns4:isInvolvedinLineLyricSimilarity	ns5:lyr_sim_isophonics_258_isophonics_73_121_122 ,
+		ns5:lyr_sim_isophonics_258_isophonics_73_129_130 ;
+	ns2:hasLyricLine	ns1:isophonics_258_121 ,
+		ns1:isophonics_258_129 .
+ns6:isophonics_73	rdf:type	ns7:Recording ;
+	ns4:isInvolvedinLineLyricSimilarity	ns5:lyr_sim_isophonics_217_isophonics_73_157_158 ,
+		ns5:lyr_sim_isophonics_217_isophonics_73_236_237 ,
+		ns5:lyr_sim_isophonics_258_isophonics_73_121_122 ,
+		ns5:lyr_sim_isophonics_258_isophonics_73_129_130 ,
+		ns5:lyr_sim_isophonics_73_isophonics_217_092_093 ,
+		ns5:lyr_sim_isophonics_73_isophonics_217_289_290 ;
+	ns2:hasLyricLine	ns1:isophonics_73_236 ,
+		ns1:isophonics_73_289 ,
+		ns1:isophonics_73_129 ,
+		ns1:isophonics_73_157 ,
+		ns1:isophonics_73_092 ,
+		ns1:isophonics_73_121 .

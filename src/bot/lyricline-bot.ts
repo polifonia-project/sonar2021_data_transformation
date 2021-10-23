@@ -9,7 +9,7 @@ import { FileReader } from '../etl/extract/file/FileReader';
 import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 
-import {uniqWith} from "lodash"
+import {uniqWith, uniqBy} from "lodash"
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
@@ -170,23 +170,32 @@ function main(input : BotCliRunInput) {
 
         const cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals = (data : any[]) => {
             return uniqWith(data, function(arrVal, othVal) {
-                return (arrVal.songID == othVal.songID) && (arrVal.metadata.lyricLine === othVal.metadata.lyricLine) && (arrVal.relationships.songID === othVal.relationships.songID)
+                return (arrVal.songID == othVal.songID) && (arrVal.metadata.lyricLine == othVal.metadata.lyricLine) && (arrVal.relationships.songID == othVal.relationships.songID)
             })
         }
+        const cleanRelationships = (annotations : any[]) => {
 
+            return annotations.map(a   => {
+
+                const uniqueRelations = uniqBy(a.relationships, "songID").filter((r : any) => {
+                    return  a.songID != r.songID
+                })
+
+                a.relationships = uniqueRelations
+
+                return a
+            })
+        }
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID);
         const sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
-
-        
-
         const sonarAnnotationsWithoutDuplicates = cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals(sonarAnnotations)
-
+        const sonarAnnotationsWithoutDuplicateRelationships = cleanRelationships(sonarAnnotationsWithoutDuplicates)
 
         // write new json static file
         filePublisher.write({
             songs: sonarSongs,
-            annotations: sonarAnnotationsWithoutDuplicates,
+            annotations: sonarAnnotationsWithoutDuplicateRelationships,
         }, {
             destination: input.out
         });

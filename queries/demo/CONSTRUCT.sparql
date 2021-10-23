@@ -1,0 +1,34 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+
+?recordingAIRI  a mp:Recording ;
+                    mf:hasLyricLine ?lyricLineAIRI ;
+                    cm:isInvolvedinLineLyricSimilarity ?lyricLineSimIRI .
+
+?lyricLineAIRI  a mf:LyricLine ;
+                    rdfs:label ?lineALabel ;
+                    cm:isInvolvedinLyricLineSimilarity ?lyricLineSimIRI .
+
+}
+
+WHERE {
+
+
+    ?recordingAIRI  a mp:Recording ;
+                    mf:hasLyricLine ?lyricLineAIRI ;
+                    cm:isInvolvedinLineLyricSimilarity ?lyricLineSimIRI .
+
+    ?lyricLineAIRI  a mf:LyricLine ;
+                    rdfs:label ?lineALabel ;
+                    cm:isInvolvedinLyricLineSimilarity ?lyricLineSimIRI .
+
+FILTER (?recordingAIRI IN (<https://w3id.org/polifonia/resource/Recording/isophonics_258>, <https://w3id.org/polifonia/resource/Recording/isophonics_73>, <https://w3id.org/polifonia/resource/Recording/isophonics_219>, <https://w3id.org/polifonia/resource/Recording/schubert-winterreise_126>, <https://w3id.org/polifonia/resource/Recording/jaah_87> ))
+ }

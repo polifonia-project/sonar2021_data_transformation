@@ -55,7 +55,7 @@ WHERE {
         ?performerID core:hasBirthPlace ?placeID .
         ?placeID rdfs:label ?placeLabelCountry .
 
-        BIND ( CONCAT("Born in ", ?placeLabelCountry) as ?placeLabel )
+        BIND ( CONCAT("Artist's birthplace ", ?placeLabelCountry) as ?placeLabel )
 
     }
     UNION
@@ -63,7 +63,7 @@ WHERE {
         ?performerID core:hasStartCareerPlace ?placeID .
         ?placeID rdfs:label ?placeLabelCountry .
 
-        BIND ( CONCAT("Started career at ", ?placeLabelCountry) as ?placeLabel )
+        BIND ( CONCAT("Artists started career at ", ?placeLabelCountry) as ?placeLabel )
 
 
     }
