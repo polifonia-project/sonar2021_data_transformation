@@ -23,7 +23,8 @@ HARM_OUT="data-out/demo/harmonic.json"
 
 # merged out
 
-DEMO_OUT="data-out/demo_dataset.json"
+DEMO_OUT="data-out/demo/demo_dataset.json"
+DEMO_OUT_APP="../sonar2021_demo/src/assets/data/demo_dataset.json"
 
 
 # Produce lyric annotations
@@ -38,4 +39,6 @@ node build/bot/harmonic-bot.js run -f $HARM_QUERY -s $SOURCE -t $SOURCE_TYPE -o 
 
 # Merge Annotations
 
+node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT}" -o $DEMO_OUT_APP
 node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT}" -o $DEMO_OUT
+

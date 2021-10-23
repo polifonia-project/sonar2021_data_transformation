@@ -11,6 +11,8 @@ import { FileReader } from '../etl/extract/file/FileReader';
 import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 
+import {uniqWith} from "lodash"
+
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
 const logger = Container.get(Logger)
@@ -44,7 +46,7 @@ const hydrateHarmonicAnnotationIDs = (a: any) => {
 // convert KG timeString to seconds based timestamp
 const timeStringToSeconds = (timeString: string) => {
     let [hours, minutes, seconds] = timeString.split(':').map(parseFloat)
-    return hours * 60 * 60 + minutes * 60 + seconds
+    return Math.round(hours * 60 * 60 + minutes * 60 + seconds)
 };
 
 // add relationships to single annotation
@@ -59,8 +61,8 @@ const hydrateHarmonicAnnotationRel = (a: any, _index:number, array: any[]) => {
             return {
                 annotationID: b.id,
                 type: "harmonic",
-                score: parseFloat(a.simScore),
-            }
+                score: parseFloat(parseFloat(a.simScore).toFixed(3))
+                }
         })
     a.relationships = relationshipsHarmonic
     return a
@@ -79,6 +81,7 @@ const toSonarHarmonicAnnotation = (sparqlRow:any) => {
             endCPA: timeStringToSeconds(sparqlRow.endCPA),
             recordingBIRI: sparqlRow.recordingBIRI,
             harmonicSimIRI: sparqlRow.harmonicSimIRI,
+            longestChordProgression : sparqlRow.cProgrALabel
         },
         relationships: sparqlRow.relationships
     }
@@ -154,17 +157,27 @@ function main(input : BotCliRunInput) {
             logLevel : LogLevelEnum.Info
         })
 
+
+        const cleanDuplicateAnnotations= (data : any[]) => {
+            return uniqWith(data, function(arrVal, othVal) {
+                return (arrVal.songID == othVal.songID) && (arrVal.metadata.chordProgressionAIRI === othVal.metadata.chordProgressionAIRI) && (arrVal.metadata.recordingBIRI === othVal.metadata.recordingBIRI)
+            })
+        }
+
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
         const annotationResultsWithIDs = annotationResults.map(hydrateHarmonicAnnotationIDs);
         const annotationResultsWithRels = annotationResultsWithIDs.map(hydrateHarmonicAnnotationRel);
+
         const sonarAnnotationsWithEmptyRels = annotationResultsWithRels.map(toSonarHarmonicAnnotation);
+
         const sonarAnnotations = sonarAnnotationsWithEmptyRels.filter(a => a.relationships.length);
+        const withoutDuplicatesAnnotations =  cleanDuplicateAnnotations(sonarAnnotations)
 
         // write new json static file
         filePublisher.write({
             songs : sonarSongs,
-            annotations: sonarAnnotations,
+            annotations: withoutDuplicatesAnnotations,
         }, {
             destination: input.out
         });

@@ -78,7 +78,7 @@ const hydrateAnnotationRel = (a: any, data: any[]) => {
         .map(anotherA => {
             return {
                 annotationID: anotherA.id,
-                songID : anotherA.songID,
+                songID : anotherA.recordingID,
                 type: "lyrics",
                 score: 1,
             }
@@ -170,20 +170,23 @@ function main(input : BotCliRunInput) {
 
         const cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals = (data : any[]) => {
             return uniqWith(data, function(arrVal, othVal) {
-                return (arrVal.songID == othVal.songID) && (arrVal.metadata.lyricLine === othVal.metadata.lyricLine) && (arrVal.relationships.songID === othVal.relationships.sogID)
+                return (arrVal.songID == othVal.songID) && (arrVal.metadata.lyricLine === othVal.metadata.lyricLine) && (arrVal.relationships.songID === othVal.relationships.songID)
             })
         }
 
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID);
-        let sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
-        sonarAnnotations = cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals(sonarAnnotations)
+        const sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
+
+        
+
+        const sonarAnnotationsWithoutDuplicates = cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals(sonarAnnotations)
 
 
         // write new json static file
         filePublisher.write({
             songs: sonarSongs,
-            annotations: sonarAnnotations,
+            annotations: sonarAnnotationsWithoutDuplicates,
         }, {
             destination: input.out
         });

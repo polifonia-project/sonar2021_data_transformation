@@ -25,12 +25,13 @@ SELECT DISTINCT
     ?simScore
     ?beginCPA 
     ?endCPA
+    ?cProgrALabel
 
 
 WHERE {  
     ?recordingAIRI  a mp:Recording;
-                      core:hasTitle ?title ;
-                    core:hasYoutubeID ?youtubeID ;
+                   core:hasTitle ?title ;
+                   core:hasYoutubeID ?youtubeID ;
                    mp:hasRecordingPerformer ?performerID ;
 
                     cm:isRecordingInvolvedInCPSim ?CPinSimAIRI ;
@@ -56,9 +57,11 @@ WHERE {
                     cm:aboutChordProgression ?chordProgressionBIRI.
 
     
-    ?chordProgressionAIRI a mf:ChordProgression.
+    ?chordProgressionAIRI a mf:ChordProgression ;
+                        rdfs:label ?cProgrALabel .
 
-    ?chordProgressionBIRI a mf:ChordProgression.
+    ?chordProgressionBIRI a mf:ChordProgression ;
+                        rdfs:label ?cProgrBLabel .
 
     ?timeIntervalAIRI    a core:TimeInterval ;
                     core:startTime ?beginCPA ;

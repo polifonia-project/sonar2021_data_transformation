@@ -26,6 +26,16 @@ const AGENT = {
     color: "cyan"
 }
 
+const generateSessionTypeLabelFromSessionType = (sessionType: string) => {
+    switch(sessionType) {
+        case "mp:RecordingSession":
+            return "Recorded at"
+        case "mp:EditingSession":
+            return "Edited at"
+        case "mp:MixdownSession":
+            return "Mixed at"
+        }
+}
 
 const toSonarSongAnnotation = (sparqlRow: any) => {
     return {
@@ -49,7 +59,7 @@ const toSonarAppAnnotation = (sparqlRow: any) => {
             placeFullAddress: sparqlRow.placeFullAddress,
             placeLong: sparqlRow.placeLong,
             placeLat: sparqlRow.placeLat,
-            sessionTypeLabel: sparqlRow.sessionTypeLabel,
+            sessionTypeLabel: sparqlRow.sessionTypeLabel != "" ? sparqlRow.sessionTypeLabel : generateSessionTypeLabelFromSessionType(sparqlRow.sessionType),
         },
         relationships: sparqlRow.relationships
     }
@@ -175,7 +185,7 @@ function main(input : BotCliRunInput) {
                 return (arrVal.recordingID == othVal.recordingID) && (arrVal.placeLabel === othVal.placeLabel) && (arrVal.sessionTypeLabel === othVal.sessionTypeLabel)
             })
         }   
-        annotationResults = cleanAnnotationsWithSameRecordingPlaceAndRecordingSessionType(annotationResults)     
+        annotationResults = cleanAnnotationsWithSameRecordingPlaceAndRecordingSessionType(annotationResults)
 
 
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
