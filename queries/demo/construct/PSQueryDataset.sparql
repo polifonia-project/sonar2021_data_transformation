@@ -1,0 +1,119 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT { ?recording  a mp:Recording ;
+                    core:hasTitle ?title ;
+                    core:hasYoutubeID ?youtubeID ;
+                    mp:isRecordingProducedBy ?recordingProcess;
+                    mp:hasRecordingPerformer ?artist ;
+                    core:hasArtistBirthPlace ?artistBirthPlaceCode ;
+                    core:hasArtistStartCareerPlace ?artistCareerStartPlace ;
+                    core:hasRecordingProcessSessionPlace ?place ;
+                    core:hasPlace ?artistBirthPlaceCode;
+                    core:hasPlace ?artistCareerStartPlace;
+                    core:hasPlace ?place .
+
+?title  a core:Title ;
+                rdfs:label ?titleLabel .
+
+?artist  a core:Agent ;
+                rdfs:label ?artistLabel ;
+                core:hasBirthPlace ?artistBirthPlaceCode ;
+                core:hasStartCareerPlace ?artistCareerStartPlace .
+
+
+?recordingProcess   a mp:RecordingProcess ;
+                                    mp:hasSession ?session .
+
+?session a mp:Session ;
+                core:hasTimeInterval ?timeInterval ;
+                core:hasPlace ?place .
+
+?timeInterval   a core:TimeInterval ;
+                        core:startTime ?startTime ;
+                        core:endTime ?endTime .
+
+?artistCareerStartPlace a core:Place ;
+            rdfs:label ?artistCareerStartPlaceLabel .
+
+?artistBirthPlaceCode a core:Country ;
+		rdfs:label ?artistBirthPlaceCodeLabel .
+
+?place a core:PhysicalSite ;
+              rdfs:label ?placeLabel ;
+              core:hasAddress ?address ;
+              core:hasGeometry ?geometry .
+
+?address a core:Address ;
+                rdfs:label ?fullAddress ;
+                core:fullAddress ?fullAddress .
+
+?geometry   a core:Geometry ;
+                    core:lat ?lat ;
+                    core:long ?long .
+
+
+    }
+
+WHERE {
+?recording  a mp:Recording ;
+                    core:hasTitle ?title ;
+                    core:hasYoutubeID ?youtubeID ;
+                    mp:isRecordingProducedBy ?recordingProcess;
+                    mp:hasRecordingPerformer ?artist ;
+                    core:hasArtistBirthPlace ?artistBirthPlaceCode ;
+                    core:hasArtistStartCareerPlace ?artistCareerStartPlace ;
+                    core:hasRecordingProcessSessionPlace ?place ;
+                    core:hasPlace ?artistBirthPlaceCode;
+                    core:hasPlace ?artistCareerStartPlace;
+                    core:hasPlace ?place .
+
+?title  a core:Title ;
+                rdfs:label ?titleLabel .
+?artist  a core:Agent ;
+                rdfs:label ?artistLabel  ;
+                core:hasBirthPlace ?artistBirthPlaceCode ;
+                core:hasStartCareerPlace ?artistCareerStartPlace .
+
+?recordingProcess   rdf:type mp:RecordingProcess ;
+mp:hasSession ?session .
+
+?session rdf:type mp:Session ;
+                core:hasPlace ?place ;
+                core:hasTimeInterval ?timeInterval .
+
+?timeInterval   a core:TimeInterval ;
+                        core:startTime ?startTime ;
+                        core:endTime ?endTime .
+
+?artistCareerStartPlace a core:Place ;
+            rdfs:label ?artistCareerStartPlaceLabel .
+
+?artistBirthPlaceCode a core:Country ;
+		rdfs:label ?artistBirthPlaceCodeLabel .
+
+?place a core:PhysicalSite ;
+              rdfs:label ?placeLabel ;
+              core:hasAddress ?address ;
+              core:hasGeometry ?geometry .
+
+?address a core:Address ;
+                rdfs:label ?fullAddress ;
+                core:fullAddress ?fullAddress .
+
+?geometry   a core:Geometry ;
+                    core:lat ?lat ;
+                    core:long ?long .
+
+
+FILTER (?recording IN (<https://w3id.org/polifonia/resource/Recording/isophonics_258>))
+
+ }

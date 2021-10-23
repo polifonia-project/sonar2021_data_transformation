@@ -6,24 +6,24 @@ SOURCE_TYPE="sparql"
 
 
 # Lyrics
-LYR_QUERY="queries/demo/lyricline-demo.sparql"
-LYR_OUT="data-out/demo/lyric-line.json"
+LYR_QUERY="queries/lyric-line.sparql"
+LYR_OUT="data-out/full/lyric-line.json"
 #LYR_OUT=""
 
 
 # Spatials
-SPAT_QUERY="queries/demo/places-demo.sparql"
-SPAT_OUT="data-out/demo/spat-rec.json"
+SPAT_QUERY="queries/spatial-annotations-rec-process-session.sparql"
+SPAT_OUT="data-out/full/spat-rec.json"
 #SPAT_OUT=""
 
 
 # Harmonics
-HARM_QUERY="queries/demo/harmonic-demo.sparql"
-HARM_OUT="data-out/demo/harmonic.json"
+HARM_QUERY="queries/harmonic-annotations.sparql"
+HARM_OUT="data-out/full/harmonic.json"
 
 # merged out
 
-DEMO_OUT="data-out/demo/demo_dataset.json"
+DEMO_OUT="data-out/full/demo_dataset.json"
 DEMO_OUT_APP="../sonar2021_demo/src/assets/data/demo_dataset.json"
 
 

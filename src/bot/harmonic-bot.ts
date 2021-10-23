@@ -11,7 +11,7 @@ import { FileReader } from '../etl/extract/file/FileReader';
 import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 
-import {uniqWith} from "lodash"
+import {uniqWith, uniqBy} from "lodash"
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
@@ -185,17 +185,45 @@ function main(input : BotCliRunInput) {
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
         const annotationResultsWithIDs = annotationResults.map(hydrateHarmonicAnnotationIDs);
+
+
         const annotationResultsWithRels = annotationResultsWithIDs.map(hydrateHarmonicAnnotationRel);
 
         const sonarAnnotationsWithEmptyRels = annotationResultsWithRels.map(toSonarHarmonicAnnotation);
 
-        const sonarAnnotations = sonarAnnotationsWithEmptyRels.filter(a => a.relationships.length);
-        const withoutDuplicatesAnnotations =  cleanDuplicateAnnotations(sonarAnnotations)
+        const withoutDuplicatesAnnotations =  cleanDuplicateAnnotations(sonarAnnotationsWithEmptyRels)
+        const cleanDuplicateRelationships = (annotations: any[]) => {
+            return annotations.map(a   => {
+
+                const uniqueRelations = uniqBy(a.relationships, "score")
+                // .filter((r : any) => {
+                //     return  a.songID != r.songID
+                // })
+                a.relationships = uniqueRelations
+
+                return a
+            })
+        }
+        const withoutDuplicateRelationships = cleanDuplicateRelationships(withoutDuplicatesAnnotations)
+
+        const removeAnnotationsWithoutRelationshipsAndNotRelationOfAnotherAnnotation = (annotations: any[]) => {
+
+            annotations.filter((a, index, annotations) => {
+
+                // remove case where there's no relation to show
+
+                const hasTargetAnnotation = annotations.some(target => target.relationships && target.relationships[0].annotationID === a.id )
+                const isTargetOfAnotherAnnotation = annotations.some(anotherA => a.relationships && a.relationships[0].annotationID === anotherA.id )
+
+                return hasTargetAnnotation && isTargetOfAnotherAnnotation
+            })
+
+        }
 
         // write new json static file
         filePublisher.write({
             songs : sonarSongs,
-            annotations: withoutDuplicatesAnnotations,
+            annotations: withoutDuplicateRelationships,
         }, {
             destination: input.out
         });

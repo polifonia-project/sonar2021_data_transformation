@@ -1,0 +1,52 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+?recording a mp:Recording ;
+                   cm:isRecordingInvolvedInCPSim ?CPSim ;
+                   cm:isRecordingInvolvedInHarmSim ?harmonicSimilarity .
+
+?harmonicSimilarity a cm:HarmonicSimilarity ;
+                   cm:harmSimInvolvesRecording ?recording ;
+                   cm:hasChordProgressionInHarmSim ?CPSim ;
+                   cm:similarityScore ?score.
+
+?CPSim a cm:ChordProgressionInSimilarity ;
+                   cm:CPSimInvolvesRecording ?recording ;
+                   cm:aboutChordProgression ?chordProgression ;
+                   cm:isChordProgressionInHarmSim ?harmonicSimilarity ;
+                   core:hasTimeInterval ?timeInterval .
+
+?chordProgression a mf:ChordProgression ;
+                   cm:isChordProgressionInCPSim ?CPSim .
+
+?timeInterval a core:TimeInterval ;
+                    core:endTime    ?startTime ;
+                    core:startTime  ?endTime.
+}
+
+WHERE {
+
+?recording a mp:Recording ;
+                   cm:isRecordingInvolvedInCPSim ?CPSim ;
+                   cm:isRecordingInvolvedInHarmSim ?harmonicSimilarity .
+
+?harmonicSimilarity a cm:HarmonicSimilarity;
+                                   cm:similarityScore ?score.
+
+?CPSim a cm:ChordProgressionInSimilarity;
+                  cm:aboutChordProgression ?chordProgression ;
+                  core:hasTimeInterval ?timeInterval .
+
+?timeInterval a core:TimeInterval;
+                          core:endTime ?startTime ;
+                          core:startTime ?endTime.
+
+FILTER (?recording IN (<https://w3id.org/polifonia/resource/Recording/isophonics_258>))
+ }

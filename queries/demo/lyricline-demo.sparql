@@ -25,8 +25,11 @@ WHERE {
 
   ?recordingID rdf:type mp:Recording ;
       core:hasTitle ?title ;
-      core:hasYoutubeID ?youtubeID ;
       mp:hasRecordingPerformer ?performerID .
+
+      OPTIONAL { ?recordingID core:hasYoutubeID ?youtubeID2B } .
+      BIND ( IF (BOUND ( ?youtubeID2B ), ?youtubeID2B, "no_yt_id" )  as ?youtubeID )
+
 
      ?title rdfs:label ?recordingTitleLabel.
      ?performerID rdfs:label ?performerLabel.
@@ -37,8 +40,9 @@ WHERE {
     ?recordingID    cm:isInvolvedinLineLyricSimilarity ?lyricSimilarityID ;
                     mf:hasLyricLine ?lyricLine .
     ?lyricLine cm:isInvolvedinLyricLineSimilarity ?lyricSimilarityID ;
-                  rdfs:label ?lineLabel .
-
+                  rdfs:label ?lineLabel .    
   }
+
 FILTER (?recordingID IN (<https://w3id.org/polifonia/resource/Recording/isophonics_258>, <https://w3id.org/polifonia/resource/Recording/isophonics_73>, <https://w3id.org/polifonia/resource/Recording/isophonics_219>, <https://w3id.org/polifonia/resource/Recording/schubert-winterreise_126>, <https://w3id.org/polifonia/resource/Recording/jaah_87> ))
+
 }

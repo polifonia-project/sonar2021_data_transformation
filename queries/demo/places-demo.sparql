@@ -1,0 +1,75 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT
+   ?recordingID 
+   ?recordingTitleLabel 
+   ?performerID 
+   ?performerLabel 
+   ?youtubeID 
+   ?placeID
+   ?placeLabel 
+
+#   Recording Process Session Place Variables
+    ?sessionType 
+    ?placeFullAddress 
+    ?placeLat 
+    ?placeLong 
+    ?sessionTypeLabel
+
+WHERE {
+     ?recordingID rdf:type mp:Recording ;
+          core:hasTitle ?title ;
+          mp:hasRecordingPerformer ?performerID ;
+          core:hasPlace ?placeID .
+
+      OPTIONAL { ?recordingID core:hasYoutubeID ?youtubeID2B } .
+      BIND ( IF (BOUND ( ?youtubeID2B ), ?youtubeID2B, "no_yt_id" )  as ?youtubeID )
+
+
+      ?title rdfs:label ?recordingTitleLabel.
+      ?performerID rdfs:label ?performerLabel.
+     
+    {
+        ?session a mp:Session ;
+                core:hasType ?sessionType;
+                core:hasPlace ?placeID .
+
+        OPTIONAL { ?sessionType rdfs:label ?sessionTypeLabel2B } .
+        BIND ( IF (BOUND ( ?sessionTypeLabel2B ), ?sessionTypeLabel2B, "" )  as ?sessionTypeLabel )
+
+        ?placeID rdfs:label ?placeLabel ;
+                 core:hasAddress ?placeAddress ;
+                 core:hasGeometry ?placeGeometry   .
+
+        ?placeAddress core:fullAddress ?placeFullAddress.
+        ?placeGeometry core:lat ?placeLat ;
+                     core:long ?placeLong .
+            
+    }
+    UNION
+    {
+        ?performerID core:hasBirthPlace ?placeID .
+        ?placeID rdfs:label ?placeLabelCountry .
+
+        BIND ( CONCAT("Artist's birthplace ", ?placeLabelCountry) as ?placeLabel )
+
+    }
+    UNION
+    {
+        ?performerID core:hasStartCareerPlace ?placeID .
+        ?placeID rdfs:label ?placeLabelCountry .
+
+        BIND ( CONCAT("Artists started career at ", ?placeLabelCountry) as ?placeLabel )
+
+
+    }
+    FILTER (?recordingID IN (<https://w3id.org/polifonia/resource/Recording/isophonics_258>))
+     
+}

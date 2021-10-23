@@ -87,12 +87,6 @@ const hydrateAnnotationRel = (a: any, data: any[]) => {
     return a;
 };
 
-const filterAnnotationWithoutRelationship = (data: any[]) => {
-    return data.filter(a => {
-        return a.relationships.length > 0
-    })
-}
-
 function main(input : BotCliRunInput) {
 
 
@@ -188,9 +182,11 @@ function main(input : BotCliRunInput) {
         }
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID);
-        const sonarAnnotations = filterAnnotationWithoutRelationship(annotationResultsWithRels.map(toSonarAppAnnotation));
+        const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
         const sonarAnnotationsWithoutDuplicates = cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals(sonarAnnotations)
         const sonarAnnotationsWithoutDuplicateRelationships = cleanRelationships(sonarAnnotationsWithoutDuplicates)
+
+        
 
         // write new json static file
         filePublisher.write({

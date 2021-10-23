@@ -1,0 +1,82 @@
+PREFIX core:  <https://w3id.org/polifonia/ON/core/>
+PREFIX pr:    <https://w3id.org/polifonia/resource/>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX mp:    <https://w3id.org/polifonia/ON/musical-performance/>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX mc:    <https://w3id.org/polifonia/ON/musical-composition/>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX mf:    <https://w3id.org/polifonia/ON/musical-feature/>
+PREFIX cm:    <https://w3id.org/polifonia/ON/comparative-measure/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT 
+
+
+    ?recordingTitleLabel
+    ?performerLabel
+    ?performerID
+    ?youtubeID
+
+    ?harmonicSimIRI
+    ?recordingAIRI
+    ?recordingBIRI
+    ?chordProgressionAIRI 
+    ?chordProgressionBIRI
+    ?simScore
+    ?beginCPA 
+    ?endCPA
+    ?cProgrALabel
+
+
+WHERE {  
+    ?recordingAIRI  a mp:Recording;
+                   core:hasTitle ?title ;
+                   mp:hasRecordingPerformer ?performerID ;
+                    cm:isRecordingInvolvedInCPSim ?CPinSimAIRI ;
+                    cm:isRecordingInvolvedInHarmSim ?harmonicSimIRI .
+
+      OPTIONAL { ?recordingAIRI core:hasYoutubeID ?youtubeID2B } .
+      BIND ( IF (BOUND ( ?youtubeID2B ), ?youtubeID2B, "no_yt_id" )  as ?youtubeID )
+
+
+     ?title rdfs:label ?recordingTitleLabel.
+     ?performerID rdfs:label ?performerLabel.
+
+    ?recordingBIRI a mp:Recording ;
+                    cm:isRecordingInvolvedInHarmSim ?harmonicSimIRI;
+                    cm:isRecordingInvolvedInCPSim ?CPinSimBIRI .
+
+    ?CPinSimAIRI a cm:ChordProgressionInSimilarity ;
+                    cm:isChordProgressionInHarmSim ?harmonicSimIRI ; 
+                    core:hasTimeInterval ?timeIntervalAIRI;
+                    cm:CPSimInvolvesRecording ?recordingAIRI ;
+                    cm:aboutChordProgression ?chordProgressionAIRI.
+
+    ?CPinSimBIRI a cm:ChordProgressionInSimilarity ;
+                    cm:isChordProgressionInHarmSim ?harmonicSimIRI ; 
+                    core:hasTimeInterval ?timeIntervalBIRI;
+                    cm:CPSimInvolvesRecording ?recordingBIRI ;
+                    cm:aboutChordProgression ?chordProgressionBIRI.
+
+    
+    ?chordProgressionAIRI a mf:ChordProgression ;
+                        rdfs:label ?cProgrALabel .
+
+    ?chordProgressionBIRI a mf:ChordProgression  ;
+                        rdfs:label ?cProgrBLabel .
+
+    ?timeIntervalAIRI    a core:TimeInterval ;
+                    core:startTime ?beginCPA ;
+                    core:endTime ?endCPA .
+
+    ?harmonicSimIRI a cm:HarmonicSimilarity ;
+                    cm:similarityScore ?simScore;
+                    cm:harmSimInvolvesRecording ?recordingAIRI;
+                    cm:harmSimInvolvesRecording ?recordingBIRI;
+                    cm:hasChordProgressionInHarmSim ?CPinSimAIRI;
+                    cm:hasChordProgressionInHarmSim ?CPinSimBIRI.
+
+   # FILTER (?recordingBIRI != ?recordingAIRI)
+    FILTER (?recordingAIRI IN (<https://w3id.org/polifonia/resource/Recording/isophonics_258>))
+
+}

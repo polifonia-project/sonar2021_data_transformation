@@ -9,6 +9,7 @@ import { FileReader } from '../etl/extract/file/FileReader';
 import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 import { MergerCli, MergerCliRunInput } from './MergerCli';
+import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 
 const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
@@ -29,6 +30,16 @@ type PolifoniaInput = {
     annotations: any[]
 }
 
+const toSonarSongAnnotation = (sparqlRow: any) => {
+    return {
+        name: sparqlRow.recordingTitleLabel,
+        artist: sparqlRow.performerLabel,
+        artistId: sparqlRow.performerID,
+        id: sparqlRow.recordingID,
+        youtubeID: sparqlRow.youtubeID,
+    };
+};
+
 const mergePolifoniaAnnotations = (jsons : PolifoniaInput[]) => {
     return jsons.reduce((j, e) => {
         return {
@@ -47,6 +58,8 @@ const cleanDuplicates = (data : any[]) => {
 }
 
 function main(input : MergerCliRunInput) {
+
+
 
         if (!input.list) {
 
@@ -84,56 +97,115 @@ function main(input : MergerCliRunInput) {
 
     try {
 
+        songIds= 
+
+                // retrieve all missing songs 
+
+                const sources = [{
+                    type: SourceEnum.Sparql,
+                    value: "https://arco.istc.cnr.it/polifonia/sparql"
+                }]
 
 
-        let mergedAnnotations = mergePolifoniaAnnotations(jsons)
         
-        logger.write({
-                    msg : "Merged annotations" + files,
-                    agent : AGENT,
-                    logLevel : LogLevelEnum.Info
-        })
-        logger.write({
-            msg : `Songs count: ${mergedAnnotations.songs.length}\tAnnotations count: ${mergedAnnotations.annotations.length}`,
-            agent : AGENT,
-            logLevel : LogLevelEnum.Info
-        })
-
-
-        mergedAnnotations = {
-            songs: cleanDuplicates(mergedAnnotations.songs),
-            annotations: cleanDuplicates(mergedAnnotations.annotations)
-        }
-
-        logger.write({
-            msg : "Cleaning annotations",
-            agent : AGENT,
-            logLevel : LogLevelEnum.Info
-        })
-        logger.write({
-            msg : `Songs count: ${mergedAnnotations.songs.length}\tAnnotations count: ${mergedAnnotations.annotations.length}`,
-            agent : AGENT,
-            logLevel : LogLevelEnum.Info
-        })
-
-        // write new json static file
-        filePublisher.write(mergedAnnotations, {
-            destination: input.out
-        });
+                const getMissingSongsQuery = `
+                
+                SELECT    
+                ?recordingID 
+                ?recordingTitleLabel 
+                ?performerID 
+                ?performerLabel 
+                ?youtubeID 
+                WHERE {
         
-        logger.write({
-            msg : "Output file written to " + input.out,
-            agent : AGENT,
-            logLevel : LogLevelEnum.Info
+                    ?recordingID rdf:type mp:Recording ;
+                    core:hasTitle ?title ;
+                    mp:hasRecordingPerformer ?performerID .
+        
+                    OPTIONAL { ?recordingID core:hasYoutubeID ?youtubeID2B } .
+                    BIND ( IF (BOUND ( ?youtubeID2B ), ?youtubeID2B, "no_yt_id" )  as ?youtubeID )
+        
+        
+                    ?title rdfs:label ?recordingTitleLabel.
+                    ?performerID rdfs:label ?performerLabel.
+        
+                    FILTER (?recordingID IN ${songsIds})
+                    }
+        
+                `
+
+        sparqlETL.run({
+            query: getMissingSongsQuery,
+            sources: sources
+        }).then(songsResults => {
+
+
+           const missingSongs = toSonarSongAnnotation(songsResults)
+
+
+
+
+           let mergedAnnotations = mergePolifoniaAnnotations(jsons)
+        
+           logger.write({
+                       msg : "Merged annotations" + files,
+                       agent : AGENT,
+                       logLevel : LogLevelEnum.Info
+           })
+           logger.write({
+               msg : `Songs count: ${mergedAnnotations.songs.length}\tAnnotations count: ${mergedAnnotations.annotations.length}`,
+               agent : AGENT,
+               logLevel : LogLevelEnum.Info
+           })
+        
+   
+   
+           mergedAnnotations = {
+               songs: cleanDuplicates(mergedAnnotations.songs),
+               annotations: cleanDuplicates(mergedAnnotations.annotations)
+           }
+       
+   
+           logger.write({
+               msg : "Cleaning annotations",
+               agent : AGENT,
+               logLevel : LogLevelEnum.Info
+           })
+           logger.write({
+               msg : `Songs count: ${mergedAnnotations.songs.length}\tAnnotations count: ${mergedAnnotations.annotations.length}`,
+               agent : AGENT,
+               logLevel : LogLevelEnum.Info
+           })
+   
+           // write new json static file
+           filePublisher.write(mergedAnnotations, {
+               destination: input.out
+           });
+           
+           logger.write({
+               msg : "Output file written to " + input.out,
+               agent : AGENT,
+               logLevel : LogLevelEnum.Info
+           })
+   
+       } catch (err) {
+           logger.write({
+               msg : "Failed to merge annotations: " + files + err,
+               agent : AGENT,
+               logLevel : LogLevelEnum.Error
+           })
+       }
+
+
+
+
+
+
         })
 
-    } catch (err) {
-        logger.write({
-            msg : "Failed to merge annotations: " + files + err,
-            agent : AGENT,
-            logLevel : LogLevelEnum.Error
-        })
-    }
+
+
+ 
 
 }
 
