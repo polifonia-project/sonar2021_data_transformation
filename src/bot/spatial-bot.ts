@@ -167,7 +167,19 @@ function main(input : BotCliRunInput) {
 
         // remove duplicates and map to App Entities
         const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
+
+        const cleanDuplicates = (data : any[]) => {
+            const set = new Set(data.map(item => JSON.stringify(item)));
+            return [...set].map(item => JSON.parse(item));
+        }
+        annotationResults = cleanDuplicates(annotationResults)
+        
+
+
         const annotationResultsWithID = hydrateAnnotationIDs(annotationResults);
+
+
+
         const annotationResultsWithRels = hydrateAnnotationRels(annotationResultsWithID, MAX_RELATIONSHIPS);
         const sonarAnnotations = annotationResultsWithRels.map(toSonarAppAnnotation);
 

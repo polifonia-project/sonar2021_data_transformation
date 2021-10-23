@@ -25,8 +25,8 @@ const AGENT = {
 
 
 type PolifoniaInput = {
-    songs: []
-    annotations: []
+    songs: any[]
+    annotations: any[]
 }
 
 const mergePolifoniaAnnotations = (jsons : PolifoniaInput[]) => {
@@ -39,6 +39,11 @@ const mergePolifoniaAnnotations = (jsons : PolifoniaInput[]) => {
         songs: [],
         annotations: []
     })
+}
+
+const cleanDuplicates = (data : any[]) => {
+    const set = new Set(data.map(item => JSON.stringify(item)));
+    return [...set].map(item => JSON.parse(item));
 }
 
 function main(input : MergerCliRunInput) {
@@ -81,24 +86,53 @@ function main(input : MergerCliRunInput) {
 
 
 
-        const mergedAnnotations = mergePolifoniaAnnotations(jsons)
-
-
-                // write new json static file
-                filePublisher.write(mergedAnnotations, {
-                    destination: input.out
-                });
+        let mergedAnnotations = mergePolifoniaAnnotations(jsons)
         
+        logger.write({
+                    msg : "Merged annotations" + files,
+                    agent : AGENT,
+                    logLevel : LogLevelEnum.Info
+        })
+        logger.write({
+            msg : `Songs count: ${mergedAnnotations.songs.length}\tAnnotations count: ${mergedAnnotations.annotations.length}`,
+            agent : AGENT,
+            logLevel : LogLevelEnum.Info
+        })
+
+
+        mergedAnnotations = {
+            songs: cleanDuplicates(mergedAnnotations.songs),
+            annotations: cleanDuplicates(mergedAnnotations.annotations)
+        }
+
+        logger.write({
+            msg : "Cleaning annotations",
+            agent : AGENT,
+            logLevel : LogLevelEnum.Info
+        })
+        logger.write({
+            msg : `Songs count: ${mergedAnnotations.songs.length}\tAnnotations count: ${mergedAnnotations.annotations.length}`,
+            agent : AGENT,
+            logLevel : LogLevelEnum.Info
+        })
+
+        // write new json static file
+        filePublisher.write(mergedAnnotations, {
+            destination: input.out
+        });
+        
+        logger.write({
+            msg : "Output file written to " + input.out,
+            agent : AGENT,
+            logLevel : LogLevelEnum.Info
+        })
 
     } catch (err) {
-
-
         logger.write({
             msg : "Failed to merge annotations: " + files + err,
             agent : AGENT,
             logLevel : LogLevelEnum.Error
         })
-
     }
 
 }
