@@ -1,17 +1,12 @@
 import 'reflect-metadata';
 
 import { Container } from 'typedi';
-import { nanoid } from "nanoid"
 
-import { SparqlETL } from "../etl/SparqlETL"
 import { FilePublisher } from '../etl/load/json/FilePublisher';
 import { FileReader } from '../etl/extract/file/FileReader';
-import { BotCli, BotCliRunInput } from './BotCli';
 import { Logger, LogLevelEnum } from '../etl/load/json/Logger';
 import { MergerCli, MergerCliRunInput } from './MergerCli';
-import { SourceEnum } from '../etl/extract/sparql/SparqlClient';
 
-const sparqlETL = Container.get(SparqlETL)
 const filePublisher = Container.get(FilePublisher)
 const logger = Container.get(Logger)
 const fileReader = Container.get(FileReader)
@@ -97,54 +92,6 @@ function main(input : MergerCliRunInput) {
 
     try {
 
-        songIds= 
-
-                // retrieve all missing songs 
-
-                const sources = [{
-                    type: SourceEnum.Sparql,
-                    value: "https://arco.istc.cnr.it/polifonia/sparql"
-                }]
-
-
-        
-                const getMissingSongsQuery = `
-                
-                SELECT    
-                ?recordingID 
-                ?recordingTitleLabel 
-                ?performerID 
-                ?performerLabel 
-                ?youtubeID 
-                WHERE {
-        
-                    ?recordingID rdf:type mp:Recording ;
-                    core:hasTitle ?title ;
-                    mp:hasRecordingPerformer ?performerID .
-        
-                    OPTIONAL { ?recordingID core:hasYoutubeID ?youtubeID2B } .
-                    BIND ( IF (BOUND ( ?youtubeID2B ), ?youtubeID2B, "no_yt_id" )  as ?youtubeID )
-        
-        
-                    ?title rdfs:label ?recordingTitleLabel.
-                    ?performerID rdfs:label ?performerLabel.
-        
-                    FILTER (?recordingID IN ${songsIds})
-                    }
-        
-                `
-
-        sparqlETL.run({
-            query: getMissingSongsQuery,
-            sources: sources
-        }).then(songsResults => {
-
-
-           const missingSongs = toSonarSongAnnotation(songsResults)
-
-
-
-
            let mergedAnnotations = mergePolifoniaAnnotations(jsons)
         
            logger.write({
@@ -195,17 +142,6 @@ function main(input : MergerCliRunInput) {
                logLevel : LogLevelEnum.Error
            })
        }
-
-
-
-
-
-
-        })
-
-
-
- 
 
 }
 
