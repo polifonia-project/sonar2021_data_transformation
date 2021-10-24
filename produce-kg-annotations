@@ -4,6 +4,9 @@
 SOURCE="https://arco.istc.cnr.it/polifonia/sparql"
 SOURCE_TYPE="sparql"
 
+# Songs
+SONG_QUERY="queries/songs.sparql"
+SONG_OUT="data-out/full/songs.json"
 
 # Lyrics
 LYR_QUERY="queries/lyric-line.sparql"
@@ -23,9 +26,11 @@ HARM_OUT="data-out/full/harmonic.json"
 
 # merged out
 
-DEMO_OUT="data-out/full/demo_dataset.json"
-DEMO_OUT_APP="../sonar2021_demo/src/assets/data/demo_dataset.json"
+DEMO_OUT="data-out/full/kg.json"
 
+
+# Fetching songs
+node build/bot/song-bot.js run -f $SONG_QUERY -s $SOURCE -t $SOURCE_TYPE -o $SONG_OUT
 
 # Produce lyric annotations
 node build/bot/lyricline-bot.js run -f $LYR_QUERY -s $SOURCE -t $SOURCE_TYPE -o $LYR_OUT
@@ -39,6 +44,5 @@ node build/bot/harmonic-bot.js run -f $HARM_QUERY -s $SOURCE -t $SOURCE_TYPE -o 
 
 # Merge Annotations
 
-node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT}" -o $DEMO_OUT_APP
-node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT}" -o $DEMO_OUT
+node build/bot/merger.js run -l "${LYR_OUT} ${SPAT_OUT} ${HARM_OUT} ${SONG_OUT}" -o $DEMO_OUT
 

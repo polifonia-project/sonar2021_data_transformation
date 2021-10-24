@@ -25,17 +25,6 @@ const AGENT = {
 }
 
 
-const toSonarSongAnnotation = (sparqlRow: any) => {
-    return {
-        name: sparqlRow.recordingTitleLabel,
-        artist: sparqlRow.performerLabel,
-        artistId: sparqlRow.performerID,
-        id: sparqlRow.recordingID,
-        youtubeID: sparqlRow.youtubeID,
-    };
-};
-
-
 const toSonarAppAnnotation = (sparqlRow: any) => {
     return {
 
@@ -137,7 +126,7 @@ function main(input : BotCliRunInput) {
     
 
     logger.write({
-        msg : "Extracting songs and annotations",
+        msg : "Extracting annotations",
         agent : AGENT,
         logLevel : LogLevelEnum.Info
     })
@@ -158,9 +147,6 @@ function main(input : BotCliRunInput) {
             agent : AGENT,
             logLevel : LogLevelEnum.Info
         })
-
-        // remove duplicates and map to App Entities
-        const sonarSongs = (annotationResults.map(toSonarSongAnnotation))
 
         const cleanAnnotationsWithSameLyricLineLabelAtDifferentTimeIntervals = (data : any[]) => {
             return uniqWith(data, function(arrVal, othVal) {
@@ -190,7 +176,7 @@ function main(input : BotCliRunInput) {
 
         // write new json static file
         filePublisher.write({
-            songs: sonarSongs,
+            songs: [],
             annotations: sonarAnnotationsWithoutDuplicateRelationships,
         }, {
             destination: input.out

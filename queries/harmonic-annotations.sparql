@@ -15,8 +15,6 @@ SELECT DISTINCT
     ?recordingTitleLabel
     ?performerLabel
     ?performerID
-    ?youtubeID
-
     ?harmonicSimIRI
     ?recordingAIRI
     ?recordingBIRI
@@ -31,7 +29,6 @@ SELECT DISTINCT
 WHERE {  
     ?recordingAIRI  a mp:Recording;
                    core:hasTitle ?title ;
-                   core:hasYoutubeID ?youtubeID ;
                    mp:hasRecordingPerformer ?performerID ;
 
                     cm:isRecordingInvolvedInCPSim ?CPinSimAIRI ;

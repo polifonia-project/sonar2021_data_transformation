@@ -15,7 +15,6 @@ SELECT DISTINCT
   ?recordingTitleLabel 
   ?performerID 
   ?performerLabel 
-   ?youtubeID 
 
   ?lineLabel
   ?lyricSimilarityID
@@ -25,7 +24,6 @@ WHERE {
 
   ?recordingID rdf:type mp:Recording ;
       core:hasTitle ?title ;
-      core:hasYoutubeID ?youtubeID ;
       mp:hasRecordingPerformer ?performerID .
 
      ?title rdfs:label ?recordingTitleLabel.

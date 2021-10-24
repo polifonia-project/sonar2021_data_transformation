@@ -1,0 +1,1328 @@
+{
+  "songs": [
+    {
+      "name": "Moten Swing",
+      "artist": "Bennie Moten’s Kansas City Orchestra",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/bennie_moten%E2%80%99s_kansas_city_orchestra",
+      "id": "https://w3id.org/polifonia/resource/Recording/jaah_7",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Work Song",
+      "artist": "Cannonball Adderley",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/cannonball_adderley",
+      "id": "https://w3id.org/polifonia/resource/Recording/jaah_87",
+      "youtubeID": "VlepuNi40M8"
+    },
+    {
+      "name": "Der greise Kopf",
+      "artist": "Charles Spencer",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charles_spencer",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_100",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Auf dem Flusse",
+      "artist": "Charles Spencer",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charles_spencer",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_11",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Rückblick",
+      "artist": "Charles Spencer",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charles_spencer",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_112",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Der Leiermann",
+      "artist": "Charles Spencer",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charles_spencer",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_123",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Der Lindenbaum",
+      "artist": "Charles Spencer",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charles_spencer",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_126",
+      "youtubeID": "o0oRxVIv7oI"
+    },
+    {
+      "name": "Die Post",
+      "artist": "Charles Spencer",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charles_spencer",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_13",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Breakfast Feud (composite) (feat. Charlie Christian)",
+      "artist": "Charlie Christian",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/charlie_christian",
+      "id": "https://w3id.org/polifonia/resource/Recording/jaah_79",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "You'd Be So Nice to Come Home To",
+      "artist": "Ella Fitzgerald",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/ella_fitzgerald",
+      "id": "https://w3id.org/polifonia/resource/Recording/jaah_50",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Free",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/free",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "Swing That Music",
+      "artist": "Louis Armstrong & His Orchestra",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/louis_armstrong_%26_his_orchestra",
+      "id": "https://w3id.org/polifonia/resource/Recording/jaah_15",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Pras Michel",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/pras_michel",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "We Are The Champions",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_1",
+      "youtubeID": "04854XqcfCY"
+    },
+    {
+      "name": "Who Wants To Live Forever",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_10",
+      "youtubeID": "_Jtpf8N5IDE"
+    },
+    {
+      "name": "We Will Rock You",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_109",
+      "youtubeID": "-tJYN-eG1zk"
+    },
+    {
+      "name": "Hammer To Fall",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_136",
+      "youtubeID": "JU5LMG3WFBw"
+    },
+    {
+      "name": "I Want To Break Free",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_147",
+      "youtubeID": "f4Mc-NYPHaQ"
+    },
+    {
+      "name": "Somebody To Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_160",
+      "youtubeID": "kijpcUv-b8M"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_2",
+      "youtubeID": "fJ9rUzIMcZQ"
+    },
+    {
+      "name": "Bicycle Race",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_201",
+      "youtubeID": "aWWR3Ssd0EQ"
+    },
+    {
+      "name": "Play The Game",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_21",
+      "youtubeID": "6_5O-nUiZ_0"
+    },
+    {
+      "name": "Crazy Little Thing Called Love",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_236",
+      "youtubeID": "zO6D_BAuYCI"
+    },
+    {
+      "name": "I Want It All",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_248",
+      "youtubeID": "hFDcoX7s6rE"
+    },
+    {
+      "name": "Another One Bites The Dust",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_258",
+      "youtubeID": "rY0WxgSXdEE"
+    },
+    {
+      "name": "You're My Best Friend",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_279",
+      "youtubeID": "HaZpZQG2z10"
+    },
+    {
+      "name": "Save Me",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_296",
+      "youtubeID": "Iw3izcZd9zU"
+    },
+    {
+      "name": "Don't Stop Me Now",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_45",
+      "youtubeID": "HgzGwKwLmgM"
+    },
+    {
+      "name": "Seven Seas Of Rhye",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_6",
+      "youtubeID": "FxIo57WURRE"
+    },
+    {
+      "name": "A Kind Of Magic",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_64",
+      "youtubeID": "0p_1QSUsbsM"
+    },
+    {
+      "name": "Fat Bottomed Girls",
+      "artist": "Queen",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/queen",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_96",
+      "youtubeID": "VMnjF1O4eH0"
+    },
+    {
+      "name": "All Alone",
+      "artist": "Sarah Vaughan",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/sarah_vaughan",
+      "id": "https://w3id.org/polifonia/resource/Recording/jaah_31",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Within You Without You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_101",
+      "youtubeID": "zEwKmqWtnjM"
+    },
+    {
+      "name": "I've Got A Feeling",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_112",
+      "youtubeID": "MmDZbjI8nHw"
+    },
+    {
+      "name": "Little Child",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_114",
+      "youtubeID": "I7Ltk3ecuf8"
+    },
+    {
+      "name": "Till There Was You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_115",
+      "youtubeID": "JN36SzacyTI"
+    },
+    {
+      "name": "You Can't Do That",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_116",
+      "youtubeID": "y8Dpt7TI9q0"
+    },
+    {
+      "name": "No Reply",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_117",
+      "youtubeID": "YgFo9STa70E"
+    },
+    {
+      "name": "Don't Bother Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_118",
+      "youtubeID": "z02oTI__0Mo"
+    },
+    {
+      "name": "Any Time At All",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_12",
+      "youtubeID": "txSs2FFRt8s"
+    },
+    {
+      "name": "Octopus's Garden",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_121",
+      "youtubeID": "Dmx5sLusykY"
+    },
+    {
+      "name": "Everybody's Got Something To Hide Except Me and My Monkey",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_123",
+      "youtubeID": "VVIVYV_m6t4"
+    },
+    {
+      "name": "Long, Long, Long",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_124",
+      "youtubeID": "Wuo-g2VPazw"
+    },
+    {
+      "name": "Honey Pie",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_125",
+      "youtubeID": "jfuYPzwUk6g"
+    },
+    {
+      "name": "Yellow Submarine",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_126",
+      "youtubeID": "m2uTFF_3MaA"
+    },
+    {
+      "name": "Misery",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_128",
+      "youtubeID": "VqNT0fjlzmE"
+    },
+    {
+      "name": "You Like Me Too Much",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_13",
+      "youtubeID": "-vRXMdZCJXs"
+    },
+    {
+      "name": "Ob-La-Di, Ob-La-Da",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_130",
+      "youtubeID": "_Paqe2-BCYM"
+    },
+    {
+      "name": "For No One",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_132",
+      "youtubeID": "HuphFPEqJqw"
+    },
+    {
+      "name": "Please Please Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_135",
+      "youtubeID": "q3NTVkHwD5I"
+    },
+    {
+      "name": "Girl",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_138",
+      "youtubeID": "_0FLrQCOuxs"
+    },
+    {
+      "name": "Lucy In The Sky With Diamonds",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_139",
+      "youtubeID": "mgNYK96lQOg"
+    },
+    {
+      "name": "Something",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_14",
+      "youtubeID": "UelDrZ1aFeY"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_140",
+      "youtubeID": "KPon7i1-T1U"
+    },
+    {
+      "name": "Tomorrow Never Knows",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_142",
+      "youtubeID": "pHNbHn3i9S4"
+    },
+    {
+      "name": "The End",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_143",
+      "youtubeID": "oV8PSj-hQvw"
+    },
+    {
+      "name": "She Came In Through The Bathroom Window",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_146",
+      "youtubeID": "o14wVjw3HfQ"
+    },
+    {
+      "name": "One After 909",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_149",
+      "youtubeID": "aLekgnaCrdY"
+    },
+    {
+      "name": "Don't Pass Me By",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_15",
+      "youtubeID": "IMQSTpxH9yI"
+    },
+    {
+      "name": "I Don't Want to Spoil the Party",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_150",
+      "youtubeID": "tXvpZwPE_3M"
+    },
+    {
+      "name": "Baby's In Black",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_156",
+      "youtubeID": "F-GOtTRhwc0"
+    },
+    {
+      "name": "I Saw Her Standing There",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_157",
+      "youtubeID": "mwBdWVTR-o8"
+    },
+    {
+      "name": "Get Back",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_162",
+      "youtubeID": "UocEGvQ10OE"
+    },
+    {
+      "name": "Good Morning Good Morning",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_165",
+      "youtubeID": "LES8jMRYKJw"
+    },
+    {
+      "name": "I'll Cry Instead",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_166",
+      "youtubeID": "j_VEBzn5--g"
+    },
+    {
+      "name": "Baby, You're A Rich Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_167",
+      "youtubeID": "IRmE2AiabUY"
+    },
+    {
+      "name": "I'm a Loser",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_168",
+      "youtubeID": "ukWRRNqMAZ4"
+    },
+    {
+      "name": "Maxwell's Silver Hammer",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_170",
+      "youtubeID": "mJag19WoAe0"
+    },
+    {
+      "name": "It Won't Be Long",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_171",
+      "youtubeID": "UVKU6SevefY"
+    },
+    {
+      "name": "Dig a Pony",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_173",
+      "youtubeID": "TiciTBTvFMo"
+    },
+    {
+      "name": "Let It Be",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_175",
+      "youtubeID": "QDYfEBY9NM4"
+    },
+    {
+      "name": "Wild Honey Pie",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_178",
+      "youtubeID": "YiVVSneXWpo"
+    },
+    {
+      "name": "Hold Me Tight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_180",
+      "youtubeID": "BiLpp-G6M-I"
+    },
+    {
+      "name": "She Said She Said",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_181",
+      "youtubeID": "nsd6JVAXI3Q"
+    },
+    {
+      "name": "Good Night",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_182",
+      "youtubeID": "OiLr2Vk9xR4"
+    },
+    {
+      "name": "If I Fell",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_183",
+      "youtubeID": "vq78BDwCujs"
+    },
+    {
+      "name": "I'll Be Back",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_184",
+      "youtubeID": "WHH5tbembZs"
+    },
+    {
+      "name": "If I Needed Someone",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_185",
+      "youtubeID": "A8dLntONeIA"
+    },
+    {
+      "name": "I Want To Tell You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_186",
+      "youtubeID": "qg9xSo-WEGc"
+    },
+    {
+      "name": "Think For Yourself",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_189",
+      "youtubeID": "vtx5NTxebJk"
+    },
+    {
+      "name": "I Will",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_19",
+      "youtubeID": "IJ6bAHOvPH0"
+    },
+    {
+      "name": "I'm Only Sleeping",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_191",
+      "youtubeID": "bfDrF9s27ec"
+    },
+    {
+      "name": "You Never Give Me Your Money",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_192",
+      "youtubeID": "P4ycjKzg2PA"
+    },
+    {
+      "name": "Eight Days a Week",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_194",
+      "youtubeID": "kle2xHhRHg4"
+    },
+    {
+      "name": "Mother Nature's Son",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_196",
+      "youtubeID": "OfFS4Lu83EY"
+    },
+    {
+      "name": "Twist And Shout",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_199",
+      "youtubeID": "b-VAxGJdJeQ"
+    },
+    {
+      "name": "Dear Prudence",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_203",
+      "youtubeID": "IUKYiQCB7ss"
+    },
+    {
+      "name": "You Won't See Me",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_204",
+      "youtubeID": "_Xe0C2WB5Og"
+    },
+    {
+      "name": "While My Guitar Gently Weeps",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_205",
+      "youtubeID": "YEMEAxlYL04"
+    },
+    {
+      "name": "A Day In The Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_208",
+      "youtubeID": "usNsCeOV4GM"
+    },
+    {
+      "name": "Piggies",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_211",
+      "youtubeID": "O3bCtx7SNAE"
+    },
+    {
+      "name": "Everybody's Trying to Be My Baby",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_213",
+      "youtubeID": "u7vc6_qW0UA"
+    },
+    {
+      "name": "Dig It",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_215",
+      "youtubeID": "A5Kg_c_A-yU"
+    },
+    {
+      "name": "Oh! Darling",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_216",
+      "youtubeID": "erMgpfiOMSU"
+    },
+    {
+      "name": "Come Together",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_219",
+      "youtubeID": "45cYwDMibGo"
+    },
+    {
+      "name": "Penny Lane",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_22",
+      "youtubeID": "S-rB0pHI9fU"
+    },
+    {
+      "name": "Her Majesty",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_220",
+      "youtubeID": "Mh1hKt5kQ_4"
+    },
+    {
+      "name": "Run For Your Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_222",
+      "youtubeID": "fDa7bOUEsGE"
+    },
+    {
+      "name": "In My Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_223",
+      "youtubeID": "ZqpysaAo4BQ"
+    },
+    {
+      "name": "Here Comes The Sun",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_224",
+      "youtubeID": "KQetemT1sWc"
+    },
+    {
+      "name": "And Your Bird Can Sing",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_226",
+      "youtubeID": "fH-3y_Ike5E"
+    },
+    {
+      "name": "I Me Mine",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_227",
+      "youtubeID": "bt9REtHKdII"
+    },
+    {
+      "name": "Mean Mr Mustard",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_228",
+      "youtubeID": "oMarHac3VpQ"
+    },
+    {
+      "name": "She's Leaving Home",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_229",
+      "youtubeID": "Dypv4SLyAfg"
+    },
+    {
+      "name": "Savoy Truffle",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_230",
+      "youtubeID": "vzpbrxp3rOA"
+    },
+    {
+      "name": "You've Got To Hide Your Love Away",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_231",
+      "youtubeID": "_m7XVmzJ1ro"
+    },
+    {
+      "name": "When I Get Home",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_232",
+      "youtubeID": "FoF9iqSoM6c"
+    },
+    {
+      "name": "Michelle",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_238",
+      "youtubeID": "_AWhTCIQdk4"
+    },
+    {
+      "name": "Nowhere Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_242",
+      "youtubeID": "R4ZE4arxJwc"
+    },
+    {
+      "name": "All My Loving",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_243",
+      "youtubeID": "pOxAqhTaXzw"
+    },
+    {
+      "name": "Yesterday",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_244",
+      "youtubeID": "wXTJBr9tt8Q"
+    },
+    {
+      "name": "Julia",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_246",
+      "youtubeID": "bgylB7SSrkU"
+    },
+    {
+      "name": "What You're Doing",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_251",
+      "youtubeID": "7Sba2LbhkVY"
+    },
+    {
+      "name": "The Fool On The Hill",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_255",
+      "youtubeID": "DGEX_7IqaC4"
+    },
+    {
+      "name": "Here, There And Everywhere",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_261",
+      "youtubeID": "CHLQs6u9wXw"
+    },
+    {
+      "name": "Ticket To Ride",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_263",
+      "youtubeID": "SyNt5zm3U_M"
+    },
+    {
+      "name": "I'm So Tired",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_265",
+      "youtubeID": "cJr96NcIYf8"
+    },
+    {
+      "name": "I Am The Walrus",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_266",
+      "youtubeID": "Tjhb5gkw4No"
+    },
+    {
+      "name": "Help!",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_268",
+      "youtubeID": "2Q_ZzBGPdqE"
+    },
+    {
+      "name": "Cry Baby Cry",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_270",
+      "youtubeID": "NG4-cIxICKE"
+    },
+    {
+      "name": "All I've Got To Do",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_271",
+      "youtubeID": "qVvUd0UC0y0"
+    },
+    {
+      "name": "I'm Looking Through You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_274",
+      "youtubeID": "-Qg5lGNchYM"
+    },
+    {
+      "name": "With A Little Help From My Friends",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_277",
+      "youtubeID": "0C58ttB2-Qg"
+    },
+    {
+      "name": "Martha My Dear",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_278",
+      "youtubeID": "RXawa90YU2s"
+    },
+    {
+      "name": "Carry That Weight",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_28",
+      "youtubeID": "6B224XDJw6g"
+    },
+    {
+      "name": "Yer Blues",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_280",
+      "youtubeID": "JeFwaWFTGYU"
+    },
+    {
+      "name": "Strawberry Fields Forever",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_282",
+      "youtubeID": "HtUH9z_Oey8"
+    },
+    {
+      "name": "Got To Get You Into My Life",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_283",
+      "youtubeID": "yJ8WI3Q9jm4"
+    },
+    {
+      "name": "Back in the U.S.S.R.",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_287",
+      "youtubeID": "nS5_EQgbuLc"
+    },
+    {
+      "name": "Eleanor Rigby",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_289",
+      "youtubeID": "HuS5NuXRb5Y"
+    },
+    {
+      "name": "The Continuing Story of Bungalow Bill",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_290",
+      "youtubeID": "J39DC9t0I5o"
+    },
+    {
+      "name": "Drive My Car",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_291",
+      "youtubeID": "DcQDqZIN09I"
+    },
+    {
+      "name": "Polythene Pam",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_292",
+      "youtubeID": "Cb0dTdTeHMU"
+    },
+    {
+      "name": "Getting Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_295",
+      "youtubeID": "nqomuMaW1Fw"
+    },
+    {
+      "name": "I Should Have Known Better",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_297",
+      "youtubeID": "rp63A_-0XUU"
+    },
+    {
+      "name": "Maggie Mae",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_298",
+      "youtubeID": "eDYrDhcPLY0"
+    },
+    {
+      "name": "All You Need Is Love",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_3",
+      "youtubeID": "gq5SwK0bGCM"
+    },
+    {
+      "name": "Every Little Thing",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_30",
+      "youtubeID": "PftsvVY0X7c"
+    },
+    {
+      "name": "Magical Mystery Tour",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_32",
+      "youtubeID": "K2xpbKBuTEw"
+    },
+    {
+      "name": "I'll Follow the Sun",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_33",
+      "youtubeID": "OgCkeYGlNXc"
+    },
+    {
+      "name": "The Long and Winding Road",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_34",
+      "youtubeID": "fR4HjTH_fTM"
+    },
+    {
+      "name": "Your Mother Should Know",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_35",
+      "youtubeID": "tCXsFjzMKdc"
+    },
+    {
+      "name": "Sun King",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_40",
+      "youtubeID": "o0smzPxu3jI"
+    },
+    {
+      "name": "Fixing A Hole",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_41",
+      "youtubeID": "vSOVVwLhx3Y"
+    },
+    {
+      "name": "What Goes On",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_43",
+      "youtubeID": "EQv6LTXPDkw"
+    },
+    {
+      "name": "Can't Buy Me Love",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_44",
+      "youtubeID": "srwxJUXPHvE"
+    },
+    {
+      "name": "The Night Before",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_46",
+      "youtubeID": "7tD40D7jk-Q"
+    },
+    {
+      "name": "Another Girl",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_47",
+      "youtubeID": "M-_Qu6Jl3S0"
+    },
+    {
+      "name": "Devil In Her Heart",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_49",
+      "youtubeID": "TOV4FWLIvNQ"
+    },
+    {
+      "name": "There's A Place",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_5",
+      "youtubeID": "zi6JI3K-ANc"
+    },
+    {
+      "name": "It's Only Love",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_51",
+      "youtubeID": "TLvcXs_4QjM"
+    },
+    {
+      "name": "Tell Me What You See",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_52",
+      "youtubeID": "3bjLekBmRAw"
+    },
+    {
+      "name": "Rocky Raccoon",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_56",
+      "youtubeID": "qqA4ZiQaGtU"
+    },
+    {
+      "name": "A Hard Day's Night",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_57",
+      "youtubeID": "Yjyj8qnqkYI"
+    },
+    {
+      "name": "Flying",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_58",
+      "youtubeID": "tXVPvNsl4i8"
+    },
+    {
+      "name": "Two of Us",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_59",
+      "youtubeID": "YQSr2GY1YX8"
+    },
+    {
+      "name": "Sexy Sadie",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_60",
+      "youtubeID": "SVeJbIOQp_o"
+    },
+    {
+      "name": "Wait",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_61",
+      "youtubeID": "pkCuJ-n63Js"
+    },
+    {
+      "name": "And I Love Her",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_62",
+      "youtubeID": "9_c2XZd9mMo"
+    },
+    {
+      "name": "Happiness is a Warm Gun",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_67",
+      "youtubeID": "8rTb_ghUbtg"
+    },
+    {
+      "name": "Blue Jay Way",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_68",
+      "youtubeID": "Coz0TmK2ZIg"
+    },
+    {
+      "name": "For You Blue",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_72",
+      "youtubeID": "TIFHRaZERHg"
+    },
+    {
+      "name": "Tell Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_73",
+      "youtubeID": "FV_PGs0m34U"
+    },
+    {
+      "name": "Helter Skelter",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_74",
+      "youtubeID": "vWW2SzoAXMo"
+    },
+    {
+      "name": "I Wanna Be Your Man",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_77",
+      "youtubeID": "mnct7Qf3SUQ"
+    },
+    {
+      "name": "I've Just Seen a Face",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_78",
+      "youtubeID": "4Vm7lQ3EheY"
+    },
+    {
+      "name": "Boys",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_79",
+      "youtubeID": "h2t9DIh4kMA"
+    },
+    {
+      "name": "Ask Me Why",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_8",
+      "youtubeID": "2ttGjtfQ7EA"
+    },
+    {
+      "name": "Across the Universe",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_80",
+      "youtubeID": "90M60PzmxEE"
+    },
+    {
+      "name": "Doctor Robert",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_81",
+      "youtubeID": "niuNlPo1q9M"
+    },
+    {
+      "name": "I Need You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_82",
+      "youtubeID": "FcEY7tCfSrg"
+    },
+    {
+      "name": "Things We Said Today",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_87",
+      "youtubeID": "LFD3GT387uI"
+    },
+    {
+      "name": "Do You Want To Know A Secret",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_9",
+      "youtubeID": "3T7iFfkX_nA"
+    },
+    {
+      "name": "Good Day Sunshine",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_92",
+      "youtubeID": "CXbCt4qrEiY"
+    },
+    {
+      "name": "Hello, Goodbye",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_93",
+      "youtubeID": "rblYSKz_VnI"
+    },
+    {
+      "name": "Norwegian Wood (This Bird Has Flown)",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_95",
+      "youtubeID": "3qNLwH0MTxQ"
+    },
+    {
+      "name": "Golden Slumbers",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_97",
+      "youtubeID": "AcQjM7gV6mI"
+    },
+    {
+      "name": "I'm Happy Just To Dance With You",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_99",
+      "youtubeID": "vNHC_1orRnE"
+    },
+    {
+      "name": "The Word",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_249",
+      "youtubeID": "x9kmeGIdEow"
+    },
+    {
+      "name": "Love You To",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_195",
+      "youtubeID": "Mki1p2Fbr28"
+    },
+    {
+      "name": "Taxman",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_214",
+      "youtubeID": "ZAWugfIKyWA"
+    },
+    {
+      "name": "Glass Onion",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_267",
+      "youtubeID": "aBQIAWh3YBs"
+    },
+    {
+      "name": "Because",
+      "artist": "The Beatles",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/the_beatles",
+      "id": "https://w3id.org/polifonia/resource/Recording/isophonics_129",
+      "youtubeID": "g4Msnn20clQ"
+    },
+    {
+      "name": "Der greise Kopf",
+      "artist": "Thomas Quasthoff",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/thomas_quasthoff",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_100",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Auf dem Flusse",
+      "artist": "Thomas Quasthoff",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/thomas_quasthoff",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_11",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Rückblick",
+      "artist": "Thomas Quasthoff",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/thomas_quasthoff",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_112",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Der Leiermann",
+      "artist": "Thomas Quasthoff",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/thomas_quasthoff",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_123",
+      "youtubeID": "VlepuNi0000"
+    },
+    {
+      "name": "Der Lindenbaum",
+      "artist": "Thomas Quasthoff",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/thomas_quasthoff",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_126",
+      "youtubeID": "o0oRxVIv7oI"
+    },
+    {
+      "name": "Die Post",
+      "artist": "Thomas Quasthoff",
+      "artistId": "https://w3id.org/polifonia/resource/Agent/thomas_quasthoff",
+      "id": "https://w3id.org/polifonia/resource/Recording/schubert-winterreise_13",
+      "youtubeID": "VlepuNi0000"
+    }
+  ],
+  "annotations": []
+}

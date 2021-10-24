@@ -11,25 +11,19 @@ SELECT
 ?performerID 
 ?performerLabel 
 ?recordingTitleLabel 
-?sessionType 
-?placeLabel 
 ?youtubeID
+
 WHERE {
   ?recordingID rdf:type mp:Recording ;
       core:hasTitle ?title ;
-      core:hasYoutubeID ?youtubeID2B ;
-      mp:hasRecordingPerformer ?performerID ;
-      mp:isRecordingProducedBy ?recordingProcess .
+      mp:hasRecordingPerformer ?performerID .
 
       OPTIONAL { ?recordingID core:hasYoutubeID ?youtubeID2B } .
       BIND ( IF (BOUND ( ?youtubeID2B ), ?youtubeID2B, "no_yt_id" )  as ?youtubeID )
 
-
   ?title rdfs:label ?recordingTitleLabel.
   ?performerID rdfs:label ?performerLabel.
-  ?recordingProcess mp:hasSession ?session.
-  ?session core:hasPlace ?place ;
-           core:hasType ?sessionType.
-  ?place rdfs:label ?placeLabel.
-  
+
+#FILTER ( ?recordingID IN  (<https://w3id.org/polifonia/resource/Recording/jaah_83> ) ) 
+
 }

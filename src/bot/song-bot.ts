@@ -112,7 +112,7 @@ function main(input : BotCliRunInput) {
         // write new json static file
         filePublisher.write({
             songs: sonarSongs,
-            annotations: songsResults,
+            annotations: [],
         }, {
             destination: input.out
         });
