@@ -9,10 +9,8 @@ PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT
    ?recordingID 
-   ?recordingTitleLabel 
    ?performerID 
    ?performerLabel 
-   ?youtubeID 
    ?placeID
    ?placeLabel 
 
@@ -25,12 +23,9 @@ SELECT DISTINCT
 
 WHERE {
      ?recordingID rdf:type mp:Recording ;
-          core:hasTitle ?title ;
-          core:hasYoutubeID ?youtubeID ;
           mp:hasRecordingPerformer ?performerID ;
           core:hasPlace ?placeID .
 
-      ?title rdfs:label ?recordingTitleLabel.
       ?performerID rdfs:label ?performerLabel.
      
     {

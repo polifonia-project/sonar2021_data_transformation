@@ -37,15 +37,6 @@ const generateSessionTypeLabelFromSessionType = (sessionType: string) => {
         }
 }
 
-const toSonarSongAnnotation = (sparqlRow: any) => {
-    return {
-        name: sparqlRow.recordingTitleLabel,
-        artist: sparqlRow.performerLabel,
-        artistId: sparqlRow.performerID,
-        id: sparqlRow.recordingID,
-        youtubeID: sparqlRow.youtubeID,
-    };
-};
 
 
 const toSonarAppAnnotation = (sparqlRow: any) => {
@@ -152,7 +143,7 @@ function main(input : BotCliRunInput) {
     
 
     logger.write({
-        msg : "Extracting songs and annotations",
+        msg : "Extracting annotations",
         agent : AGENT,
         logLevel : LogLevelEnum.Info
     })
@@ -177,9 +168,6 @@ function main(input : BotCliRunInput) {
 
         const MAX_RELATIONSHIPS = 3;
 
-        // remove duplicates and map to App Entities
-        let sonarSongs = (annotationResults.map(toSonarSongAnnotation))
-
         const cleanAnnotationsWithSameRecordingPlaceAndRecordingSessionType = (data : any[]) => {
             return uniqWith(data, function(arrVal, othVal) {
                 return (arrVal.recordingID == othVal.recordingID) && (arrVal.placeLabel === othVal.placeLabel) && (arrVal.sessionTypeLabel === othVal.sessionTypeLabel)
@@ -198,7 +186,7 @@ function main(input : BotCliRunInput) {
 
         // write new json static file
         filePublisher.write({
-            songs: sonarSongs,
+            songs: [],
             annotations: sonarAnnotations,
         }, {
             destination: input.out

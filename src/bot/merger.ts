@@ -25,16 +25,6 @@ type PolifoniaInput = {
     annotations: any[]
 }
 
-const toSonarSongAnnotation = (sparqlRow: any) => {
-    return {
-        name: sparqlRow.recordingTitleLabel,
-        artist: sparqlRow.performerLabel,
-        artistId: sparqlRow.performerID,
-        id: sparqlRow.recordingID,
-        youtubeID: sparqlRow.youtubeID,
-    };
-};
-
 const mergePolifoniaAnnotations = (jsons : PolifoniaInput[]) => {
     return jsons.reduce((j, e) => {
         return {
